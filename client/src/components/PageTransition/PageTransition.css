@@ -1,0 +1,35 @@
+.page-transition {
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-transition.fadeOut {
+  animation-name: fadeOutTransition;
+}
+
+.page-transition.fadeIn {
+  animation-name: fadeInTransition;
+}
+
+@keyframes fadeOutTransition {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeInTransition {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

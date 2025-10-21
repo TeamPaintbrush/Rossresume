@@ -1,0 +1,274 @@
+.download-resume-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.download-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  font-family: inherit;
+}
+
+/* Primary variant (colorful) */
+.download-resume-btn.primary {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.download-resume-btn.primary:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+}
+
+/* Secondary variant (subtle) */
+.download-resume-btn.secondary {
+  background: #ffffff;
+  color: #2C3E50;
+  border: 2px solid #FF6B6B;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.download-resume-btn.secondary:hover:not(:disabled) {
+  background: #FF6B6B;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.3);
+}
+
+/* Outline variant */
+.download-resume-btn.outline {
+  background: transparent;
+  color: #FF6B6B;
+  border: 2px solid #FF6B6B;
+}
+
+.download-resume-btn.outline:hover:not(:disabled) {
+  background: #FF6B6B;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Dark mode support */
+.app.dark-mode .download-resume-btn.secondary {
+  background: #2C3E50;
+  color: #ffffff;
+  border-color: #4ECDC4;
+}
+
+.app.dark-mode .download-resume-btn.secondary:hover:not(:disabled) {
+  background: #4ECDC4;
+  color: #2C3E50;
+}
+
+/* Icon animations */
+.btn-icon {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.download-resume-btn:hover:not(:disabled) .btn-icon {
+  animation: downloadBounce 0.6s ease infinite;
+}
+
+@keyframes downloadBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+.dropdown-icon {
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+.download-resume-wrapper:hover .dropdown-icon {
+  transform: translateY(2px);
+}
+
+/* Generating state */
+.download-resume-btn.generating {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.download-resume-btn.generating .btn-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.download-resume-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Dropdown options */
+.resume-options-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  z-index: 1000;
+  animation: dropdownSlide 0.3s ease;
+  min-width: 320px;
+}
+
+@keyframes dropdownSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.app.dark-mode .resume-options-dropdown {
+  background: #2C3E50;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.resume-option {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 16px 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.app.dark-mode .resume-option {
+  border-bottom-color: #34495e;
+}
+
+.resume-option:last-child {
+  border-bottom: none;
+}
+
+.resume-option:hover {
+  background: #f8f9fa;
+  transform: translateX(5px);
+}
+
+.app.dark-mode .resume-option:hover {
+  background: #34495e;
+}
+
+.option-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+.option-icon.modern {
+  color: #FF6B6B;
+}
+
+.option-icon.professional {
+  color: #2C3E50;
+}
+
+.app.dark-mode .option-icon.professional {
+  color: #4ECDC4;
+}
+
+.option-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.option-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2C3E50;
+}
+
+.app.dark-mode .option-title {
+  color: #ffffff;
+}
+
+.option-description {
+  font-size: 12px;
+  color: #666;
+}
+
+.app.dark-mode .option-description {
+  color: #95a5a6;
+}
+
+/* Overlay to close dropdown */
+.dropdown-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background: transparent;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .download-resume-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .resume-options-dropdown {
+    min-width: 280px;
+  }
+
+  .option-icon {
+    font-size: 24px;
+  }
+
+  .option-title {
+    font-size: 14px;
+  }
+
+  .option-description {
+    font-size: 11px;
+  }
+}
+
+/* Focus states for accessibility */
+.download-resume-btn:focus-visible {
+  outline: 3px solid #FF6B6B;
+  outline-offset: 3px;
+}
+
+.resume-option:focus-visible {
+  outline: 2px solid #4ECDC4;
+  outline-offset: -2px;
+}
