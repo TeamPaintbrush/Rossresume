@@ -17,8 +17,8 @@
   "status": "identified",
   "priority": 5,
   "fit": {
-    "score": 7.5,
-    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds accounting software: Well (a PUBLISHED Chrome Web Store product that automates supplier-invoice retrieval into QuickBooks/Xero — i.e. Mercury's literal problem statement), ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), and TaxesByRoss (the platform behind his own tax practice). Plus TOBA (a live 501(c)(3) platform build, board as product stakeholders), InsureBridge, and Titan Couriers. The only thing between this and a strong yes: none of it is presented as design case studies with flows, screens, and a visible craft pass.",
+    "score": 7.8,
+    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds accounting software: Well (a PUBLISHED Chrome Web Store product that automates supplier-invoice retrieval into QuickBooks/Xero — i.e. Mercury's literal problem statement), ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), and TaxesByRoss (the platform behind his own tax practice). Plus TOBA (a live 501(c)(3) platform build, board as product stakeholders), InsureBridge, and Titan Couriers. All five are now built as structured case studies on the Paintbrush /use-cases page — each in its own visual language, with real logos and brand colors and a geometrically-accurate device frame. The remaining gap: the case-study screens are still coded skeletons with REPLACE markers, not real product screenshots, and there is no written decision log yet.",
     "criteria": [
       {
         "name": "6+ yrs leading complex, end-to-end product design initiatives",
@@ -65,8 +65,8 @@
       {
         "name": "Polished UI craft",
         "weight": 0.1,
-        "score": 6,
-        "note": "Well, ReconcileIQ, TaxesByRoss, InsureBridge, TOBA are all real product UI — but presented as folder names / a Chrome listing / one-line cards, not case studies with screens and a visible craft pass. Kraken is a branding project, not product UI."
+        "score": 7,
+        "note": "Well, ReconcileIQ, TaxesByRoss, InsureBridge, TOBA are all real product UI, and each now has a structured case study on /use-cases in its own visual language with real logos and brand colors — up from folder names / a Chrome listing / one-line cards. Still short of 8-9 until real product screenshots replace the coded skeleton screens. Kraken is a branding project, not product UI."
       }
     ],
     "strengths": [
@@ -85,7 +85,7 @@
     "analyzedAt": "2026-09-09"
   },
   "improvementPlan": {
-    "summary": "The score is solidly apply-range (~7.5). Every move here is packaging, not new work. STATUS (2026-09-09): all five product case studies are now built as structured skeletons on the Paintbrush /use-cases 'Product & Platforms' track — Well, ReconcileIQ + TaxesByRoss, TOBA, InsureBridge, Titan Couriers — each in its own visual language, with a real-asset pass done (real logos, real brand colors, a geometrically-accurate iPhone frame on Titan). Remaining: drop real product screenshots into the REPLACE markers, and write the one-page decision log. Executed, ~7.5 → ~8.7.",
+    "summary": "The score is solidly apply-range (~7.8, up from ~7.5). Every move here is packaging, not new work. STATUS (2026-09-09): all five product case studies are now built as structured skeletons on the Paintbrush /use-cases 'Product & Platforms' track — Well, ReconcileIQ + TaxesByRoss, TOBA, InsureBridge, Titan Couriers — each in its own visual language, with a real-asset pass done (real logos, real brand colors, a geometrically-accurate iPhone frame on Titan). That lifted Polished UI craft 6 → 7 and the overall fit 7.5 → 7.8. Remaining: drop real product screenshots into the REPLACE markers (→ craft 8-9), and write the one-page decision log. Fully executed, ~8.7.",
     "targetScore": 8.7,
     "actions": [
       {
@@ -133,7 +133,7 @@
   },
   "contacts": [],
   "resumeVariant": "Senior Product Designer (3rd PDF on the résumé site: product work first, packaging supporting; data in client/src/data/resumeVariants.js)",
-  "nextAction": "All 5 product case-study skeletons are built on /use-cases (Well, ReconcileIQ+TaxesByRoss, TOBA, InsureBridge, Titan) with real logos and brand colors. Next: drop real product screenshots into the REPLACE markers, write the one-page ReconcileIQ decision log, then apply with the Senior Product Designer résumé variant. Apply-range now (~7.5) → ~8.7 once screenshots land.",
+  "nextAction": "All 5 product case-study skeletons are built on /use-cases (Well, ReconcileIQ+TaxesByRoss, TOBA, InsureBridge, Titan) with real logos and brand colors — fit is now ~7.8. Next: drop real product screenshots into the REPLACE markers, write the one-page ReconcileIQ decision log, then apply with the Senior Product Designer résumé variant. ~7.8 → ~8.7 once screenshots land.",
   "history": [
     {
       "date": "2026-09-09",
@@ -182,6 +182,10 @@
     {
       "date": "2026-09-09",
       "event": "Real-asset pass on the product case studies: real logos added (Titan yellow-T app icon, TOBA navy+gold emblem, TaxesByRoss document mark), Titan case-study accent corrected indigo -> real amber/gold brand, Titan two-cockpit section rebuilt with a geometrically-accurate iPhone frame (393:852, dynamic island). All mirrored to public."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Re-scored 7.5 -> 7.8. All five product case studies now exist as structured, individually-styled case studies on the Paintbrush /use-cases page with real logos and brand colors (not folder names / a Chrome listing / one-line cards). Polished UI craft 6 -> 7; weighted fit recomputes to 7.8. Still short of the ~8.7 target until real product screenshots replace the coded skeleton screens and the one-page decision log is written. improvementPlan summary + nextAction updated; jobs-report.html regenerated."
     }
   ],
   "tags": [
