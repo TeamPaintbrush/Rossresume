@@ -1,0 +1,106 @@
+{
+  "id": "mercury-staff-visual-designer-design-systems",
+  "company": "Mercury",
+  "role": "Staff Visual Designer, Design Systems",
+  "team": "Design Foundations (new team — design systems, brand-in-product, AI tooling)",
+  "location": "Remote (US/Canada) or SF / NYC / Portland",
+  "url": "",
+  "source": "",
+  "postingType": "full-time",
+  "comp": {
+    "baseMin": null,
+    "baseMax": null,
+    "equity": true,
+    "currency": "USD",
+    "notes": "Base + equity + benefits; range not captured from posting."
+  },
+  "status": "identified",
+  "priority": 3,
+  "fit": {
+    "score": 5.3,
+    "verdict": "Bordering. The code + AI-prototyping story is the best-ever fit for a visual role — the JD explicitly wants React front-end prototyping and AI-assisted prototyping, which is exactly him and rare in a visual designer. But it's a Staff role gated on 10+ yrs of deep typography/color/iconography craft plus a mentoring track record — two things the codebase doesn't supply.",
+    "criteria": [
+      {
+        "name": "10+ yrs visual design; deep type/color/iconography at product/brand scale",
+        "weight": 0.25,
+        "score": 4,
+        "note": "Layout & type pairing yes; a governed product type scale / icon set — not shown. Hard blocker."
+      },
+      {
+        "name": "Portfolio range: foundational systems + expressive high-craft",
+        "weight": 0.2,
+        "score": 6,
+        "note": "Style Registry + format-breakdown docs = foundational; editorial work = expressive."
+      },
+      {
+        "name": "Conviction + language to articulate what makes design succeed",
+        "weight": 0.1,
+        "score": 7,
+        "note": "The craft-breakdown docs are literally this, written down."
+      },
+      {
+        "name": "Track record coaching/mentoring other designers",
+        "weight": 0.15,
+        "score": 2,
+        "note": "Zero. Recurring gap."
+      },
+      {
+        "name": "Systems thinking: expressive vs. pragmatic for a data-rich product",
+        "weight": 0.1,
+        "score": 8,
+        "note": "Demonstrated in code."
+      },
+      {
+        "name": "Stakeholder management; exec/cross-functional buy-in",
+        "weight": 0.1,
+        "score": 4,
+        "note": "Client sales != internal org influence."
+      },
+      {
+        "name": "React front-end prototyping + systems-in-code + AI prototyping",
+        "weight": 0.05,
+        "score": 10,
+        "note": "This is him, exactly, heavily substantiated."
+      },
+      {
+        "name": "Motion design (plus)",
+        "weight": 0.05,
+        "score": 3,
+        "note": "framer-motion usage; not motion design."
+      }
+    ],
+    "strengths": [
+      "React front-end prototyping + working with engineers on how systems get built in code — rare in a visual designer, and an explicit JD ask",
+      "AI-assisted prototyping — production pipelines, not experiments",
+      "Craft references documented into repeatable playbooks (what the JD calls 'systems, guidelines, references that make it repeatable')"
+    ],
+    "gaps": [
+      "No governed product type scale / color system / icon set ownership",
+      "No mentoring/coaching track record",
+      "Stakeholder influence is client-facing, not design-org-internal"
+    ],
+    "analyzedAt": "2026-09-09"
+  },
+  "dates": {
+    "identified": "2026-09-09",
+    "applied": null,
+    "firstResponse": null,
+    "lastActivity": "2026-09-09"
+  },
+  "contacts": [],
+  "resumeVariant": "design-technologist",
+  "nextAction": "Secondary to the Accounting role. If applying, lead hard with the 'designer who codes and ships the system' angle + the format-breakdown/Style-Registry docs as proof of repeatable-craft systems. Acknowledge the type/icon-depth gap honestly.",
+  "history": [
+    {
+      "date": "2026-09-09",
+      "event": "Logged and fit-scored ~5.3/10"
+    }
+  ],
+  "tags": [
+    "design",
+    "design-systems",
+    "visual",
+    "mercury",
+    "staff"
+  ]
+}

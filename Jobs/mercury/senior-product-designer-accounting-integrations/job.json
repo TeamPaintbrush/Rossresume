@@ -1,0 +1,195 @@
+{
+  "id": "mercury-senior-product-designer-accounting-integrations",
+  "company": "Mercury",
+  "role": "Senior Product Designer, Accounting Integrations",
+  "team": "Accounting Integrations",
+  "location": "Remote (US/Canada) or SF / NYC / Portland",
+  "url": "",
+  "source": "",
+  "postingType": "full-time",
+  "comp": {
+    "baseMin": null,
+    "baseMax": null,
+    "equity": true,
+    "currency": "USD",
+    "notes": "Base + equity + benefits; range not captured from posting."
+  },
+  "status": "identified",
+  "priority": 5,
+  "fit": {
+    "score": 7.5,
+    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds accounting software: Well (a PUBLISHED Chrome Web Store product that automates supplier-invoice retrieval into QuickBooks/Xero — i.e. Mercury's literal problem statement), ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), and TaxesByRoss (the platform behind his own tax practice). Plus TOBA (a live 501(c)(3) platform build, board as product stakeholders), InsureBridge, and Titan Couriers. The only thing between this and a strong yes: none of it is presented as design case studies with flows, screens, and a visible craft pass.",
+    "criteria": [
+      {
+        "name": "6+ yrs leading complex, end-to-end product design initiatives",
+        "weight": 0.2,
+        "score": 8,
+        "note": "10+ yrs, 'Product Designer & Partner', and a deep bench of shipped products — Well (published), ReconcileIQ, TaxesByRoss, TOBA (multi-surface, board stakeholders), InsureBridge, Titan. No engineering partner or formal research is what keeps it at 8, not 9."
+      },
+      {
+        "name": "Thinks in systems & workflows, not screens",
+        "weight": 0.15,
+        "score": 8,
+        "note": "Data-driven architecture, Style Registry governance, the TOBA permissions model, Well's self-healing workflow blueprints and multi-format export system."
+      },
+      {
+        "name": "Learns new domains obsessively until can challenge experts",
+        "weight": 0.1,
+        "score": 9,
+        "note": "He doesn't learn accounting — he has run a private tax practice since 2015 (150+ clients), prepares Form 990 filings on contract for Trydent Advisors (Tallahassee), and built both his practice software (TaxesByRoss) and a published invoice-automation product (Well). Domain operator, not learner."
+      },
+      {
+        "name": "Turning highly complex workflows into simple experiences",
+        "weight": 0.15,
+        "score": 8,
+        "note": "Well's whole shipped pitch is 'days of clicking and chasing invoices -> one click'. Plus ReconcileIQ, courier dispatch, checkout, admin intake."
+      },
+      {
+        "name": "Balances automation with transparency, trust, user control",
+        "weight": 0.1,
+        "score": 8,
+        "note": "'Human-approved, never auto-sends' agents; TOBA audit trail; Well's invoice-data validation, an AI receipt-fraud detector, and 'no passwords stored, GDPR/CCPA'."
+      },
+      {
+        "name": "Product judgment, clear communication, high ownership",
+        "weight": 0.15,
+        "score": 6,
+        "note": "TOBA notes show him doing the JD's 'bring clarity to ambiguity' explicitly. Still needs a written artifact — decision log / brief — to make judgment legible to a hiring manager."
+      },
+      {
+        "name": "Uses AI to accelerate exploration without compromising craft",
+        "weight": 0.05,
+        "score": 10,
+        "note": "Provider routing, fine-tuning, explicit 'where AI does not belong' rules — and Well is an AI-native accounting product (extractor, fraud detector, receipt generator)."
+      },
+      {
+        "name": "Polished UI craft",
+        "weight": 0.1,
+        "score": 6,
+        "note": "Well, ReconcileIQ, TaxesByRoss, InsureBridge, TOBA are all real product UI — but presented as folder names / a Chrome listing / one-line cards, not case studies with screens and a visible craft pass. Kraken is a branding project, not product UI."
+      }
+    ],
+    "strengths": [
+      "Well — a PUBLISHED, publicly verifiable product that solves Mercury's exact stated problem (invoice/transaction data -> the books), AI-native",
+      "Practicing tax preparer since 2015 (150+ clients; contract 990 work for Trydent Advisors, Tallahassee) who builds his own accounting software — a domain operator, not a domain learner",
+      "TOBA: a current multi-surface platform build for a real 501(c)(3), board as product stakeholders, hard compliance constraints",
+      "Automation-with-trust baked in — validation, fraud detection, audit trails, human-in-the-loop agents",
+      "Strongest AI-in-craft story of any applicant tier",
+      "Title and tenure support the 'product designer' claim"
+    ],
+    "gaps": [
+      "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients, not design + PM + eng + research",
+      "Evidence is overwhelming in substance but exists only as code / folders / a Chrome listing — zero design case studies with flows, screens, and a visible craft pass",
+      "No written artifact that demonstrates product judgment — a decision log or product brief"
+    ],
+    "analyzedAt": "2026-09-09"
+  },
+  "improvementPlan": {
+    "summary": "The score is solidly apply-range (~7.5). Every move here is packaging, not new work. STATUS (2026-09-09): all five product case studies are now built as structured skeletons on the Paintbrush /use-cases 'Product & Platforms' track — Well, ReconcileIQ + TaxesByRoss, TOBA, InsureBridge, Titan Couriers — each in its own visual language, with a real-asset pass done (real logos, real brand colors, a geometrically-accurate iPhone frame on Titan). Remaining: drop real product screenshots into the REPLACE markers, and write the one-page decision log. Executed, ~7.5 → ~8.7.",
+    "targetScore": 8.7,
+    "actions": [
+      {
+        "do": "[SKELETON BUILT — portfolio/brand/Well/, Style Registry row 10; awaiting real screenshots] Make Well the centerpiece case study: the problem (invoice data trapped across 100,000+ portals), the users (founders / lean finance teams), the core flows (capture -> validate -> export to QuickBooks/Xero), 6-8 real screens, the AI-extraction and self-healing design decisions, and the fact that it is live on the Chrome Web Store.",
+        "why": "Well solves Mercury's literal problem statement, it is publicly verifiable, and it is AI-native. It answers 'do you know this domain', 'is the UI craft real', and 'can you use AI without lowering the bar' in one piece.",
+        "leverages": "Well (Downloads/TaxesbyRoss/Well-main) — published product with ai-invoice-extractor, fraud detector, pl-platform, and real LLC dashboards",
+        "lifts": "Polished UI craft 6 → 8; Turning complex workflows simple 8 → 9; Uses AI 10 (reinforced)",
+        "effort": "M"
+      },
+      {
+        "do": "[SKELETON BUILT — portfolio/brand/ReconcileIQ/, Style Registry row 11, real TaxesByRoss mark added; awaiting real screenshots] Second case study: ReconcileIQ + TaxesByRoss as 'designing accounting tools as a practitioner' — the reconciliation flow, the quarterly-expense model, the data-repair tooling, and how running a tax practice shaped the decisions.",
+        "why": "This is the 'domain operator, not learner' story. Reconciliation is the other half of the JD; framing it through your own practice is a differentiator no other applicant has.",
+        "leverages": "ReconcileIQ (accountant-app/) + TaxesByRoss (Downloads/TaxesbyRoss/TaxesbyRoss) — both live, both with real client data",
+        "lifts": "Polished UI craft 6 → 8; Learns domains 9 (reinforced); 6+ yrs leading 8 → 9",
+        "effort": "M"
+      },
+      {
+        "do": "[SKELETON BUILT — portfolio/brand/TOBA/, Style Registry row 12, real navy+gold emblem; awaiting real screenshots] Build a TOBA case study: the board as product stakeholders, the role-based committee-portal permissions model, the dues flow (payments, late fees, receipts), and designing inside 501(c)(3) compliance constraints across web/desktop/mobile. Include the moment you redirected the project from 'random information' to systematic feature-by-feature building.",
+        "why": "This is the cross-functional / product-judgment story. It shows working with real stakeholders, a regulated domain (analogous to Mercury's banking compliance), and — from the project notes — bringing clarity to an ambiguous, sprawling problem.",
+        "leverages": "The TOBA platform build (TOBA/TOBA/) — live, with docs/ feature specs and a stakeholder history",
+        "lifts": "6+ yrs leading 7 → 8; Product judgment 6 → 8; Automation-with-trust 8 → 9",
+        "effort": "M"
+      },
+      {
+        "do": "Write a one-page decision log / product brief for ReconcileIQ or the content-ops tool: problem, options considered, what you chose and why, what you cut, how you'd measure success.",
+        "why": "'Strong product judgment, clear communication' needs an artifact. Cheapest, highest-signal one to produce.",
+        "leverages": "ReconcileIQ or the /prompt-system Social Media Content Studio — real scoping decisions already made",
+        "lifts": "Product judgment, communication, ownership 6 → 8",
+        "effort": "S"
+      },
+      {
+        "do": "Run 5 real user interviews (TOBA members, or the bookkeeping clients using ReconcileIQ / TaxesByRoss) and write a one-page findings doc showing one design that changed because of what you heard.",
+        "why": "Closes the Research leg of the cross-functional gap — legitimately, because you'd actually be doing the research. Mercury names Research as a design partner.",
+        "leverages": "Direct access to real TOBA members and tax-practice clients",
+        "lifts": "6+ yrs leading / cross-functional 8 → 9",
+        "effort": "M"
+      }
+    ]
+  },
+  "dates": {
+    "identified": "2026-09-09",
+    "applied": null,
+    "firstResponse": null,
+    "lastActivity": "2026-09-09"
+  },
+  "contacts": [],
+  "resumeVariant": "Senior Product Designer (3rd PDF on the résumé site: product work first, packaging supporting; data in client/src/data/resumeVariants.js)",
+  "nextAction": "All 5 product case-study skeletons are built on /use-cases (Well, ReconcileIQ+TaxesByRoss, TOBA, InsureBridge, Titan) with real logos and brand colors. Next: drop real product screenshots into the REPLACE markers, write the one-page ReconcileIQ decision log, then apply with the Senior Product Designer résumé variant. Apply-range now (~7.5) → ~8.7 once screenshots land.",
+  "history": [
+    {
+      "date": "2026-09-09",
+      "event": "Logged and fit-scored ~6.6/10; top-priority Mercury target"
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Re-scored to ~6.8: title changed to 'Product Designer & Partner' on Paintbrush, résumé reframed around shipped products, 10+ yrs acknowledged. Added improvementPlan targeting Polished UI craft + Product judgment (→ ~8)."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Re-scored to ~7.1: surfaced ReconcileIQ (account-reconciliation app with real clients, incl. a Form 990 nonprofit) and the TOBA platform build (live 501(c)(3) product, board as stakeholders). Both directly relevant; improvementPlan rewritten around case-studying them."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Built a 3rd résumé PDF — 'Senior Product Designer' — on the résumé site: leads with ReconcileIQ / TOBA / InsureBridge, product-framed skills, packaging supporting. Main digital résumé also repositioned (discipline 'Product Design', Paintbrush role 'Product Designer & Partner', ReconcileIQ + TOBA added)."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Re-scored to ~7.5: surfaced Well (a PUBLISHED Chrome Web Store invoice-automation product — Mercury's literal problem statement, AI-native), TaxesByRoss (the software behind Leroy's operating tax practice), and taxesbyrossWeb. Leroy is a practicing tax preparer who builds accounting software. Product-designer résumé variant updated to add Well + TaxesByRoss; improvementPlan rewritten with Well as centerpiece (→ ~8.7)."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "TaxesByRoss added back as a real experience entry on the MAIN digital résumé (removal 2026-09-08 was a mistake, per Leroy): 'Founder & Tax Preparer, 2015–Present', 150+ clients, contract Form 990 work for Trydent Advisors (Tallahassee FL), with the built software (TaxesByRoss + Well + ReconcileIQ) highlighted. open_task #13 resolved."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Well case study STARTED (improvementPlan action 1). Skeleton built on the Paintbrush /use-cases page: portfolio/brand/Well/ (Well Case Study.dc.html + Well_Case_Study.md), Style Registry row 10 ('Ledger infrastructure'). Coded UI mocks with REPLACE markers — Leroy to drop in real screenshots (hero capture, validation panel, the PMD dashboard anonymized). New 'Product & Platforms' filter added to /use-cases."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "ReconcileIQ + TaxesByRoss case study STARTED (improvementPlan action 2). Confirmed ReconcileIQ (accountant-app/) and TaxesByRoss are two separate products converging into one platform (theme-migration doc + Well import pipeline). Built as ONE robust 9-section case study, portfolio/brand/ReconcileIQ/, Style Registry row 11 ('Product-true bright UI' — rendered in ReconcileIQ's own white/blue card design language, distinct from Well's ledger paper). Showcases all features of both: reconciliation, general ledger, financials, audit log, quarterly, 1099/1040-ES, multi-business, the Well pipeline. Mercury criteria mapped in the .md. REPLACE markers for real screenshots."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "TOBA case study STARTED (improvementPlan action — the cross-functional/stakeholder story). TOBA = Tampa Organization of Black Affairs, a real 501(c)(3). Built as a 9-section case study, portfolio/brand/TOBA/, Style Registry row 12 ('Civic workspace UI' — rendered in TOBA's real navy #00008A + gold brand, six-color committee palette; distinct from Well and ReconcileIQ). Framed as a CRM / operations workspace: dues portal, 9 color-coded committees, a permissions matrix, newsletter/campaigns w/ nonpartisan guardrails, admin/compliance, web+desktop+mobile. Has a 'working with the board' stakeholder section — strongest evidence for Mercury's cross-functional / regulated-domain / bring-clarity bullets (mapped in the .md). All 3 case-study .md files got a 'How this maps to the Mercury JD' table; § removed from all deliverables."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "InsureBridge case study STARTED. First PHOTO-FORWARD case study, portfolio/brand/InsureBridge/, Style Registry row 13 ('Warm human-brand' — warm near-black + gold, golden-hour family photography, sampled from the real hero image which is used as the cover). Framed as brand + product: 3 portals (consumer/agent/carrier) on one record, three role-scoped views, warm-not-clinical brand decision. Full-bleed photo bands alternate with cream editorial bands; 2 more photo slots are gradient placeholders for Leroy to drop real warm family/agent photos into. Mercury mapping in the .md. /use-cases now has 4 product cards. Next: Titan Couriers."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Titan Couriers case study STARTED — the LAST of the 5 product case studies. portfolio/brand/Titan_Couriers/, Style Registry row 14 ('Dispatch board / route ops' — Titan's real deep-indigo + brown brand, route-line motif, a two-cockpit frame pairing showing the driver app and dispatch dashboard on one order). Uses BOTH surfaces (the RN app + the Next.js/Electron website/dashboard) per Leroy. Photo-forward: 3 real courier photos from the Titan repo's src/assets/images (cover + 2 bands). Shows all features: 5-way stop capture, route optimization, dispatch queue, recipient tracking link, proof-of-delivery / chain of custody, Business→Enterprise tiers. Mercury mapping in the .md. /use-cases 'Product & Platforms' track is now COMPLETE — 5 cards: Well, ReconcileIQ+TaxesByRoss, TOBA, InsureBridge, Titan Couriers."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Real-asset pass on the product case studies: real logos added (Titan yellow-T app icon, TOBA navy+gold emblem, TaxesByRoss document mark), Titan case-study accent corrected indigo -> real amber/gold brand, Titan two-cockpit section rebuilt with a geometrically-accurate iPhone frame (393:852, dynamic island). All mirrored to public."
+    }
+  ],
+  "tags": [
+    "design",
+    "product",
+    "mercury",
+    "senior",
+    "fintech",
+    "top-target"
+  ]
+}

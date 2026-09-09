@@ -7,7 +7,6 @@ import './animations.css';
 // Components
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Loading from './components/Loading/Loading';
 import PageTransition from './components/PageTransition/PageTransition';
 
 // Pages
@@ -16,6 +15,7 @@ import Portfolio from './pages/Portfolio/Portfolio';
 import Blog from './pages/Blog/Blog';
 import BlogPost from './pages/BlogPost/BlogPost';
 import Contact from './pages/Contact/Contact';
+import Jobs from './pages/Jobs/Jobs';
 
 // Styles
 import './App.css';
@@ -36,40 +36,34 @@ function ScrollToTop() {
 }
 
 function App() {
-  const [loading, setLoading] = useState(true);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(
+    () => {
+      try {
+        return localStorage.getItem('theme') === 'dark';
+      } catch {
+        return false;
+      }
+    },
+  );
 
   useEffect(() => {
-    // Check for saved theme preference
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') {
-      setDarkMode(true);
-      document.body.classList.add('dark-mode');
-    }
-
-    // Simulate loading
-    setTimeout(() => {
-      setLoading(false);
-    }, 1500);
-  }, []);
+    document.body.classList.toggle('dark-mode', darkMode);
+  }, [darkMode]);
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    if (!darkMode) {
-      document.body.classList.add('dark-mode');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      document.body.classList.remove('dark-mode');
-      localStorage.setItem('theme', 'light');
-    }
+    setDarkMode((prev) => {
+      const next = !prev;
+      try {
+        localStorage.setItem('theme', next ? 'dark' : 'light');
+      } catch {
+        /* storage unavailable — fine */
+      }
+      return next;
+    });
   };
 
-  if (loading) {
-    return <Loading />;
-  }
-
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL || '/'}>
       <ScrollToTop />
       <div className="app">
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
@@ -81,6 +75,9 @@ function App() {
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:id" element={<BlogPost />} />
               <Route path="/contact" element={<Contact />} />
+              {/* Private local tool — not linked from the header nav; only works against the dev API */}
+              <Route path="/jobs" element={<Jobs />} />
+              <Route path="/jobs/:company/:role" element={<Jobs />} />
             </Routes>
           </PageTransition>
         </main>

@@ -3,6 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const mongoose = require('mongoose');
+const path = require('path');
 require('dotenv').config();
 
 const app = express();
@@ -34,14 +35,29 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/ross-resu
 const portfolioRoutes = require('./routes/portfolioRoutes');
 const blogRoutes = require('./routes/blogRoutes');
 const contactRoutes = require('./routes/contactRoutes');
+const jobRoutes = require('./routes/jobRoutes');
+const workflowRoutes = require('./routes/workflowRoutes');
 
 app.use('/api/portfolio', portfolioRoutes);
 app.use('/api/blog', blogRoutes);
 app.use('/api/contact', contactRoutes);
+app.use('/api/jobs', jobRoutes); // file-based tracker (Jobs/), not MongoDB — see scripts/lib/jobs.js
+app.use('/api/workflow', workflowRoutes); // cross-project memory/open-task/changelog snapshot
 
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', message: 'Server is running' });
+});
+
+// Generated static job report — rebuilt from Jobs/ on each request so it's always current.
+app.get(['/jobs-report.html', '/jobs-report'], (req, res) => {
+  try {
+    const { build } = require('../../scripts/build-jobs-html');
+    const { out } = build();
+    res.sendFile(out);
+  } catch (err) {
+    res.status(500).send(`Could not build jobs-report.html: ${err.message}`);
+  }
 });
 
 // 404 handler

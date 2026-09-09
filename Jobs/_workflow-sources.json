@@ -1,0 +1,23 @@
+{
+  "//": "Machine-specific. Project roots the job dashboard's Workflow panel reads. Each source exposes its memory snapshot, open tasks, and the [Unreleased] changelog section. Paths are absolute because these repos live outside this one. Override with the JOBS_WORKFLOW_SOURCES env var (path to an alternate JSON file).",
+  "sources": [
+    {
+      "name": "Ross Resume",
+      "root": "C:/Users/leroy/Downloads/VSCODE/paintbrush/RossResume",
+      "files": {
+        "memory": "docs/memory/memory.md",
+        "openTasks": "docs/open_task.md",
+        "changelog": "docs/changelogs/CHANGELOG.md"
+      }
+    },
+    {
+      "name": "Paintbrush Marketing",
+      "root": "C:/Users/leroy/Downloads/VSCODE/paintbrush/paintbrush",
+      "files": {
+        "memory": "memory/memory.md",
+        "openTasks": "open_task.md",
+        "changelog": "MainFile/docs/changelogs/CHANGELOG.md"
+      }
+    }
+  ]
+}

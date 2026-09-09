@@ -1,0 +1,152 @@
+{
+  "id": "mercury-staff-brand-designer",
+  "company": "Mercury",
+  "role": "Staff Brand Designer",
+  "team": "Brand Studio",
+  "location": "Remote (US/Canada) or SF / NYC / Portland",
+  "url": "",
+  "source": "",
+  "postingType": "full-time",
+  "comp": {
+    "baseMin": null,
+    "baseMax": null,
+    "equity": true,
+    "currency": "USD",
+    "notes": "Base + equity + benefits; range not captured from posting."
+  },
+  "status": "identified",
+  "priority": 2,
+  "fit": {
+    "score": 4.5,
+    "verdict": "Weakest of the three Mercury roles. Wrong surface area (packaging-led vs. campaign/editorial) and no agency/fashion/elevated-consumer pedigree. AI POV is a standout but it is one bullet, not the job.",
+    "criteria": [
+      {
+        "name": "Portfolio: mastery of type/layout/color/composition across brand contexts",
+        "weight": 0.25,
+        "score": 5,
+        "note": "1,331 portfolio images + editorial format work broadens it, but still packaging-weighted vs. Mercury's campaign/editorial bar."
+      },
+      {
+        "name": "High-craft background (agency/fashion/elevated consumer/design-forward tech)",
+        "weight": 0.15,
+        "score": 2,
+        "note": "Small-business + CPG sales. No pedigree signal."
+      },
+      {
+        "name": "7-10+ yrs brand design",
+        "weight": 0.1,
+        "score": 7,
+        "note": "Years met; 'brand design' specifically is partial."
+      },
+      {
+        "name": "Brand systems at scale / stewarded through growth",
+        "weight": 0.15,
+        "score": 7,
+        "note": "Style Registry, multi-SKU frameworks, a brand rebuilt in production."
+      },
+      {
+        "name": "Figma + design system ownership",
+        "weight": 0.1,
+        "score": 3,
+        "note": "Builds systems in code, not Figma."
+      },
+      {
+        "name": "Staff-level operating (autonomy, influence, shapes a team's output)",
+        "weight": 0.1,
+        "score": 5,
+        "note": "Founder autonomy + solo-shipped a full product; not org-context."
+      },
+      {
+        "name": "Mentoring IC3-IC4 designers",
+        "weight": 0.1,
+        "score": 2,
+        "note": "No evidence of leading designers."
+      },
+      {
+        "name": "AI POV in high-craft design",
+        "weight": 0.05,
+        "score": 10,
+        "note": "Production AI pipelines, provider routing, fine-tuning, explicit 'where AI does not belong' rules."
+      }
+    ],
+    "strengths": [
+      "Genuine, documented POV on AI in the creative process (matches a dedicated JD bullet)",
+      "Systems thinking — zone-based template frameworks, Style Registry governance",
+      "15 years creative; numeric experience bar met"
+    ],
+    "gaps": [
+      "No agency / fashion / elevated-consumer / design-forward-tech pedigree",
+      "Portfolio is packaging/product-render led, not campaign/web/social/editorial",
+      "No Figma design-system ownership",
+      "No track record mentoring IC3/IC4 designers"
+    ],
+    "analyzedAt": "2026-09-09"
+  },
+  "improvementPlan": {
+    "summary": "The score is dragged down by four things: a packaging-weighted portfolio, no agency pedigree, no Figma system ownership, and no visible mentoring. Three of the four are fixable in 4-8 weeks using assets Paintbrush already has — a 1,331-piece body of client work, a code-level design system, a production AI pipeline, and years of art-directing contractors. Executed, this moves from ~4.5 (long shot) to ~6.2 (borderline-apply).",
+    "targetScore": 6.2,
+    "actions": [
+      {
+        "do": "Cut 3 tight editorial/campaign case studies from the existing Behance library — a typographic system, a campaign with layout range, and one motion/social set — presented as problem → system → crops, not as a gallery dump.",
+        "why": "The portfolio criterion carries the most weight (25%) and the raw material already exists; the gap is packaging framing, not missing work. Reframed range is the single biggest lever on this role.",
+        "leverages": "1,331 Behance pieces + the what-if-it-worked editorial format breakdowns + the Style Registry as the 'system' narrative",
+        "lifts": "Portfolio craft across brand contexts: 5 → 8",
+        "effort": "M"
+      },
+      {
+        "do": "Rebuild one packaging system as a published Figma library — components, variants, tokens, and a short usage doc — mirroring the zone-based template system currently only in code.",
+        "why": "The JD explicitly asks for Figma proficiency and design-system ownership; the thinking is already done, it just isn't in the tool they screen on.",
+        "leverages": "The multi-SKU zone template framework and Style Registry governance already built in the Paintbrush codebase",
+        "lifts": "Figma + design system ownership: 3 → 6",
+        "effort": "M"
+      },
+      {
+        "do": "Publish the AI-in-craft methodology as a written POV piece on the Paintbrush blog / Behance — the label generator, provider routing, fine-tuning on past label sets, and the 'never render headline text in the image model' rule as a stated philosophy.",
+        "why": "The JD wants 'conviction and language to articulate what makes something great' plus a real AI point of view. A written POV is the artifact that proves both, and it is a differentiator no other applicant will have.",
+        "leverages": "The prompt-system docs, the LLM provider router, the Magnific compositing guide, and the existing blog infrastructure",
+        "lifts": "Aesthetic point of view / AI POV credibility (supports the portfolio and staff-level read)",
+        "effort": "S"
+      },
+      {
+        "do": "Write one 'how I run design review' reference doc and add a concrete résumé line about art-directing contract photographers/illustrators and running client design crits.",
+        "why": "Mentoring reads as zero right now, but years of directing contractors and revising client work is real craft-leadership evidence — it just isn't written down.",
+        "leverages": "Retainer client work where Paintbrush directed external creatives and ran revision rounds",
+        "lifts": "Mentoring IC3–IC4 designers: 2 → 4",
+        "effort": "S"
+      },
+      {
+        "do": "Get one referral or portfolio review from someone in an agency / elevated-consumer / design-forward-tech environment — reach out to past beverage/supplement clients who work with agencies, or design-community contacts.",
+        "why": "Pedigree is the hardest gap to close on paper; a credible voice vouching for craft is the realistic substitute and also lifts the 'influence without authority' read.",
+        "leverages": "The existing multi-industry client network and past AMA / design-community connections",
+        "lifts": "High-craft pedigree signal: 2 → 4 (partial); staff-level operating: 5 → 6",
+        "effort": "M"
+      }
+    ]
+  },
+  "dates": {
+    "identified": "2026-09-09",
+    "applied": null,
+    "firstResponse": null,
+    "lastActivity": "2026-09-09"
+  },
+  "contacts": [],
+  "resumeVariant": null,
+  "nextAction": "Hold on applying. Work the improvement plan (3 editorial case studies + a Figma library + a written AI-craft POV) — projected ~6.2 once done, then apply.",
+  "history": [
+    {
+      "date": "2026-09-09",
+      "event": "Logged and fit-scored ~4.5/10 against the fuller paintbrush codebase evidence"
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Added improvementPlan (5 brand/services-grounded moves, projected ~6.2)"
+    }
+  ],
+  "tags": [
+    "design",
+    "brand",
+    "mercury",
+    "staff",
+    "long-shot"
+  ]
+}

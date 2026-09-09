@@ -1,0 +1,54 @@
+{
+  "id": "tampa-bay-sun-fc-graphic-designer-entry-level",
+  "company": "Tampa Bay Sun FC",
+  "role": "Graphic Designer (Entry Level)",
+  "team": "Marketing (two-person team)",
+  "location": "Tampa, FL (on-site; in-stadium for select home matches)",
+  "url": "https://www.teamworkonline.com/",
+  "source": "TeamWork Online",
+  "postingType": "full-time",
+  "comp": { "baseMin": null, "baseMax": null, "equity": false, "currency": "USD", "notes": "Entry-level sports-club design role; comp not listed. Likely well below Leroy's founder-level earning history — a real consideration." },
+  "status": "applied",
+  "priority": 4,
+  "fit": {
+    "score": 7.6,
+    "verdict": "Strongest craft fit of the four tracked roles. 15 years of print/packaging production, brand systems, and file discipline map almost 1:1 onto the posting. Leroy already submitted a full spec matchday concept board (four production-spec print pieces + a digital match program + two partnership programmes) built specifically for this role — a serious differentiator. The one real risk is level: a 15-year founder applying to an entry-level seat reads as overqualified / flight risk / salary mismatch, and the cover letter has to address why this move makes sense.",
+    "criteria": [
+      { "name": "Graphics for digital, print, and in-stadium to brand standards", "weight": 0.22, "score": 9, "note": "Deep print/packaging production, die-lines, brand-consistency systems. The concept board runs one device system across every channel named." },
+      { "name": "Static and motion for LED boards, broadcast, and venue", "weight": 0.18, "score": 6, "note": "Has motion via video pipelines, framer-motion, the Chamber Night bumper — but broadcast/LED motion (After Effects, panel-pitch LED, score bugs) is not a proven specialty." },
+      { "name": "Assets for ticket sales, sponsorship, and community work", "weight": 0.12, "score": 8, "note": "Marketing background + campaign concepting; the schools/chamber revenue-funnel thinking on the board is exactly this kind of work." },
+      { "name": "Prepare and package files for social, web, and print", "weight": 0.12, "score": 9, "note": "Production-file prep, multi-format exports, master-plus-crops workflow — bread and butter." },
+      { "name": "Maintain organized templates and file systems", "weight": 0.10, "score": 9, "note": "Zone-based template systems, the Style Registry, the whole concept board is a template argument: one geometry, swappable states." },
+      { "name": "On-site during select home matches for in-game production", "weight": 0.08, "score": 5, "note": "No live sports-production experience. Local to Tampa and willing; built a 60-second result-graphic concept for exactly that shift." },
+      { "name": "Level fit (entry-level seat vs. 15-year founder)", "weight": 0.10, "score": 4, "note": "Genuine risk of being screened out as overqualified / flight risk / salary mismatch. Must be addressed head-on in the letter." },
+      { "name": "Standout application already submitted", "weight": 0.08, "score": 10, "note": "A complete, production-spec matchday concept board with real assets — far beyond what an entry-level applicant pool produces." }
+    ],
+    "strengths": [
+      "Print/packaging production craft and brand-system discipline map directly onto the posting",
+      "Already submitted a full spec concept board built for this exact role",
+      "Local (Tampa) — on-site and in-stadium requirements are non-issues",
+      "Marketing + revenue-funnel thinking beyond pure execution (schools / chamber programmes)"
+    ],
+    "gaps": [
+      "Overqualified for an entry-level seat — needs a credible 'why this role' story",
+      "Broadcast / LED motion graphics not a proven specialty",
+      "No live in-game production experience",
+      "Comp likely well below founder-level history"
+    ],
+    "analyzedAt": "2026-09-09"
+  },
+  "dates": { "identified": "2026-09-07", "applied": "2026-09-09", "firstResponse": null, "lastActivity": "2026-09-09" },
+  "contacts": [],
+  "resumeVariant": "design-production",
+  "nextAction": "Follow up in ~1 week if no response. Have the concept board hosted at a stable URL to link. Prepare a short 'why entry-level / why the Sun' answer for a screen.",
+  "history": [
+    { "date": "2026-09-07", "event": "Built the matchday spec concept board (SUNFC-CONCEPT-BOARD.md + sunfc-concept-board.html) for the application" },
+    { "date": "2026-09-09", "event": "Applied via TeamWork Online; logged and fit-scored ~7.6/10 — strongest craft fit of the four" }
+  ],
+  "tags": ["design", "graphic-design", "sports", "print", "tampa", "local", "entry-level", "applied"],
+  "links": [
+    { "label": "Spec concept board (doc)", "path": "C:/Users/leroy/Downloads/VSCODE/Designs/Tampa Bay Sun Football Club/SUNFC-CONCEPT-BOARD.md" },
+    { "label": "Spec concept board (HTML)", "path": "C:/Users/leroy/Downloads/VSCODE/Designs/Tampa Bay Sun Football Club/sunfc-concept-board.html" },
+    { "label": "Club site", "path": "https://www.tampabaysunfc.com/" }
+  ]
+}

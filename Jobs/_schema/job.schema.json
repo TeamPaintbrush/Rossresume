@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Job",
+  "type": "object",
+  "required": ["id", "company", "role", "status", "dates"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "description": "company-slug + role-slug, e.g. mercury-staff-brand-designer" },
+    "company": { "type": "string" },
+    "role": { "type": "string" },
+    "team": { "type": "string" },
+    "location": { "type": "string" },
+    "url": { "type": "string", "description": "canonical posting URL" },
+    "source": { "type": "string", "description": "where it was found (LinkedIn, referral, company site)" },
+    "postingType": { "type": "string", "enum": ["full-time", "part-time", "contract", "internship"] },
+    "comp": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "baseMin": { "type": ["number", "null"] },
+        "baseMax": { "type": ["number", "null"] },
+        "equity": { "type": ["boolean", "null"] },
+        "currency": { "type": "string", "default": "USD" },
+        "notes": { "type": "string" }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["identified", "drafting", "applied", "screen", "interview", "offer", "rejected", "withdrawn", "on-hold"]
+    },
+    "priority": { "type": "integer", "minimum": 1, "maximum": 5, "description": "1 = low, 5 = top target" },
+    "fit": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "score": { "type": ["number", "null"], "minimum": 0, "maximum": 10 },
+        "verdict": { "type": "string" },
+        "criteria": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "weight", "score"],
+            "additionalProperties": false,
+            "properties": {
+              "name": { "type": "string" },
+              "weight": { "type": "number", "minimum": 0, "maximum": 1 },
+              "score": { "type": "number", "minimum": 0, "maximum": 10 },
+              "note": { "type": "string" }
+            }
+          }
+        },
+        "strengths": { "type": "array", "items": { "type": "string" } },
+        "gaps": { "type": "array", "items": { "type": "string" } },
+        "analyzedAt": { "type": "string", "format": "date" }
+      }
+    },
+    "improvementPlan": {
+      "type": "object",
+      "description": "Concrete moves to raise the fit score, grounded in Leroy's actual brand, shipped products, and services. Rendered as a 'Raising this score' block in the report and dashboard whenever present.",
+      "additionalProperties": false,
+      "properties": {
+        "summary": { "type": "string" },
+        "targetScore": { "type": ["number", "null"], "minimum": 0, "maximum": 10 },
+        "actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["do", "why"],
+            "additionalProperties": false,
+            "properties": {
+              "do": { "type": "string", "description": "The concrete action" },
+              "why": { "type": "string", "description": "Why it moves the needle" },
+              "leverages": { "type": "string", "description": "Which existing brand/service asset it builds on" },
+              "lifts": { "type": "string", "description": "Which fit criterion it raises, e.g. 'Portfolio craft 5 -> 8'" },
+              "effort": { "type": "string", "enum": ["S", "M", "L"] }
+            }
+          }
+        }
+      }
+    },
+    "dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identified": { "type": ["string", "null"], "format": "date" },
+        "applied": { "type": ["string", "null"], "format": "date" },
+        "firstResponse": { "type": ["string", "null"], "format": "date" },
+        "lastActivity": { "type": ["string", "null"], "format": "date" }
+      }
+    },
+    "contacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "email": { "type": "string" },
+          "linkedin": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "resumeVariant": { "type": ["string", "null"], "description": "which tailored resume was sent" },
+    "nextAction": { "type": "string" },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "event"],
+        "additionalProperties": false,
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "event": { "type": "string" }
+        }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "links": {
+      "type": "array",
+      "description": "Related material — concept boards, hosted portfolio pieces, the club site",
+      "items": {
+        "type": "object",
+        "required": ["label", "path"],
+        "additionalProperties": false,
+        "properties": {
+          "label": { "type": "string" },
+          "path": { "type": "string", "description": "URL or absolute local path" }
+        }
+      }
+    }
+  }
+}
