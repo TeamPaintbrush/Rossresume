@@ -237,6 +237,10 @@
     {
       "date": "2026-09-09",
       "event": "Leroy provided the live product URLs (added to links[]): InsureBridge (insurance-agency-pbm.vercel.app), TOBA (toba-seven.vercel.app), TaxesByRoss (taxprep-three.vercel.app), ReconcileIQ (teampaintbrush.github.io/accountant-app), Well (Chrome Web Store id opeojlhedogedjbonianohhoijlgknna). Reviewed all: each of the first four is a polished, on-brand marketing site with the actual app behind Sign In; Well is a published Chrome extension + AI backend that generates financial dashboards. Real screenshots for the case-study REPLACE markers still need Leroy's logged-in captures or demo logins. No score change (Polished UI craft stays 7 until real screens land)."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Interim UI pass on the ReconcileIQ + TaxesByRoss case study: the hero card, the Dashboard card, and a new TaxesByRoss Practice-overview card now mirror the live marketing-site previews exactly (ReconcileIQ 15/11/3/1 + account rows; TaxesByRoss 147 clients / 132 filed / 12 in progress / $842K saved + task pipeline). Faithful HTML recreations, not logged-in screenshots. Polished UI craft stays 7 until real logged-in screens or demo logins land."
     }
   ],
   "tags": [
