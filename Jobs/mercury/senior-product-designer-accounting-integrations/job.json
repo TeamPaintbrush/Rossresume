@@ -241,6 +241,10 @@
     {
       "date": "2026-09-09",
       "event": "Interim UI pass on the ReconcileIQ + TaxesByRoss case study: the hero card, the Dashboard card, and a new TaxesByRoss Practice-overview card now mirror the live marketing-site previews exactly (ReconcileIQ 15/11/3/1 + account rows; TaxesByRoss 147 clients / 132 filed / 12 in progress / $842K saved + task pipeline). Faithful HTML recreations, not logged-in screenshots. Polished UI craft stays 7 until real logged-in screens or demo logins land."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Interim real-data pass extended to Well and InsureBridge. Well 03 Dashboard now mirrors the real generated PMD_LLC_2026_Dashboard.html (GitHub palette, colour-coded month/expense/mileage headers, Flagged-for-review, prior-year block); confirmed Well = published Chrome extension (Web Store id opeojlhedogedjbonianohhoijlgknna) + AI pipeline, no standalone SaaS app. InsureBridge overview stats aligned to the live platform (3 portals / 11 products / 53 pages) + real coverage set. Also: Titan Couriers live site (titancouriers.com) reviewed - its production brand is deep indigo #00008A, NOT the amber the case study was switched to earlier; flagged to Leroy for a decision (revert to indigo?). Resume PDF (docs/Leroy-Ross-Resume.pdf) regenerated from the synced .md; .docx still needs pandoc."
     }
   ],
   "tags": [
