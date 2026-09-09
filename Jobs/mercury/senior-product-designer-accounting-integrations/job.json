@@ -253,6 +253,10 @@
     {
       "date": "2026-09-09",
       "event": "Full pass on the Senior Product Designer / Accounting Integrations application materials: (1) resumeVariants.js productDesignerResume + SeniorProductDesignerResumePDF.js now render a clickable live-product link under each project, and the TOBA project + experience bullet carry the board-cadence / SOP-handoff / three-objections record; PDF generation verified in the browser (no errors). (2) fit-analysis.md rewritten to the current ~8.2 scorecard (was a stale ~7.5 / round-3 version). (3) prep.md got a STATUS header; new application-pack.md lists what to submit + a cover-note opening + the pre-submit checklist. (4) Titan Couriers case study reverted amber -> real indigo #00008A (open_task #14 resolved). Score unchanged at 8.2."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "TOBA case study — first real product screenshots in. Leroy supplied three live-product captures (now in portfolio/brand/TOBA/assets/, optimized): Members Portal membership dashboard, committee-leader Work Management / Core Work Objects view, and the public marketing site (Leadership Institute + board). New .shot card pattern - cropped ~420px preview, click to open the full image. §03 reworked to Core Work Objects / Work Management with the real tab strip (Tasks, Projects, Notes, Project Files, Committee Photos, Meeting Agenda, Roster, Alumni, TLI Appointments) + leader oversight panel. First of the five case studies to get real screens; Polished UI craft still 7 pending the rest (ReconcileIQ, Well, InsureBridge, Titan, + more TOBA screens)."
     }
   ],
   "tags": [
