@@ -81,7 +81,7 @@
     ],
     "gaps": [
       "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients (incl. a real monthly board cadence and full-board product pitches at TOBA), not design + PM + eng + research inside a product org",
-      "The last soft spot: case-study screens are still coded skeletons with REPLACE markers — no real product screenshots yet. (The five case studies are structured and on-brand; the standalone TOBA decision record is written; only the screens themselves are pending.)"
+      "The last soft spot: case-study screens are still coded skeletons. Live URLs now captured for all five products (links[]), but the app screens sit behind Sign In — InsureBridge, TOBA, TaxesByRoss, ReconcileIQ each have a polished marketing site + a login wall; Well is a published Chrome extension + an AI backend (visual assets = the Web Store listing + the generated financial dashboards). Real logged-in screenshots (or demo logins) from Leroy are the remaining input."
     ],
     "analyzedAt": "2026-09-09"
   },
@@ -141,6 +141,26 @@
     {
       "label": "TOBA case study",
       "path": "../paintbrush/paintbrush/MainFile/portfolio/brand/TOBA/TOBA Case Study.dc.html"
+    },
+    {
+      "label": "Live product — InsureBridge",
+      "path": "https://insurance-agency-pbm.vercel.app/"
+    },
+    {
+      "label": "Live product — TOBA",
+      "path": "https://toba-seven.vercel.app/"
+    },
+    {
+      "label": "Live product — TaxesByRoss",
+      "path": "https://taxprep-three.vercel.app/"
+    },
+    {
+      "label": "Live product — ReconcileIQ",
+      "path": "https://teampaintbrush.github.io/accountant-app/"
+    },
+    {
+      "label": "Live product — Well (Chrome Web Store)",
+      "path": "https://chromewebstore.google.com/detail/opeojlhedogedjbonianohhoijlgknna"
     }
   ],
   "resumeVariant": "Senior Product Designer (3rd PDF on the résumé site: product work first, packaging supporting; data in client/src/data/resumeVariants.js)",
@@ -213,6 +233,10 @@
     {
       "date": "2026-09-09",
       "event": "Wrote the standalone 1-page decision record (decision-record-toba-consolidation.md): the consolidation problem, three options weighed, the choice + rationale, what was cut, the three board objections + resolutions, success measures, and the continuity handoff. Closes the 'no standalone artifact' gap. Score unchanged at 8.2 (criteria-driven; this makes the existing 9 portable). Only remaining pre-application work is real product screenshots in the case studies. links[] added to job.json."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Leroy provided the live product URLs (added to links[]): InsureBridge (insurance-agency-pbm.vercel.app), TOBA (toba-seven.vercel.app), TaxesByRoss (taxprep-three.vercel.app), ReconcileIQ (teampaintbrush.github.io/accountant-app), Well (Chrome Web Store id opeojlhedogedjbonianohhoijlgknna). Reviewed all: each of the first four is a polished, on-brand marketing site with the actual app behind Sign In; Well is a published Chrome extension + AI backend that generates financial dashboards. Real screenshots for the case-study REPLACE markers still need Leroy's logged-in captures or demo logins. No score change (Polished UI craft stays 7 until real screens land)."
     }
   ],
   "tags": [
