@@ -18,7 +18,7 @@
   "priority": 5,
   "fit": {
     "score": 8.2,
-    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds accounting software: Well (a PUBLISHED Chrome Web Store product that automates supplier-invoice retrieval into QuickBooks/Xero — i.e. Mercury's literal problem statement), ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), and TaxesByRoss (the platform behind his own tax practice). Plus TOBA (a live 501(c)(3) platform build with a monthly board-member cadence, full-board product presentations, a written SOP + licensing + continuity-agreement handoff, and three documented board objections he resolved — data sovereignty, duplication, and cost), InsureBridge, and Titan Couriers. All five are built as structured case studies on the Paintbrush /use-cases page — each in its own visual language, with real logos and brand colors and a geometrically-accurate device frame. The remaining gap is narrow: the case-study screens are still coded skeletons rather than real product screenshots, there's no standalone design-decision artifact for applications yet, and collaboration has been design + stakeholders rather than design + PM + eng + research inside a product org.",
+    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds accounting software: Well (a PUBLISHED Chrome Web Store product that automates supplier-invoice retrieval into QuickBooks/Xero — i.e. Mercury's literal problem statement), ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), and TaxesByRoss (the platform behind his own tax practice). Plus TOBA (a live 501(c)(3) platform build with a monthly board-member cadence, full-board product presentations, a written SOP + licensing + continuity-agreement handoff, and three documented board objections he resolved — data sovereignty, duplication, and cost), InsureBridge, and Titan Couriers. All five are built as structured case studies on the Paintbrush /use-cases page — each in its own visual language, with real logos and brand colors and a geometrically-accurate device frame — plus a standalone 1-page decision record for the TOBA consolidation. The remaining gap is narrow: the case-study screens are still coded skeletons rather than real product screenshots, and collaboration has been design + stakeholders rather than design + PM + eng + research inside a product org.",
     "criteria": [
       {
         "name": "6+ yrs leading complex, end-to-end product design initiatives",
@@ -54,7 +54,7 @@
         "name": "Product judgment, clear communication, high ownership",
         "weight": 0.15,
         "score": 9,
-        "note": "Now well-evidenced across all three sub-signals in the TOBA case study. JUDGMENT: redirected TOBA from 'random information' to systematic feature-by-feature building; scoped the committee consolidation and pitched it to the full board. COMMUNICATION: monthly cadence with the committee-lead board member, full-board product presentations, a written handoff package to the org's marketing lead (SOP intro, Licensing & Continuity Plan, Deploy & Dev SOP, formal Continuity Agreement). ALIGNMENT UNDER DISAGREEMENT: three documented board objections resolved — (1) Finance chair, data sovereignty -> gave TOBA its own AWS account, datasets, and backend (the objection changed the architecture); (2) Youth Development chair, duplication with an in-progress internal effort -> no forced switch, adoption by comparison once the workspace was real; (3) Leadership Institute chair, infrastructure cost -> none, pro bono, cost scope fixed in the Continuity Agreement. OWNERSHIP: ships the platform AND wrote the continuity/licensing terms so the org is never stranded. Held at 9, not 10: still a volunteer board rather than a product-company PM/eng/research pod, no formal user research, and the design-decision reasoning isn't yet packaged as a standalone portfolio artifact."
+        "note": "Now well-evidenced across all three sub-signals in the TOBA case study. JUDGMENT: redirected TOBA from 'random information' to systematic feature-by-feature building; scoped the committee consolidation and pitched it to the full board. COMMUNICATION: monthly cadence with the committee-lead board member, full-board product presentations, a written handoff package to the org's marketing lead (SOP intro, Licensing & Continuity Plan, Deploy & Dev SOP, formal Continuity Agreement). ALIGNMENT UNDER DISAGREEMENT: three documented board objections resolved — (1) Finance chair, data sovereignty -> gave TOBA its own AWS account, datasets, and backend (the objection changed the architecture); (2) Youth Development chair, duplication with an in-progress internal effort -> no forced switch, adoption by comparison once the workspace was real; (3) Leadership Institute chair, infrastructure cost -> none, pro bono, cost scope fixed in the Continuity Agreement. OWNERSHIP: ships the platform AND wrote the continuity/licensing terms so the org is never stranded. All of this is now packaged — the TOBA case study 'working with the board' section plus a standalone 1-page decision record (decision-record-toba-consolidation.md). Held at 9, not 10: still a volunteer board rather than a product-company PM/eng/research pod, and no formal user research."
       },
       {
         "name": "Uses AI to accelerate exploration without compromising craft",
@@ -81,8 +81,7 @@
     ],
     "gaps": [
       "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients (incl. a real monthly board cadence and full-board product pitches at TOBA), not design + PM + eng + research inside a product org",
-      "Case studies exist but the screens are still coded skeletons with REPLACE markers — no real product screenshots yet",
-      "The design reasoning + the three board objections now live inside the TOBA case study, but there's no standalone 1-page decision record to attach to applications yet — a reviewer has to read the whole case study to find it"
+      "The last soft spot: case-study screens are still coded skeletons with REPLACE markers — no real product screenshots yet. (The five case studies are structured and on-brand; the standalone TOBA decision record is written; only the screens themselves are pending.)"
     ],
     "analyzedAt": "2026-09-09"
   },
@@ -112,10 +111,10 @@
         "effort": "M"
       },
       {
-        "do": "Extract the TOBA design reasoning into a standalone 1-page decision record to attach to applications: the consolidation problem, the options (per-committee apps / per-role logins / one role-scoped workspace), what was chosen and why, what was cut, how success is measured, and the three board objections + resolutions. The content already exists in the case study — this makes it portable.",
-        "why": "The reasoning is now legible inside the TOBA case study, but a reviewer skims. A one-pager they can open in 30 seconds is the format that actually lands product judgment in a screen.",
-        "leverages": "The TOBA case study 'working with the board' section (already written) + the SOP/continuity package + docs/ feature specs",
-        "lifts": "Product judgment / communication / ownership 9 (makes it portable, not higher)",
+        "do": "[DONE — Jobs/mercury/senior-product-designer-accounting-integrations/decision-record-toba-consolidation.md] Standalone 1-page decision record for the TOBA consolidation: problem, the three options (per-committee apps / per-role logins / one role-scoped workspace), what was chosen and why, what was cut, how success is measured, the three board objections + resolutions, and the continuity handoff. Attach to applications as a PDF.",
+        "why": "The reasoning was legible inside the TOBA case study but a reviewer skims. A one-pager they open in 30 seconds is the format that lands product judgment in a screen.",
+        "leverages": "The TOBA case study 'working with the board' section + the SOP/continuity package + docs/ feature specs",
+        "lifts": "Product judgment / communication / ownership 9 (now portable — closes the 'no standalone artifact' gap)",
         "effort": "S"
       },
       {
@@ -134,8 +133,18 @@
     "lastActivity": "2026-09-09"
   },
   "contacts": [],
+  "links": [
+    {
+      "label": "TOBA consolidation — decision record (1-pager for applications)",
+      "path": "Jobs/mercury/senior-product-designer-accounting-integrations/decision-record-toba-consolidation.md"
+    },
+    {
+      "label": "TOBA case study",
+      "path": "../paintbrush/paintbrush/MainFile/portfolio/brand/TOBA/TOBA Case Study.dc.html"
+    }
+  ],
   "resumeVariant": "Senior Product Designer (3rd PDF on the résumé site: product work first, packaging supporting; data in client/src/data/resumeVariants.js)",
-  "nextAction": "Fit is now ~8.2 — 5 case-study skeletons on /use-cases, and the TOBA case study now carries the board cadence, the full-board pitch, the written SOP/licensing/continuity handoff, and three resolved board objections (Product judgment / communication / alignment is at 9). Next: (1) real product screenshots into the REPLACE markers → craft; (2) extract the TOBA reasoning + objections into a 1-page decision record for applications; then apply with the Senior Product Designer résumé variant. ~8.2 → ~8.7.",
+  "nextAction": "Fit is ~8.2. The TOBA case study carries the board cadence, the full-board pitch, the SOP/licensing/continuity handoff, and three resolved board objections; the standalone decision record is written (decision-record-toba-consolidation.md). Only real work left before applying: drop real product screenshots into the case-study REPLACE markers (→ craft, → ~8.7), then apply with the Senior Product Designer résumé variant.",
   "history": [
     {
       "date": "2026-09-09",
@@ -200,6 +209,10 @@
     {
       "date": "2026-09-09",
       "event": "Re-scored 8.1 -> 8.2. Leroy detailed three board members' pushback and how each resolved: (1) Finance chair, data sovereignty -> TOBA stood up its own AWS account / datasets / backend (the objection changed the architecture); (2) Youth Development chair, duplication with an in-progress internal effort -> no forced switch, adoption by comparison once the workspace was real; (3) Leadership Institute chair, infrastructure cost -> none, pro bono, cost scope fixed in the Continuity Agreement. Documented stakeholder disagreement resolved (one architectural change) is the strongest available signal for 'brings clarity to ambiguity / helps teams align' at this tier -> 'Product judgment, clear communication, high ownership' 8 -> 9. Written into the TOBA case study 'working with the board' section as 'Objections, and how they resolved'. Held at 9 not 10: still a volunteer board not a product-company pod, no formal research. Verdict, strengths, improvementPlan (narrative action reframed to 'make it portable'), nextAction updated."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Wrote the standalone 1-page decision record (decision-record-toba-consolidation.md): the consolidation problem, three options weighed, the choice + rationale, what was cut, the three board objections + resolutions, success measures, and the continuity handoff. Closes the 'no standalone artifact' gap. Score unchanged at 8.2 (criteria-driven; this makes the existing 9 portable). Only remaining pre-application work is real product screenshots in the case studies. links[] added to job.json."
     }
   ],
   "tags": [
