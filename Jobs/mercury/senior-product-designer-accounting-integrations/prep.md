@@ -3,6 +3,22 @@
 Working material for the two things that close the gap: **UI case studies** and a
 **cross-functional (PM/Eng/Research) track record**.
 
+> **STATUS 2026-09-09 — most of this plan is executed.** Fit is now **~8.2 / 10** (target ~8.7).
+> - **Five product case studies built** on the Paintbrush `/use-cases` "Product & Platforms"
+>   track — Well, ReconcileIQ + TaxesByRoss, TOBA, InsureBridge, Titan Couriers — each in its
+>   own visual language with real logos and brand colours. Structure + copy done; the coded
+>   screens still need real logged-in screenshots (the one remaining input).
+> - **Cross-functional / product-judgment evidence packaged** — the TOBA case study's "working
+>   with the board" section (monthly cadence, full-board pitches, written SOP + continuity
+>   handoff, three board objections resolved) + a standalone 1-page decision record
+>   (`decision-record-toba-consolidation.md`).
+> - **Résumé** — the "Senior Product Designer" variant PDF (product work first, live product
+>   links) is the one to apply with.
+> - **To submit:** see `application-pack.md`.
+>
+> The sections below are the original working notes — kept for the case-study angles and the
+> interview talking points.
+
 > **Update 2026-09-09:** four projects surfaced that change the plan. You are not a
 > designer *learning* accounting — you are a practicing tax preparer who *builds*
 > accounting software.

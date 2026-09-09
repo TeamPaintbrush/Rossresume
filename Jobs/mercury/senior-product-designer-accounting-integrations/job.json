@@ -161,6 +161,10 @@
     {
       "label": "Live product — Well (Chrome Web Store)",
       "path": "https://chromewebstore.google.com/detail/opeojlhedogedjbonianohhoijlgknna"
+    },
+    {
+      "label": "Application pack (what to submit)",
+      "path": "Jobs/mercury/senior-product-designer-accounting-integrations/application-pack.md"
     }
   ],
   "resumeVariant": "Senior Product Designer (3rd PDF on the résumé site: product work first, packaging supporting; data in client/src/data/resumeVariants.js)",
@@ -245,6 +249,10 @@
     {
       "date": "2026-09-09",
       "event": "Interim real-data pass extended to Well and InsureBridge. Well 03 Dashboard now mirrors the real generated PMD_LLC_2026_Dashboard.html (GitHub palette, colour-coded month/expense/mileage headers, Flagged-for-review, prior-year block); confirmed Well = published Chrome extension (Web Store id opeojlhedogedjbonianohhoijlgknna) + AI pipeline, no standalone SaaS app. InsureBridge overview stats aligned to the live platform (3 portals / 11 products / 53 pages) + real coverage set. Also: Titan Couriers live site (titancouriers.com) reviewed - its production brand is deep indigo #00008A, NOT the amber the case study was switched to earlier; flagged to Leroy for a decision (revert to indigo?). Resume PDF (docs/Leroy-Ross-Resume.pdf) regenerated from the synced .md; .docx still needs pandoc."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Full pass on the Senior Product Designer / Accounting Integrations application materials: (1) resumeVariants.js productDesignerResume + SeniorProductDesignerResumePDF.js now render a clickable live-product link under each project, and the TOBA project + experience bullet carry the board-cadence / SOP-handoff / three-objections record; PDF generation verified in the browser (no errors). (2) fit-analysis.md rewritten to the current ~8.2 scorecard (was a stale ~7.5 / round-3 version). (3) prep.md got a STATUS header; new application-pack.md lists what to submit + a cover-note opening + the pre-submit checklist. (4) Titan Couriers case study reverted amber -> real indigo #00008A (open_task #14 resolved). Score unchanged at 8.2."
     }
   ],
   "tags": [
