@@ -17,8 +17,8 @@
   "status": "identified",
   "priority": 5,
   "fit": {
-    "score": 7.8,
-    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds accounting software: Well (a PUBLISHED Chrome Web Store product that automates supplier-invoice retrieval into QuickBooks/Xero — i.e. Mercury's literal problem statement), ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), and TaxesByRoss (the platform behind his own tax practice). Plus TOBA (a live 501(c)(3) platform build, board as product stakeholders), InsureBridge, and Titan Couriers. All five are now built as structured case studies on the Paintbrush /use-cases page — each in its own visual language, with real logos and brand colors and a geometrically-accurate device frame. The remaining gap: the case-study screens are still coded skeletons with REPLACE markers, not real product screenshots, and there is no written decision log yet.",
+    "score": 8,
+    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds accounting software: Well (a PUBLISHED Chrome Web Store product that automates supplier-invoice retrieval into QuickBooks/Xero — i.e. Mercury's literal problem statement), ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), and TaxesByRoss (the platform behind his own tax practice). Plus TOBA (a live 501(c)(3) platform build where he runs a monthly cadence with a board member and has pitched a seven-committee consolidation vision to the full board), InsureBridge, and Titan Couriers. All five are now built as structured case studies on the Paintbrush /use-cases page — each in its own visual language, with real logos and brand colors and a geometrically-accurate device frame. The remaining gap: the case-study screens are still coded skeletons with REPLACE markers rather than real product screenshots, there is no written decision log / brief yet, and collaboration has been design + stakeholders rather than design + PM + eng + research.",
     "criteria": [
       {
         "name": "6+ yrs leading complex, end-to-end product design initiatives",
@@ -53,8 +53,8 @@
       {
         "name": "Product judgment, clear communication, high ownership",
         "weight": 0.15,
-        "score": 6,
-        "note": "TOBA notes show him doing the JD's 'bring clarity to ambiguity' explicitly. Still needs a written artifact — decision log / brief — to make judgment legible to a hiring manager."
+        "score": 7,
+        "note": "TOBA is a real record here: he redirected the project from 'random information' to systematic feature-by-feature building (judgment under ambiguity), runs a monthly cadence with his committee-lead board member, and has presented the product to the full board — pitching a consolidation vision (seven committees' information into one system) and how it changes the organization's workflow. That is recurring product communication to a governing body, and they are funding the build, so the pitch landed. Held at 7, not 8-9: it is verbal + live-demo to a volunteer nonprofit board, not written docs/decks to PM + eng + exec, and there is still no decision log or brief a hiring manager can read."
       },
       {
         "name": "Uses AI to accelerate exploration without compromising craft",
@@ -72,20 +72,20 @@
     "strengths": [
       "Well — a PUBLISHED, publicly verifiable product that solves Mercury's exact stated problem (invoice/transaction data -> the books), AI-native",
       "Practicing tax preparer since 2015 (150+ clients; contract 990 work for Trydent Advisors, Tallahassee) who builds his own accounting software — a domain operator, not a domain learner",
-      "TOBA: a current multi-surface platform build for a real 501(c)(3), board as product stakeholders, hard compliance constraints",
+      "TOBA: a current multi-surface platform build for a real 501(c)(3), board as product stakeholders, hard compliance constraints — with a monthly board-member cadence and full-board product presentations pitching a seven-committee consolidation vision",
       "Automation-with-trust baked in — validation, fraud detection, audit trails, human-in-the-loop agents",
       "Strongest AI-in-craft story of any applicant tier",
       "Title and tenure support the 'product designer' claim"
     ],
     "gaps": [
-      "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients, not design + PM + eng + research",
+      "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients (incl. a real monthly board cadence and full-board product pitches at TOBA), not design + PM + eng + research inside a product org",
       "Evidence is overwhelming in substance but exists only as code / folders / a Chrome listing — zero design case studies with flows, screens, and a visible craft pass",
       "No written artifact that demonstrates product judgment — a decision log or product brief"
     ],
     "analyzedAt": "2026-09-09"
   },
   "improvementPlan": {
-    "summary": "The score is solidly apply-range (~7.8, up from ~7.5). Every move here is packaging, not new work. STATUS (2026-09-09): all five product case studies are now built as structured skeletons on the Paintbrush /use-cases 'Product & Platforms' track — Well, ReconcileIQ + TaxesByRoss, TOBA, InsureBridge, Titan Couriers — each in its own visual language, with a real-asset pass done (real logos, real brand colors, a geometrically-accurate iPhone frame on Titan). That lifted Polished UI craft 6 → 7 and the overall fit 7.5 → 7.8. Remaining: drop real product screenshots into the REPLACE markers (→ craft 8-9), and write the one-page decision log. Fully executed, ~8.7.",
+    "summary": "The score is solidly apply-range (~8.0, up from ~7.5). Every move here is packaging, not new work. STATUS (2026-09-09): all five product case studies are now built as structured skeletons on the Paintbrush /use-cases 'Product & Platforms' track — Well, ReconcileIQ + TaxesByRoss, TOBA, InsureBridge, Titan Couriers — each in its own visual language, with a real-asset pass done (real logos, real brand colors, a geometrically-accurate iPhone frame on Titan). That lifted Polished UI craft 6 → 7 (7.5 → 7.8); surfacing the TOBA board cadence + full-board product pitches lifted Product judgment / communication 6 → 7 (7.8 → 8.0). Remaining: drop real product screenshots into the REPLACE markers (→ craft 8-9), and write the one-page decision log / brief (→ communication 8, and the first written artifact a hiring manager can read). Fully executed, ~8.7.",
     "targetScore": 8.7,
     "actions": [
       {
@@ -106,14 +106,14 @@
         "do": "[SKELETON BUILT — portfolio/brand/TOBA/, Style Registry row 12, real navy+gold emblem; awaiting real screenshots] Build a TOBA case study: the board as product stakeholders, the role-based committee-portal permissions model, the dues flow (payments, late fees, receipts), and designing inside 501(c)(3) compliance constraints across web/desktop/mobile. Include the moment you redirected the project from 'random information' to systematic feature-by-feature building.",
         "why": "This is the cross-functional / product-judgment story. It shows working with real stakeholders, a regulated domain (analogous to Mercury's banking compliance), and — from the project notes — bringing clarity to an ambiguous, sprawling problem.",
         "leverages": "The TOBA platform build (TOBA/TOBA/) — live, with docs/ feature specs and a stakeholder history",
-        "lifts": "6+ yrs leading 7 → 8; Product judgment 6 → 8; Automation-with-trust 8 → 9",
+        "lifts": "6+ yrs leading 8 → 9; Product judgment 7 → 8; Automation-with-trust 8 → 9",
         "effort": "M"
       },
       {
-        "do": "Write a one-page decision log / product brief for ReconcileIQ or the content-ops tool: problem, options considered, what you chose and why, what you cut, how you'd measure success.",
-        "why": "'Strong product judgment, clear communication' needs an artifact. Cheapest, highest-signal one to produce.",
-        "leverages": "ReconcileIQ or the /prompt-system Social Media Content Studio — real scoping decisions already made",
-        "lifts": "Product judgment, communication, ownership 6 → 8",
+        "do": "Write a one-page decision log / product brief — best candidate is TOBA (the seven-committee consolidation you already pitched to the board): problem, options considered, what you chose and why, what you cut, how you'd measure success. Then reuse the same structure for the ReconcileIQ narrative.",
+        "why": "'Clear communication' is currently scored on verbal board pitches with no artifact a hiring manager can read. A one-pager is the cheapest, highest-signal fix — and the TOBA decision is already made and already sold, so it's writing down thinking that exists.",
+        "leverages": "TOBA board presentations + docs/ feature specs; ReconcileIQ real scoping decisions already made",
+        "lifts": "Product judgment, communication, ownership 7 → 8",
         "effort": "S"
       },
       {
@@ -133,7 +133,7 @@
   },
   "contacts": [],
   "resumeVariant": "Senior Product Designer (3rd PDF on the résumé site: product work first, packaging supporting; data in client/src/data/resumeVariants.js)",
-  "nextAction": "All 5 product case-study skeletons are built on /use-cases (Well, ReconcileIQ+TaxesByRoss, TOBA, InsureBridge, Titan) with real logos and brand colors — fit is now ~7.8. Next: drop real product screenshots into the REPLACE markers, write the one-page ReconcileIQ decision log, then apply with the Senior Product Designer résumé variant. ~7.8 → ~8.7 once screenshots land.",
+  "nextAction": "Fit is now ~8.0 — all 5 case-study skeletons built on /use-cases with real logos/brand, and the TOBA board cadence + full-board product pitches counted for stakeholder communication. Next: drop real product screenshots into the REPLACE markers, write the one-page TOBA decision log (the consolidation you already pitched), then apply with the Senior Product Designer résumé variant. ~8.0 → ~8.7 once screenshots + the brief land.",
   "history": [
     {
       "date": "2026-09-09",
@@ -186,6 +186,10 @@
     {
       "date": "2026-09-09",
       "event": "Re-scored 7.5 -> 7.8. All five product case studies now exist as structured, individually-styled case studies on the Paintbrush /use-cases page with real logos and brand colors (not folder names / a Chrome listing / one-line cards). Polished UI craft 6 -> 7; weighted fit recomputes to 7.8. Still short of the ~8.7 target until real product screenshots replace the coded skeleton screens and the one-page decision log is written. improvementPlan summary + nextAction updated; jobs-report.html regenerated."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Re-scored 7.8 -> 8.0. Leroy surfaced concrete stakeholder-communication evidence at TOBA: a monthly cadence with his committee-lead board member, plus full-board product presentations where he pitched consolidating all seven committees' information into one system and how it changes the org's workflow. 'Product judgment, clear communication, high ownership' 6 -> 7 (recurring product communication to a governing body that is funding the build). Held at 7 not 8-9 because it is verbal + live-demo to a volunteer board, not written docs/decks to PM + eng + exec, and no decision log exists yet. Verdict, strengths, and the cross-functional gap bullet updated to reflect the board cadence."
     }
   ],
   "tags": [
