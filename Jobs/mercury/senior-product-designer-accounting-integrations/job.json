@@ -257,6 +257,10 @@
     {
       "date": "2026-09-09",
       "event": "TOBA case study — first real product screenshots in. Leroy supplied three live-product captures (now in portfolio/brand/TOBA/assets/, optimized): Members Portal membership dashboard, committee-leader Work Management / Core Work Objects view, and the public marketing site (Leadership Institute + board). New .shot card pattern - cropped ~420px preview, click to open the full image. §03 reworked to Core Work Objects / Work Management with the real tab strip (Tasks, Projects, Notes, Project Files, Committee Photos, Meeting Agenda, Roster, Alumni, TLI Appointments) + leader oversight panel. First of the five case studies to get real screens; Polished UI craft still 7 pending the rest (ReconcileIQ, Well, InsureBridge, Titan, + more TOBA screens)."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "TOBA case study §03 now shows two role-scoped views of the Work Management surface from real screenshots: the Committee Member portal (My Assignments, member/viewer, blue) and the Committee Leader console (oversight panel + leader tools, purple). Plus the Members Portal (dues, green) in §01. §05 (\"role-based views, not role-based apps\") now points at the three real screens as the proof. Four real TOBA screenshots total in assets/. This directly strengthens \"Thinks in systems & workflows\" and \"Polished UI craft\" evidence for the case study, though scores unchanged pending the other four case studies."
     }
   ],
   "tags": [
