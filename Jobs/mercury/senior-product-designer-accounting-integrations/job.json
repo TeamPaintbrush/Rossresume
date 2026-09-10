@@ -18,7 +18,7 @@
   "priority": 5,
   "fit": {
     "score": 8.2,
-    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds accounting software: Well (a PUBLISHED Chrome Web Store product that automates supplier-invoice retrieval into QuickBooks/Xero — i.e. Mercury's literal problem statement), ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), and TaxesByRoss (the platform behind his own tax practice). Plus TOBA (a live 501(c)(3) platform build with a monthly board-member cadence, full-board product presentations, a written SOP + licensing + continuity-agreement handoff, and three documented board objections he resolved — data sovereignty, duplication, and cost), InsureBridge, and Titan Couriers. All five are built as structured case studies on the Paintbrush /use-cases page — each in its own visual language, with real logos and brand colors and a geometrically-accurate device frame — plus a standalone 1-page decision record for the TOBA consolidation. The remaining gap is narrow: the case-study screens are still coded skeletons rather than real product screenshots, and collaboration has been design + stakeholders rather than design + PM + eng + research inside a product org.",
+    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds accounting software: Well (a PUBLISHED Chrome Web Store product that automates supplier-invoice retrieval into QuickBooks/Xero — i.e. Mercury's literal problem statement), ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), and TaxesByRoss (the platform behind his own tax practice). Plus TOBA (a live 501(c)(3) platform build with a monthly board-member cadence, full-board product presentations, a written SOP + licensing + continuity-agreement handoff, and three documented board objections he resolved — data sovereignty, duplication, and cost), InsureBridge, and Titan Couriers. All five are built as structured case studies on the Paintbrush /use-cases page — each in its own visual language — plus a standalone 1-page decision record for the TOBA consolidation. TOBA and InsureBridge now carry real product screenshots; ReconcileIQ, Well, and Titan are still on coded mockups aligned to the live marketing previews. The remaining gap is narrow: real screens on the two accounting case studies (ReconcileIQ, Well), and collaboration has been design + stakeholders rather than design + PM + eng + research inside a product org.",
     "criteria": [
       {
         "name": "6+ yrs leading complex, end-to-end product design initiatives",
@@ -66,7 +66,7 @@
         "name": "Polished UI craft",
         "weight": 0.1,
         "score": 7,
-        "note": "Well, ReconcileIQ, TaxesByRoss, InsureBridge, TOBA are all real product UI, and each now has a structured case study on /use-cases in its own visual language with real logos and brand colors — up from folder names / a Chrome listing / one-line cards. Still short of 8-9 until real product screenshots replace the coded skeleton screens. Kraken is a branding project, not product UI."
+        "note": "All five products have a structured case study on /use-cases in its own visual language with real logos and brand colors. Real product screenshots are now in for TOBA (5: Members Portal, member + leader Work Management, public site, in-product SOP) and InsureBridge (4: consumer dashboard, agent CRM/leads, admin dashboard, admin agent directory) — shown as click-to-expand cards. Still on coded mockups: ReconcileIQ + TaxesByRoss, Well, Titan (interim passes have aligned those to the live marketing-site previews). Bumps to 8-9 once the accounting ones (ReconcileIQ, Well) have real screens. Kraken is a branding project, not product UI."
       }
     ],
     "strengths": [
@@ -269,6 +269,10 @@
     {
       "date": "2026-09-10",
       "event": "open_task #17 (committee count) resolved by Leroy: SEVEN standing committees — Communications & Marketing, Budget & Finance, Legal Affairs, Civics & Political Education, TOBA Leadership Institute, Youth Development, Economic/Fund Development. The Membership Dues Portal (a program) and the annual MLK Leadership Breakfast (an event) run alongside, which is why the codebase has 9 committee spaces and the public site says 9. TOBA case study updated to 'seven' throughout, the seven named in §2 + cover grid, seven-color palette. (I first read 'nine' from the codebase array before Leroy corrected it.) No score change."
+    },
+    {
+      "date": "2026-09-10",
+      "event": "InsureBridge case study got its first real product screenshots (portfolio/brand/InsureBridge/assets/): consumer dashboard (§01), agent Leads/CRM pipeline (§02), admin dashboard + agent directory (§03 as a side-by-side pair). §03 reframed from \"carrier portal\" to \"admin portal\" — the built product’s third portal is a platform-admin surface (carriers/licensing/commissions/compliance/audit are sections inside it). Overview + §04 + stats now say consumer/agent/admin. Two of five case studies now have real screens (TOBA, InsureBridge). Polished UI craft still 7 pending ReconcileIQ, Well, Titan."
     }
   ],
   "tags": [
