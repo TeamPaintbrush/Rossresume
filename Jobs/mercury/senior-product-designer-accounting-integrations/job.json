@@ -72,7 +72,7 @@
     "strengths": [
       "Well — a PUBLISHED, publicly verifiable product that solves Mercury's exact stated problem (invoice/transaction data -> the books), AI-native",
       "Practicing tax preparer since 2015 (150+ clients; contract 990 work for Trydent Advisors, Tallahassee) who builds his own accounting software — a domain operator, not a domain learner",
-      "TOBA: a current multi-surface platform build for a real 501(c)(3), board as product stakeholders, hard compliance constraints — with a monthly board-member cadence and full-board product presentations pitching a nine-committee consolidation vision",
+      "TOBA: a current multi-surface platform build for a real 501(c)(3), board as product stakeholders, hard compliance constraints — with a monthly board-member cadence and full-board product presentations pitching a seven-committee consolidation vision",
       "Written stakeholder deliverables at TOBA: an SOP intro, a Licensing & Continuity Plan, a Deploy & Dev SOP, and a formal Continuity Agreement (perpetual license, source-access process, DNS, cost scope, liability) delivered to the org's marketing lead — real evidence of clear written communication and ownership",
       "Navigated real stakeholder disagreement: three board members raised objections (data sovereignty, duplication with an internal effort, infrastructure cost) and all three were resolved — the data-sovereignty concern was answered by writing portability into the Continuity Agreement (repo access, TOBA-owned DNS, a documented hosting/billing takeover, an ownership path, no lock-in)",
       "Automation-with-trust baked in — validation, fraud detection, audit trails, human-in-the-loop agents",
@@ -268,7 +268,7 @@
     },
     {
       "date": "2026-09-10",
-      "event": "open_task #17 (committee count) resolved: nine. The TOBA codebase committee list (CommitteePortalPage.tsx) has 9 and the public site says 9 Active Committees; the SOP text saying seven is stale/generic. TOBA case study §2 keeps nine and now notes leader portals roll out feature-by-feature (Membership, TLI, Civics live). No score change."
+      "event": "open_task #17 (committee count) resolved by Leroy: SEVEN standing committees — Communications & Marketing, Budget & Finance, Legal Affairs, Civics & Political Education, TOBA Leadership Institute, Youth Development, Economic/Fund Development. The Membership Dues Portal (a program) and the annual MLK Leadership Breakfast (an event) run alongside, which is why the codebase has 9 committee spaces and the public site says 9. TOBA case study updated to 'seven' throughout, the seven named in §2 + cover grid, seven-color palette. (I first read 'nine' from the codebase array before Leroy corrected it.) No score change."
     }
   ],
   "tags": [
