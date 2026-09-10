@@ -37,7 +37,7 @@ The permissions risk is real but **containable**: I designed the model as an exp
 
 ## Objections raised, and how they resolved
 
-- **Data sovereignty** *(Finance chair).* Concern: the organization's data held by a third party. I offered two paths — start with public-facing data only until trust was established, or stand up TOBA's own AWS account so it owns storage and backend outright. The board chose to own it. **This changed the architecture** — the platform runs entirely on TOBA-controlled infrastructure, with deploy and backup documented in the SOP.
+- **Data sovereignty** *(Finance chair).* Concern: the organization's data and platform held by a third party. Rather than argue it, I put the answer in writing. **Outcome:** TOBA has full access to the source repositories (nothing hidden or locked), owns its domain and DNS, and has a documented procedure to take over hosting and billing at any time — plus a signed path to convert the license to full ownership. There's no proprietary lock-in: the platform runs on a free hosting tier with no database or server to hold hostage. The Continuity Agreement makes all of it enforceable rather than a promise.
 - **Duplication** *(Youth Development chair).* Concern: why a new platform when an internal effort was already underway. I didn't push a switch — committees could stay on their current tools until the platform clearly did the job better. Adoption happened by comparison, not mandate.
 - **Cost** *(Leadership Institute chair).* Concern: ongoing infrastructure cost. There is none — the build is pro bono, and the cost scope is written into the Continuity Agreement so it stays that way.
 

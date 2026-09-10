@@ -51,7 +51,7 @@ export const productDesignerResume = {
       name: 'TOBA — Membership Platform (Tampa 501(c)(3))',
       description:
         'A dues portal with payments, late fees, and receipts; role-based committee portals with a leader/member permissions model; and a member directory — across web, desktop, and mobile. Designed with the board as product stakeholders: a monthly review cadence, full-board product presentations, a written SOP + continuity-agreement handoff, and three board objections navigated to resolution — inside 501(c)(3) compliance constraints (audit trail, nonpartisan guardrails).',
-      tech: ['Next.js', 'React Native', 'Electron', 'AWS'],
+      tech: ['Next.js 15', 'React Native', 'Electron', 'Vercel'],
       link: 'https://toba-seven.vercel.app/',
     },
     {
