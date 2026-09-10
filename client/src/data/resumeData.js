@@ -11,7 +11,7 @@ export const resumeData = {
     website: "paintbrushmarketing.net"
   },
 
-  summary: `Product designer and creative technologist, Product Designer & Partner at Paintbrush Marketing, and founder of a private tax practice (150+ clients) whose software I designed and built. I ship end-to-end products — Well, a published invoice-automation extension; an account-reconciliation app used on real client books; a life-insurance enrollment platform spanning three portals; a membership platform for a Tampa nonprofit — in React, Next.js, and Node. Fifteen years and 3,000+ design projects across SaaS, mobile, and consumer brands, plus founder-level operating experience in accounting, logistics, and design.`,
+  summary: `Product designer and creative technologist, Product Designer & Partner at Paintbrush Marketing, and founder of a private tax practice (150+ clients) whose software I designed and built. I ship end-to-end products — an account-reconciliation app used on real client books; a life-insurance enrollment platform spanning three portals; a membership platform for a Tampa nonprofit — in React, Next.js, and Node, and I customize open-source tooling (Well, for supplier-invoice extraction) into the practice's workflow. Fifteen years and 3,000+ design projects across SaaS, mobile, and consumer brands, plus founder-level operating experience in accounting, logistics, and design.`,
 
   ventures: [
     {
@@ -82,7 +82,7 @@ export const resumeData = {
         "Lead the TOBA membership platform for a Tampa 501(c)(3): a dues portal, role-based committee portals with a permissions model, and a member directory across web, desktop, and mobile - partnering with the board as product stakeholders within 501(c)(3) compliance constraints",
         "Built an AI label generation system that turns a product brief into structured, compliance-aware label art using GPT, Midjourney/DALL-E, and OpenAI models fine-tuned on prior label sets",
         "Delivered 3,000+ label and packaging designs across energy drink, beer, wine, vape, supplement, and cosmetic brands, including multi-SKU flavor systems and print-ready production files",
-        "Developed autonomous automation: a daily shop-monitoring agent with human-approved reply drafting, a multi-platform publishing agent with dedup and calendar sync, and browser-automation scraping pipelines",
+        "Built assistive automation used as tools, not replacements: a daily shop-monitoring agent that drafts replies for human approval (never auto-sends), a multi-platform publishing helper with dedup and calendar sync, and browser-automation scraping pipelines",
         "Shipped the full stack around the design work - React/Next.js front ends, Node/Express APIs, e-commerce storefronts, and WordPress plugins",
         "Produced social storytelling campaigns totaling 80M+ views and ran subscription content programs across eight platforms",
         "Managed multi-industry client relationships and retainers with a consistently high satisfaction rate"
@@ -95,9 +95,9 @@ export const resumeData = {
       location: "Tampa, FL",
       achievements: [
         "Run a private tax-preparation practice serving 150+ individual and small-business clients",
-        "Prepare Form 990 nonprofit filings on contract for Trydent Advisors (Tallahassee, FL)",
+        "Prepare Form 990 nonprofit filings on contract for Trydent Consulting (Tallahassee, FL), engaged through Christina Lynch, CEO",
         "Designed and built the practice's software end to end (React/Vite + Express, AWS): quarterly expense tracking with quarter/year routing, a 1099 calculator, Form 1040-ES support, data-repair tooling, and Excel/PDF client exports",
-        "Also built Well - a published Chrome extension that automates supplier-invoice retrieval into QuickBooks/Xero - and ReconcileIQ, an account-reconciliation app used on real client books",
+        "Fully customized Well (an open-source supplier-invoice extraction tool) into the practice's books: an import bridge that maps line items to Schedule C categories and routes them by quarter, per-client financial dashboards, and a Form 990 auto-fill from the general ledger. Also built ReconcileIQ, an account-reconciliation app used on real client books",
         "Handle real client financial data with PII-safe storage, backups, and audit-minded record-keeping"
       ]
     },

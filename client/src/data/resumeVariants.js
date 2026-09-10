@@ -22,16 +22,16 @@ export const productDesignerResume = {
     title: 'Senior Product Designer · Design Technologist',
   },
 
-  summary: `Product designer who ships end to end — from problem framing through polished, production-ready UI — and a practicing tax preparer who builds the accounting software he uses. Ten-plus years designing and building web, mobile, and SaaS products: Well, a published Chrome Web Store product that automates invoice retrieval into accounting tools; ReconcileIQ, an account-reconciliation app used by real bookkeeping clients; a life-insurance enrollment platform spanning three user portals; and a membership platform for a Tampa 501(c)(3) built with its board as product stakeholders. I think in systems and workflows, not screens, work fluently in Figma and in React, and use AI to move faster through exploration without lowering the craft bar. Product Designer & Partner at Paintbrush Marketing.`,
+  summary: `Product designer who ships end to end — from problem framing through polished, production-ready UI — and a practicing tax preparer who builds the accounting software he uses. Ten-plus years designing and building web, mobile, and SaaS products: ReconcileIQ, an account-reconciliation app used by real bookkeeping clients; a life-insurance enrollment platform spanning three user portals; and a membership platform for a Tampa 501(c)(3) built with its board as product stakeholders. I also customize open-source tooling into the practice — Well, for supplier-invoice extraction, wired into the books with a category/quarter import bridge and a Form 990 auto-fill. I think in systems and workflows, not screens, work fluently in Figma and in React, and treat AI as a tool in the workflow — it speeds up the work, it doesn't do it. Product Designer & Partner at Paintbrush Marketing.`,
 
   // Product work first — this is the point of the document.
   topProjects: [
     {
-      name: 'Well — Invoice Automation (Chrome Web Store)',
+      name: 'Well, customized — extraction-to-books pipeline',
       description:
-        'A published product that automates supplier-invoice retrieval across 100,000+ portals and pipes the data into accounting tools (QuickBooks, Xero, UBL) — omnichannel capture, self-healing workflows, built-in validation, and an AI invoice extractor that produces month-by-month financial dashboards. Solves the exact "get transactions ready for the books" problem, publicly and verifiably.',
-      tech: ['Chrome Extension', 'AI Extraction', 'QuickBooks / Xero', 'Node.js'],
-      link: 'https://chromewebstore.google.com/detail/opeojlhedogedjbonianohhoijlgknna',
+        'Well is an open-source supplier-invoice/receipt extraction tool (WellApp.ai). I customized it into the tax practice: an import bridge that expands each extracted line item, maps it to one of 28 Schedule C categories, assigns the quarter by transaction date, and writes it into the client’s books — additive only, deduplicated by source file, never overwriting a hand-entered row. The same extracted data drives per-client financial dashboards and an auto-filled Form 990 (general ledger in, completed 990 PDF + Schedules A/B/D/I out). The extraction is a tool; a person reviews and owns every row.',
+      tech: ['Open-source integration', 'Python', 'Schedule C mapping', 'DynamoDB', 'Form 990'],
+      link: 'https://github.com/WellApp-ai/Well',
     },
     {
       name: 'ReconcileIQ — Account Reconciliation App',
@@ -85,9 +85,9 @@ export const productDesignerResume = {
       'Node.js, Express, REST APIs, data modeling',
     ],
     'AI in the Design Process': [
-      'AI-assisted exploration and prototyping that accelerates thinking without compromising craft',
-      'Applied AI product builds - structured generation, task- and cost-aware provider routing, fine-tuning',
-      'A considered point of view on where AI belongs in a creative workflow and where it does not',
+      'AI as a tool in the workflow - it speeds up exploration and prototyping; a person still does the design and owns the output',
+      'Applied AI builds where the model assists a human step - structured generation, task- and cost-aware provider routing, fine-tuning on past work',
+      'A considered point of view on where AI belongs in a creative workflow and where it does not - it never replaces a review or a decision',
     ],
     'Product Sense & Collaboration': [
       'Stakeholder partnership - a monthly board cadence, product presentations, written SOP/continuity docs, and objections navigated to resolution (see TOBA)',
@@ -109,11 +109,11 @@ export const productDesignerResume = {
       dates: '2015 - Present',
       location: 'Tampa, FL',
       achievements: [
-        'Design and ship end-to-end products, client and in-house: Well (published invoice-automation product), ReconcileIQ (account reconciliation), TaxesByRoss (tax-practice platform), InsureBridge (a three-portal enrollment platform), and a medical-courier logistics app - problem definition through production-ready React / Next.js UI',
+        'Design and ship end-to-end products, client and in-house: ReconcileIQ (account reconciliation), TaxesByRoss (tax-practice platform), InsureBridge (a three-portal enrollment platform), and a medical-courier logistics app - problem definition through production-ready React / Next.js UI; plus customizing open-source tooling (Well) into the practice workflow',
         'Lead the TOBA membership platform for a Tampa 501(c)(3) across web, desktop, and mobile: a dues portal, role-based committee portals with a permissions model, and a member directory - partnering with the board as product owners through a monthly review cadence and full-board product presentations, delivering a written SOP and continuity agreement, and navigating three board objections (data ownership, duplication, cost) to resolution',
         'Built a design system in code - component library, type and spacing scales, and a case-study "style registry" that keeps 3,000+ deliverables consistent',
-        'Designed autonomous agents with human-in-the-loop guardrails (review-before-send, audit logging) - deliberately balancing automation against user trust and control',
-        'Use AI across the design process - structured generation, provider routing, and fine-tuning on past work - to accelerate exploration while holding the craft bar',
+        'Designed assistive agents with human-in-the-loop guardrails (review-before-send, audit logging, never auto-sends) - the tool proposes, a person decides',
+        'Use AI across the design process as a tool - structured generation, provider routing, fine-tuning on past work - to speed up exploration while a person holds the craft bar',
         'Own outcomes end to end: scope, design, build, ship, and iterate with real users',
       ],
     },
@@ -123,9 +123,9 @@ export const productDesignerResume = {
       dates: '2015 - Present',
       location: 'Tampa, FL',
       achievements: [
-        'Run a private tax practice serving 150+ individual and small-business clients; prepare Form 990 nonprofit filings on contract for Trydent Advisors (Tallahassee, FL)',
+        'Run a private tax practice serving 150+ individual and small-business clients; prepare Form 990 nonprofit filings on contract for Trydent Consulting (Tallahassee, FL), engaged through Christina Lynch, CEO',
         'Designed and built the practice software end to end (React/Vite + Express, AWS) — quarterly expense tracking with quarter/year routing, a 1099 calculator, Form 1040-ES support, data-repair tooling, dense financial tables, and Excel/PDF client exports',
-        'Built Well (published Chrome extension automating supplier-invoice retrieval into QuickBooks/Xero) and ReconcileIQ (account reconciliation) — I design accounting tools as the person who uses them on real client books',
+        'Built ReconcileIQ (account reconciliation) and fully customized Well — an open-source supplier-invoice extraction tool — into the practice: an import bridge (Schedule C categories, quarter routing, additive/dedup), per-client financial dashboards, and a Form 990 auto-fill from the general ledger. I design accounting tools as the person who uses them on real client books',
         'Designed for compliance and trust: PII-safe storage, backups, audit-minded record-keeping, and human-confirm steps on anything automated',
       ],
     },

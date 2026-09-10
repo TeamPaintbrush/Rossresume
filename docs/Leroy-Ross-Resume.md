@@ -1,7 +1,9 @@
-<!-- NOTE (2026-09-09): header + summary synced to the repositioned résumé.
-     Leroy-Ross-Resume.pdf regenerated from this file (via md-to-pdf) on 2026-09-09 — current.
-     Leroy-Ross-Resume.docx still lags; regenerate with:  pandoc Leroy-Ross-Resume.md -o Leroy-Ross-Resume.docx
-     The 3 client-side PDFs on the site (from resumeData.js) are already current. -->
+<!-- NOTE (2026-09-10): reworded "built Well" → "customized Well (open-source)"; AI language
+     reframed as tool-not-replacement; Trydent Advisors → Trydent Consulting (+ Christina Lynch, CEO).
+     Leroy-Ross-Resume.pdf + .docx are STALE vs this content — regenerate before sending.
+       PDF:   npx md-to-pdf docs/Leroy-Ross-Resume.md
+       DOCX:  pandoc docs/Leroy-Ross-Resume.md -o docs/Leroy-Ross-Resume.docx  (needs pandoc)
+     The 3 client-side PDFs on the site (from resumeData.js) regenerate on download and are current. -->
 
 # Leroy Ross
 
@@ -13,7 +15,7 @@ Tampa, FL · lross@paintbrushmarketing.net · linkedin.com/in/ross711 · behance
 
 ## Summary
 
-Product designer and creative technologist, Product Designer & Partner at Paintbrush Marketing, where product, brand, and packaging design meet AI-driven automation. I design and ship end-to-end products — an account-reconciliation app used by real bookkeeping clients, a life-insurance enrollment platform spanning three portals, a membership platform for a Tampa nonprofit, and a medical-courier logistics app — and build the tools I design with, in React, Next.js, and Node. Fifteen years and 3,000+ design projects across SaaS, mobile, and consumer brands, plus founder-level operating experience.
+Product designer and creative technologist, Product Designer & Partner at Paintbrush Marketing, and founder of a private tax practice (150+ clients) whose software I designed and built. I design and ship end-to-end products — an account-reconciliation app used by real bookkeeping clients, a life-insurance enrollment platform spanning three portals, a membership platform for a Tampa nonprofit, and a medical-courier logistics app — in React, Next.js, and Node, and I customize open-source tooling (Well, for supplier-invoice extraction) into the practice's workflow. AI is a tool in that workflow — it speeds the work up, a person still does it. Fifteen years and 3,000+ design projects across SaaS, mobile, and consumer brands, plus founder-level operating experience.
 
 ---
 
@@ -21,7 +23,7 @@ Product designer and creative technologist, Product Designer & Partner at Paintb
 
 **Creative & Design** — Brand identity and logo systems · Label & packaging design (energy drink, beer, wine, vape, supplement, cosmetic) · Multi-SKU packaging systems · 3D product mockups and renders · Web and UI/UX design · E-commerce storefronts (Shopify, Wix, WordPress)
 
-**AI Tools & Automation** — Applied AI product builds (GPT + image models, JSONL fine-tuning) · Autonomous monitoring and publishing agents · Browser automation (browser_use, Playwright, CDP) · LLM provider routing (OpenAI, Anthropic, DeepSeek) · Prompt engineering and design-workflow automation
+**AI Tools & Automation** — Applied AI builds where the model assists a human step (GPT + image models, JSONL fine-tuning) · Assistive monitoring and publishing helpers (review-before-send, never auto-sends) · Browser automation (browser_use, Playwright, CDP) · LLM provider routing (OpenAI, Anthropic, DeepSeek) · Prompt engineering; AI used as a tool in the design workflow, not a replacement for it
 
 **Marketing & Content** — SEO and conversion copywriting · Content strategy and short-form scriptwriting · Video and social marketing (80M+ views) · Social media branding and subscription content calendars · Google Ads and Meta campaigns
 
@@ -44,15 +46,15 @@ Product designer and creative technologist, Product Designer & Partner at Paintb
 - Lead the TOBA membership platform for a Tampa 501(c)(3): a dues portal, role-based committee portals with a permissions model, and a member directory across web, desktop, and mobile — partnering with the board as product stakeholders.
 - Built an AI label generation system that turns a product brief into structured, compliance-aware label art using GPT, Midjourney/DALL-E, and OpenAI models fine-tuned on prior label sets.
 - Delivered 3,000+ design projects across SaaS, mobile, and consumer brands, including multi-SKU packaging systems and print-ready production files.
-- Developed autonomous automation with human-in-the-loop guardrails; shipped the full stack around the design work in React/Next.js and Node/Express.
+- Built assistive automation with human-in-the-loop guardrails (review-before-send, never auto-sends); shipped the full stack around the design work in React/Next.js and Node/Express.
 
 ### Founder & Tax Preparer — TaxesByRoss
 *Tampa, FL · 2015 – Present*
 
 - Run a private tax-preparation practice serving 150+ individual and small-business clients.
-- Prepare Form 990 nonprofit filings on contract for Trydent Advisors (Tallahassee, FL).
+- Prepare Form 990 nonprofit filings on contract for **Trydent Consulting** (Tallahassee, FL), engaged through Christina Lynch, CEO.
 - **Designed and built the practice's software end to end** (React/Vite + Express, AWS): quarterly expense tracking with quarter/year routing, a 1099 calculator, Form 1040-ES support, data-repair tooling, and Excel/PDF client exports.
-- Also built **Well**, a published Chrome extension that automates supplier-invoice retrieval into QuickBooks/Xero, and **ReconcileIQ**, an account-reconciliation app used on real client books.
+- Built **ReconcileIQ** (account reconciliation) and **fully customized Well** — an open-source supplier-invoice extraction tool — into the practice: an import bridge that maps line items to Schedule C categories and routes them by quarter, per-client financial dashboards, and a Form 990 auto-fill from the general ledger.
 - Handle real client financial data with PII-safe storage, backups, and audit-minded record-keeping.
 
 ### Founder & Product Designer — Titan Couriers App · Rent & Relax USA
@@ -87,7 +89,7 @@ Product designer and creative technologist, Product Designer & Partner at Paintb
 ## AI Tools & Automation
 
 - **AI Label / Flat-Label Generator** — Structured product-label generation from a brief: GPT for copy and compliance zones, Midjourney/DALL-E for artwork, zone-based templates, and JSONL fine-tuning, with a React front end that renders labels live. *(React, OpenAI API, Midjourney, JSONL fine-tuning, Node.js)*
-- **Autonomous Etsy Monitor** — Scheduled agent that checks shop state daily, flags new messages, reviews, and orders, drafts LLM replies for human approval, reports revenue, and automates listing edits and store-wide sales. *(Python, Playwright/CDP, LLM router)*
+- **Etsy Monitor (assistive)** — Scheduled tool that checks shop state daily, flags new messages, reviews, and orders, drafts LLM replies for human approval (never auto-sends), reports revenue, and handles listing edits and store-wide sales on request. *(Python, Playwright/CDP, LLM router)*
 - **Daily Multi-Platform Social Poster** — Unattended publishing to Behance, Dribbble, and Pinterest with pre/post dedup checks, calendar sync, per-platform guardrails, and run reporting. *(Python, browser automation, scheduler)*
 - **Command Center Board** — Auto-generated project dashboard served on the local network, rebuilt on a schedule, with cross-project sync via file watchers and editor hooks. *(Node.js, Python)*
 - **Browser-Automation Scraper Pipelines** — Real-Chrome-over-CDP scraping and auditing agents for market research and portfolio/link checks across Behance, Etsy, Pinterest, and Dribbble. *(browser_use, Playwright, Python)*

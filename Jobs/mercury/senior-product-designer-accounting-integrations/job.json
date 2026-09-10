@@ -18,13 +18,13 @@
   "priority": 5,
   "fit": {
     "score": 8.2,
-    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds accounting software: Well (a PUBLISHED Chrome Web Store product that automates supplier-invoice retrieval into QuickBooks/Xero — i.e. Mercury's literal problem statement), ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), and TaxesByRoss (the platform behind his own tax practice). Plus TOBA (a live 501(c)(3) platform build with a monthly board-member cadence, full-board product presentations, a written SOP + licensing + continuity-agreement handoff, and three documented board objections he resolved — data sovereignty, duplication, and cost), InsureBridge, and Titan Couriers. All five are built as structured case studies on the Paintbrush /use-cases page — each in its own visual language — plus a standalone 1-page decision record for the TOBA consolidation. TOBA and InsureBridge now carry real product screenshots; ReconcileIQ, Well, and Titan are still on coded mockups aligned to the live marketing previews. The remaining gap is narrow: real screens on the two accounting case studies (ReconcileIQ, Well), and collaboration has been design + stakeholders rather than design + PM + eng + research inside a product org.",
+    "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds the accounting software he uses: ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), TaxesByRoss (the platform behind his own tax practice), and an extraction-to-books pipeline built on Well (the open-source supplier-invoice extractor by WellApp.ai — he customized it, he didn't write it): a Schedule C category / quarter import bridge, per-client financial dashboards, and a Form 990 auto-fill from the general ledger. That IS Mercury's literal problem statement — getting transactions ready for the books — solved on real client data. Plus TOBA (a live 501(c)(3) platform build with a monthly board-member cadence, full-board product presentations, a written SOP + licensing + continuity-agreement handoff, and three documented board objections he resolved — data sovereignty, duplication, and cost), InsureBridge, and Titan Couriers. All five are built as structured case studies on the Paintbrush /use-cases page — each in its own visual language — plus a standalone 1-page decision record for the TOBA consolidation. TOBA and InsureBridge now carry real product screenshots; ReconcileIQ, Well, and Titan are still on coded mockups aligned to the live marketing previews. The remaining gap is narrow: real screens on the two accounting case studies (ReconcileIQ, Well), and collaboration has been design + stakeholders rather than design + PM + eng + research inside a product org.",
     "criteria": [
       {
         "name": "6+ yrs leading complex, end-to-end product design initiatives",
         "weight": 0.2,
         "score": 8,
-        "note": "10+ yrs, 'Product Designer & Partner', and a deep bench of shipped products — Well (published), ReconcileIQ, TaxesByRoss, TOBA (multi-surface, board stakeholders), InsureBridge, Titan. No engineering partner or formal research is what keeps it at 8, not 9."
+        "note": "10+ yrs, 'Product Designer & Partner', and a deep bench of shipped products — ReconcileIQ, TaxesByRoss, TOBA (multi-surface, board stakeholders), InsureBridge, Titan, plus the extraction-to-books pipeline customized on Well. No engineering partner or formal research is what keeps it at 8, not 9."
       },
       {
         "name": "Thinks in systems & workflows, not screens",
@@ -36,7 +36,7 @@
         "name": "Learns new domains obsessively until can challenge experts",
         "weight": 0.1,
         "score": 9,
-        "note": "He doesn't learn accounting — he has run a private tax practice since 2015 (150+ clients), prepares Form 990 filings on contract for Trydent Advisors (Tallahassee), and built both his practice software (TaxesByRoss) and a published invoice-automation product (Well). Domain operator, not learner."
+        "note": "He doesn't learn accounting — he has run a private tax practice since 2015 (150+ clients), prepares Form 990 filings on contract for Trydent Consulting (Tallahassee, via Christina Lynch, CEO), built his practice software (TaxesByRoss + ReconcileIQ), and customized the open-source Well extractor into it (Schedule C mapping, quarter routing, 990 auto-fill). Domain operator, not learner."
       },
       {
         "name": "Turning highly complex workflows into simple experiences",
@@ -60,7 +60,7 @@
         "name": "Uses AI to accelerate exploration without compromising craft",
         "weight": 0.05,
         "score": 10,
-        "note": "Provider routing, fine-tuning, explicit 'where AI does not belong' rules — and Well is an AI-native accounting product (extractor, fraud detector, receipt generator)."
+        "note": "Provider routing, fine-tuning on past work, explicit 'where AI does not belong' rules, and human-confirm on anything a model touches. The extraction-to-books pipeline is the applied case: an AI extractor (open-source Well) feeds structured data, and every row is categorized, quarter-assigned, and reviewed by a person before it lands in the books. AI as a tool, never a replacement — matches the résumé's stated stance."
       },
       {
         "name": "Polished UI craft",
@@ -70,8 +70,8 @@
       }
     ],
     "strengths": [
-      "Well — a PUBLISHED, publicly verifiable product that solves Mercury's exact stated problem (invoice/transaction data -> the books), AI-native",
-      "Practicing tax preparer since 2015 (150+ clients; contract 990 work for Trydent Advisors, Tallahassee) who builds his own accounting software — a domain operator, not a domain learner",
+      "Built an extraction-to-books pipeline on top of Well (open-source invoice extraction): a Schedule C category / quarter import bridge, per-client financial dashboards, and a Form 990 auto-fill from a ReconcileIQ general ledger — Mercury's exact stated problem (transaction data -> the books), running on real client data",
+      "Practicing tax preparer since 2015 (150+ clients; contract 990 work for Trydent Consulting, Tallahassee, via Christina Lynch, CEO) who builds his own accounting software — a domain operator, not a domain learner",
       "TOBA: a current multi-surface platform build for a real 501(c)(3), board as product stakeholders, hard compliance constraints — with a monthly board-member cadence and full-board product presentations pitching a seven-committee consolidation vision",
       "Written stakeholder deliverables at TOBA: an SOP intro, a Licensing & Continuity Plan, a Deploy & Dev SOP, and a formal Continuity Agreement (perpetual license, source-access process, DNS, cost scope, liability) delivered to the org's marketing lead — real evidence of clear written communication and ownership",
       "Navigated real stakeholder disagreement: three board members raised objections (data sovereignty, duplication with an internal effort, infrastructure cost) and all three were resolved — the data-sovereignty concern was answered by writing portability into the Continuity Agreement (repo access, TOBA-owned DNS, a documented hosting/billing takeover, an ownership path, no lock-in)",
@@ -81,19 +81,19 @@
     ],
     "gaps": [
       "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients (incl. a real monthly board cadence and full-board product pitches at TOBA), not design + PM + eng + research inside a product org",
-      "The last soft spot: case-study screens are still coded skeletons. Live URLs now captured for all five products (links[]), but the app screens sit behind Sign In — InsureBridge, TOBA, TaxesByRoss, ReconcileIQ each have a polished marketing site + a login wall; Well is a published Chrome extension + an AI backend (visual assets = the Web Store listing + the generated financial dashboards). Real logged-in screenshots (or demo logins) from Leroy are the remaining input."
+      "Remaining screenshot work: Titan is still on a coded mockup; a few ReconcileIQ screens (reconciliation, trial balance, business switcher, audit log) are too. TOBA, InsureBridge, and the ReconcileIQ+TaxesByRoss core screens now use real captures. The standalone 'Well' case study needs to be retired or reframed — Well is open-source (WellApp.ai), not Leroy's build (open_task #18)."
     ],
     "analyzedAt": "2026-09-09"
   },
   "improvementPlan": {
-    "summary": "The score is strong apply-range (~8.2, up from ~7.5). Every move here is packaging, not new work. STATUS (2026-09-09): all five product case studies are built as structured skeletons on the Paintbrush /use-cases 'Product & Platforms' track — Well, ReconcileIQ + TaxesByRoss, TOBA, InsureBridge, Titan Couriers — each in its own visual language, real logos, real brand colors, a geometrically-accurate iPhone frame on Titan. That lifted Polished UI craft 6 → 7 (7.5 → 7.8). The TOBA stakeholder record then filled in over three passes: board cadence + full-board pitches (→ 7.8), a written SOP / licensing / continuity-agreement handoff (→ 8.1), and three documented board objections resolved — data sovereignty (portability written into the Continuity Agreement), duplication, cost — taking Product judgment / communication / alignment 6 → 9 and the overall fit to 8.2. Remaining: (1) drop real product screenshots into the REPLACE markers → craft 8-9; (2) extract the TOBA design reasoning + the three objections into a standalone 1-page decision record to attach to applications (the content now lives in the case study; this is packaging it portably). Fully executed, ~8.7.",
+    "summary": "The score is strong apply-range (~8.2, up from ~7.5). Every move here is packaging, not new work. STATUS (2026-09-10): the product case studies are built on the Paintbrush /use-cases 'Product & Platforms' track — ReconcileIQ + TaxesByRoss, TOBA, InsureBridge, Titan Couriers (the standalone 'Well' one needs retiring/reframing per open_task #18 — Well is open-source, not Leroy's). Real product screenshots are in for TOBA, InsureBridge, and the ReconcileIQ + TaxesByRoss core screens. That lifted Polished UI craft 6 → 7 (7.5 → 7.8). The TOBA stakeholder record then filled in over three passes: board cadence + full-board pitches (→ 7.8), a written SOP / licensing / continuity-agreement handoff (→ 8.1), and three documented board objections resolved — data sovereignty (portability written into the Continuity Agreement), duplication, cost — taking Product judgment / communication / alignment 6 → 9 and the overall fit to 8.2. Remaining: (1) drop real product screenshots into the REPLACE markers → craft 8-9; (2) extract the TOBA design reasoning + the three objections into a standalone 1-page decision record to attach to applications (the content now lives in the case study; this is packaging it portably). Fully executed, ~8.7.",
     "targetScore": 8.7,
     "actions": [
       {
-        "do": "[SKELETON BUILT — portfolio/brand/Well/, Style Registry row 10; awaiting real screenshots] Make Well the centerpiece case study: the problem (invoice data trapped across 100,000+ portals), the users (founders / lean finance teams), the core flows (capture -> validate -> export to QuickBooks/Xero), 6-8 real screens, the AI-extraction and self-healing design decisions, and the fact that it is live on the Chrome Web Store.",
-        "why": "Well solves Mercury's literal problem statement, it is publicly verifiable, and it is AI-native. It answers 'do you know this domain', 'is the UI craft real', and 'can you use AI without lowering the bar' in one piece.",
-        "leverages": "Well (Downloads/TaxesbyRoss/Well-main) — published product with ai-invoice-extractor, fraud detector, pl-platform, and real LLC dashboards",
-        "lifts": "Polished UI craft 6 → 8; Turning complex workflows simple 8 → 9; Uses AI 10 (reinforced)",
+        "do": "Reframe the 'Well' case study to 'Well, customized — the extraction-to-books pipeline' (or fold it into ReconcileIQ+TaxesByRoss §05, which is already reframed). Well is open-source (WellApp.ai); the story is Leroy's integration: the Schedule C / quarter import bridge, per-client financial dashboards, the pl-platform P&L backend, and the Form 990 auto-fill from a ReconcileIQ general ledger. Show the bridge design (how a raw line item becomes a categorized, quarter-routed, human-reviewed book entry) and the 990 output.",
+        "why": "This is Mercury's literal problem statement — transaction data to the books — and it's genuinely Leroy's work (the integration), unlike 'built Well' which overclaims. Also the cleanest 'AI as a tool, not a replacement' demonstration: model extracts, person owns every row.",
+        "leverages": "Downloads/TaxesbyRoss/Well-main — scripts/well_quarterly_import.py, build_dashboard.py, pl-platform/, Form_990/auto_generate.py; the real PMD_LLC dashboard",
+        "lifts": "Turning complex workflows simple 8 → 9; Uses AI 10 (reinforced); Thinks in systems 8 → 9",
         "effort": "M"
       },
       {
