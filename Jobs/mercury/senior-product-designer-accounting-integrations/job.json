@@ -273,6 +273,10 @@
     {
       "date": "2026-09-10",
       "event": "InsureBridge case study got its first real product screenshots (portfolio/brand/InsureBridge/assets/): consumer dashboard (§01), agent Leads/CRM pipeline (§02), admin dashboard + agent directory (§03 as a side-by-side pair). §03 reframed from \"carrier portal\" to \"admin portal\" — the built product’s third portal is a platform-admin surface (carriers/licensing/commissions/compliance/audit are sections inside it). Overview + §04 + stats now say consumer/agent/admin. Two of five case studies now have real screens (TOBA, InsureBridge). Polished UI craft still 7 pending ReconcileIQ, Well, Titan."
+    },
+    {
+      "date": "2026-09-10",
+      "event": "InsureBridge case study fully photographed: the two full-bleed .photo bands (\"worst possible moment for reading fine print\" and \"Protect what matters most\") now use real images pulled from InsureBridge’s own live site; gradient placeholders removed. Combined with the 4 real product screenshots + the portal rename, InsureBridge is now the most complete of the five case studies (no REPLACE markers left)."
     }
   ],
   "tags": [
