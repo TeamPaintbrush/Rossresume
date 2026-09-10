@@ -277,6 +277,10 @@
     {
       "date": "2026-09-10",
       "event": "InsureBridge case study fully photographed: the two full-bleed .photo bands (\"worst possible moment for reading fine print\" and \"Protect what matters most\") now use real images pulled from InsureBridge’s own live site; gradient placeholders removed. Combined with the 4 real product screenshots + the portal rename, InsureBridge is now the most complete of the five case studies (no REPLACE markers left)."
+    },
+    {
+      "date": "2026-09-10",
+      "event": "ReconcileIQ + TaxesByRoss case study got 4 real product screenshots (ReconcileIQ dashboard hero+§01, TaxesByRoss practice dashboard §04, Quarterly Expenses §04 with client PII blurred, 1099 Tax Set-Aside Calculator §06); section copy rewritten with real features. §05 reframed to \"The extraction-to-books pipeline.\" INVESTIGATION FINDING: Well is open-source by WellApp.ai (MIT, Copyright 2025 WellApp.ai) — Leroy is a user/contributor, NOT the author. What he built = the Well->TaxesByRoss import bridge (28 Schedule C categories, quarter routing), per-client financial dashboards, the pl-platform P&L backend, and the Form 990 auto-fill (ReconcileIQ ledger -> filled 990 + Schedules A/B/D/I). Logged open_task #18 (reword ~8 \"built Well\" claims; retire/reframe the standalone Well case study) + #19 (Trydent Consulting vs Advisors, Christina Lynch contact). Score unchanged pending Leroy decisions + the remaining coded ReconcileIQ screens."
     }
   ],
   "tags": [
