@@ -72,7 +72,7 @@
     "strengths": [
       "Well — a PUBLISHED, publicly verifiable product that solves Mercury's exact stated problem (invoice/transaction data -> the books), AI-native",
       "Practicing tax preparer since 2015 (150+ clients; contract 990 work for Trydent Advisors, Tallahassee) who builds his own accounting software — a domain operator, not a domain learner",
-      "TOBA: a current multi-surface platform build for a real 501(c)(3), board as product stakeholders, hard compliance constraints — with a monthly board-member cadence and full-board product presentations pitching a seven-committee consolidation vision",
+      "TOBA: a current multi-surface platform build for a real 501(c)(3), board as product stakeholders, hard compliance constraints — with a monthly board-member cadence and full-board product presentations pitching a nine-committee consolidation vision",
       "Written stakeholder deliverables at TOBA: an SOP intro, a Licensing & Continuity Plan, a Deploy & Dev SOP, and a formal Continuity Agreement (perpetual license, source-access process, DNS, cost scope, liability) delivered to the org's marketing lead — real evidence of clear written communication and ownership",
       "Navigated real stakeholder disagreement: three board members raised objections (data sovereignty, duplication with an internal effort, infrastructure cost) and all three were resolved — the data-sovereignty concern was answered by writing portability into the Continuity Agreement (repo access, TOBA-owned DNS, a documented hosting/billing takeover, an ownership path, no lock-in)",
       "Automation-with-trust baked in — validation, fraud detection, audit trails, human-in-the-loop agents",
@@ -130,7 +130,7 @@
     "identified": "2026-09-09",
     "applied": null,
     "firstResponse": null,
-    "lastActivity": "2026-09-09"
+    "lastActivity": "2026-09-10"
   },
   "contacts": [],
   "links": [
@@ -265,6 +265,10 @@
     {
       "date": "2026-09-09",
       "event": "TOBA §7 (Working with the board): the SOP REPLACE slot is now a real screenshot card of the in-product SOP & Documentation screen, and the write-up is pulled from the live docs (localhost:7430/admin/developer): four tabs (Intro / Licensing & Continuity Plan / Deploy & Dev SOP / Continuity Agreement), real cost scope (Vercel free + domain, under $25/yr, no DB/server/storage), 30-day source-access process, drafts-not-legal-advice disclaimer. FLAGGED to Leroy: (1) SOP says seven standing committees, case study says nine; (2) the Data-ownership objection resolution as written in the resume variant + decision-record-toba-consolidation.md (\"TOBA’s own AWS account, datasets, backend\") contradicts the real SOP (Vercel free tier, no AWS) — §7 objection text softened to match the SOP; resume + decision record need the same fix if the SOP is authoritative."
+    },
+    {
+      "date": "2026-09-10",
+      "event": "open_task #17 (committee count) resolved: nine. The TOBA codebase committee list (CommitteePortalPage.tsx) has 9 and the public site says 9 Active Committees; the SOP text saying seven is stale/generic. TOBA case study §2 keeps nine and now notes leader portals roll out feature-by-feature (Membership, TLI, Civics live). No score change."
     }
   ],
   "tags": [
