@@ -261,6 +261,10 @@
     {
       "date": "2026-09-09",
       "event": "TOBA case study §03 now shows two role-scoped views of the Work Management surface from real screenshots: the Committee Member portal (My Assignments, member/viewer, blue) and the Committee Leader console (oversight panel + leader tools, purple). Plus the Members Portal (dues, green) in §01. §05 (\"role-based views, not role-based apps\") now points at the three real screens as the proof. Four real TOBA screenshots total in assets/. This directly strengthens \"Thinks in systems & workflows\" and \"Polished UI craft\" evidence for the case study, though scores unchanged pending the other four case studies."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "TOBA §7 (Working with the board): the SOP REPLACE slot is now a real screenshot card of the in-product SOP & Documentation screen, and the write-up is pulled from the live docs (localhost:7430/admin/developer): four tabs (Intro / Licensing & Continuity Plan / Deploy & Dev SOP / Continuity Agreement), real cost scope (Vercel free + domain, under $25/yr, no DB/server/storage), 30-day source-access process, drafts-not-legal-advice disclaimer. FLAGGED to Leroy: (1) SOP says seven standing committees, case study says nine; (2) the Data-ownership objection resolution as written in the resume variant + decision-record-toba-consolidation.md (\"TOBA’s own AWS account, datasets, backend\") contradicts the real SOP (Vercel free tier, no AWS) — §7 objection text softened to match the SOP; resume + decision record need the same fix if the SOP is authoritative."
     }
   ],
   "tags": [
