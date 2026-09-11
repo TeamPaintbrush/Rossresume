@@ -1,6 +1,6 @@
 # Fit analysis — Mercury Senior Product Designer, Accounting Integrations
 
-**Last scored:** 2026-09-11 (re-scored 11 times as evidence surfaced) · **Weighted score: ~8.6 / 10** · **Verdict: the best-matched of the four roles — a domain operator, not a domain learner, now with real quantified outcomes behind the simplification claims. Titan's driver-app shot is the last screenshot gap; the 5-person research pass (open_task #21) is the only real lever left on the score.**
+**Last scored:** 2026-09-11 (re-scored 12 times as evidence surfaced) · **Weighted score: ~8.7 / 10** — the original target. · **Verdict: the best-matched of the four roles — a domain operator, not a domain learner, with real quantified outcomes behind the simplification claims and every case study fully real-screenshotted. The 5-person research pass (open_task #21) is the only real lever left on the score, and it's optional — this is a strong apply-now number.**
 
 `job.json` is the source of truth for the live scorecard, verdict, strengths, gaps, and the improvement plan. This file is the narrative behind it.
 
@@ -21,9 +21,9 @@ Leroy is a **practicing tax preparer since 2015 (150+ clients) who builds the ac
 | Balances automation with transparency, trust, user control | 10% | 8/10 | Human-approved agents; TOBA audit trail; every pipeline row categorized + quarter-assigned + human-reviewed before it lands in the books. At governance level: answered a board data-sovereignty concern by writing portability into the Continuity Agreement — full source-repo access, TOBA-owned domain/DNS, a documented hosting/billing takeover, no proprietary lock-in. |
 | Product judgment, clear communication, high ownership | 15% | 9/10 | TOBA redirect from "random information" to systematic building; monthly board cadence + full-board product pitches; a written SOP / Licensing & Continuity Plan / Deploy SOP / Continuity Agreement handoff to the org's marketing lead; **three documented board objections resolved** (data sovereignty → portability written into the Continuity Agreement, duplication → adoption by comparison, cost → pro bono). Packaged in the TOBA case study + a standalone 1-page decision record. Volunteer board not a product-company pod is what holds it at 9. |
 | Uses AI to accelerate exploration without compromising craft | 5% | 10/10 | Provider routing, fine-tuning, explicit "where AI does not belong" rules, human-confirm on anything a model touches — the pipeline is the applied case (AI extracts, a person owns every row). |
-| Polished UI craft | 10% | 9/10 | Structured, on-brand case studies on `/use-cases`. **TOBA (6), InsureBridge (4 + 2 photos), Titan Couriers (4 screens), and ReconcileIQ (9 screens, blurred) are all real.** Well now has a real screenshot (its generated per-client dashboard, identity blurred) and a real cover — a data-flow diagram (Receipt → Well extracts → risk score → import bridge → the books → Form 990) in place of the coded capture-panel mock, since Well has no other product UI. One gap left: a Titan driver-app mobile screen, held back for its own blur (a real PayPal email). Bumps to 10 once that lands. |
+| Polished UI craft | 10% | 10/10 | **All five case studies are fully real-screenshotted, zero coded product-UI slots left.** TOBA (6), InsureBridge (4 + 2 photos), ReconcileIQ (9 screens, blurred), Well (dashboard + cover diagram), and Titan Couriers (4 desktop + 4 mobile driver-app screens, including a live-navigation phone-frame capture — the Earnings screen's PayPal payout email redacted before sending). Only two coded spots remain anywhere in the portfolio (Titan's recipient-tracking mock, two Well build-detail sections) — genuinely no real capture available yet. |
 
-Weighted: Σ(weight × score) = **8.6**, stored as 8.6.
+Weighted: Σ(weight × score) = **8.7**, stored as 8.7.
 
 ## What's resolved
 
@@ -34,16 +34,25 @@ Weighted: Σ(weight × score) = **8.6**, stored as 8.6.
 - **The "judgment / communication" artifact gap** — closed. The decision record (`decision-record-toba-consolidation.md`) + the TOBA case-study "working with the board" section carry it.
 - **Live product URLs** — captured for all five (`job.json` `links[]`).
 
-## The one remaining input
+## Screenshot work — complete
 
-**One Titan driver-app screen — that's the whole remaining list.**
+All five case studies are fully real-screenshotted; zero coded product-UI slots remain anywhere
+in the portfolio except two spots with genuinely no capture available (Titan's recipient-tracking
+mock, two Well build-detail sections). Polished UI craft is 10/10. The last real lever on the
+overall score is `open_task.md` #21, the optional user-research pass — everything else that could
+move the number by shipping more work is done.
 
-- **Well** is done: a real screenshot (the generated per-client dashboard, identity blurred) plus a real cover — a data-flow diagram in place of the coded capture-panel mock, since Well has no other product UI to screenshot.
-- **Titan Couriers** — 4 real screens are in (Shipping, dispatch/live map, Tracking, Courier Contracts). One driver-app mobile screen is still pending — it shows a real PayPal payout email that needs blurring first.
-- **ReconcileIQ is done.** The isolation bug that surfaced during the first capture attempt (a different client's user showing as the account owner) is fixed and confirmed; the practice re-shot all 9 screens on the real client, and rather than switch to demo data, Leroy chose to blur the identifying details — business name, address, owner/staff names — before publishing, leaving the numbers and structure visible.
-
-TOBA and InsureBridge are done. Polished UI craft is already 9/10 — the last real lever on the
-overall score is `open_task.md` #21, the user-research pass.
+- **Titan Couriers** — 4 desktop screens (Shipping, dispatch/live map, Tracking, Courier
+  Contracts) plus 4 real driver-app mobile screens (live navigation filling the phone frame in
+  section 03, plus home/perks/earnings). The Earnings screen's PayPal payout email was redacted
+  before sending.
+- **Well** — a real screenshot (the generated per-client dashboard, identity blurred) plus a real
+  cover — a data-flow diagram in place of the coded capture-panel mock, since Well has no other
+  product UI to screenshot.
+- **ReconcileIQ** — the isolation bug that surfaced during the first capture attempt (a different
+  client's user showing as the account owner) is fixed and confirmed; all 9 screens re-shot on the
+  real client with identifying details blurred, leaving the numbers and structure visible.
+- **TOBA and InsureBridge** were already done.
 
 ## A closer read of the JD, beyond the tracked gaps (2026-09-11)
 

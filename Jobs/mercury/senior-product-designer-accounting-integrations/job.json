@@ -17,7 +17,7 @@
   "status": "identified",
   "priority": 5,
   "fit": {
-    "score": 8.6,
+    "score": 8.7,
     "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds the accounting software he uses: ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), TaxesByRoss (the platform behind his own tax practice), and an extraction-to-books pipeline built on Well (the open-source supplier-invoice extractor by WellApp.ai — he customized it, he didn't write it): a Schedule C category / quarter import bridge, per-client financial dashboards, and a Form 990 auto-fill from the general ledger. That IS Mercury's literal problem statement — getting transactions ready for the books — solved on real client data. Plus TOBA (a live 501(c)(3) platform build with a monthly board-member cadence, full-board product presentations, a written SOP + licensing + continuity-agreement handoff, and three documented board objections he resolved — data sovereignty, duplication, and cost), InsureBridge, and Titan Couriers. All five are built as structured case studies on the Paintbrush /use-cases page — each in its own visual language — plus a standalone 1-page decision record for the TOBA consolidation. TOBA and InsureBridge now carry real product screenshots; ReconcileIQ, Well, and Titan are still on coded mockups aligned to the live marketing previews. The remaining gap is narrow: real screens on the two accounting case studies (ReconcileIQ, Well), and collaboration has been design + stakeholders rather than design + PM + eng + research inside a product org.",
     "criteria": [
       {
@@ -65,8 +65,8 @@
       {
         "name": "Polished UI craft",
         "weight": 0.1,
-        "score": 9,
-        "note": "Structured, on-brand case studies on /use-cases. TOBA (6), InsureBridge (4 + 2 photos), Titan Couriers (4 screens), and ReconcileIQ (9 screens, blurred) are all real. Well now has its first real capture too: a generated per-client financial dashboard (real Well/TaxesByRoss output, business name/owner/EIN/address blurred, revenue figures and the top-customers chart left visible) replacing the coded section 03 mockup. The cover now has a real data-flow diagram (Receipt -> Well extracts -> Risk score -> Import bridge -> The books -> Form 990) in place of the coded capture-panel mock, since Well has no other product UI. Remaining: one Titan driver-app mobile screen (held back for its own blur - a real PayPal email). Bumps to 10 once that lands."
+        "score": 10,
+        "note": "All five case studies are now fully real-screenshotted, zero coded product-UI slots left: TOBA (6), InsureBridge (4 + 2 photos), ReconcileIQ (9 screens, blurred), Well (dashboard + cover diagram), and Titan Couriers (4 desktop + 4 mobile driver-app screens, including a live-navigation phone-frame capture; the Earnings screen's PayPal payout email was redacted before sending). The only remaining coded UI in the entire portfolio is Titan's section 05 recipient-tracking mock and Well's two build-detail sections, for which no real capture exists yet."
       }
     ],
     "strengths": [
@@ -84,7 +84,6 @@
     ],
     "gaps": [
       "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients (incl. a real monthly board cadence and full-board product pitches at TOBA), not design + PM + eng + research inside a product org",
-      "Screenshot work is essentially done: TOBA, InsureBridge, ReconcileIQ (9 screens, blurred), and Well (dashboard + cover diagram) are all real. One Titan driver-app mobile screen remains, pending a PayPal-email blur.",
       "Scale — every shipped product serves a small user base (TOBA: a few hundred members; TaxesByRoss: 150+ clients; ReconcileIQ, InsureBridge, Titan similarly modest). Nothing demonstrates designing for volume — edge-case diversity or performance at the scale Mercury's actual customer base implies. Structural, not fixable before applying.",
       "Every documented stakeholder disagreement (the three TOBA board objections) resolves with Leroy's original plan winning after explanation — no story shows a design that changed direction because a stakeholder's pushback was correct. Senior judgment usually evidences both holding a position AND updating when wrong; only the first half is shown. Fixable only if a real counter-example exists in his history — do not manufacture one.",
       "Security/compliance rigor specific to regulated money movement (fraud, AML-adjacent controls) — a sharper version of the fintech/banking gap. TOBA's nonprofit governance and InsureBridge's licensing compliance are lighter-weight than what Mercury's domain implies. Same honest-gap treatment: acknowledge if asked, don't chase."
@@ -323,6 +322,10 @@
     {
       "date": "2026-09-11",
       "event": "Leroy supplied real before/after numbers for open_task #23: ReconcileIQ reconciliation 2-6 hours -> under 90 minutes (designing for accuracy tools first); TaxesByRoss per-client quarterly processing 1-2 hours -> 15-20 minutes; TOBA is a 47-year-old organization with 500+ members that had no system to collect dues at all before this platform. Added to the resume (resumeData.js, resumeVariants.js, standalone Leroy-Ross-Resume.md), the ReconcileIQ+TaxesByRoss case study (new pagestats card + section 04 line), and the TOBA case study (new pagestats cards, overview paragraph, problem-list bullet -- also fixed a stale '9 committees' reference in TOBA_Case_Study.md while there). Both case studies verified in-browser, no overflow; 53/53 tests pass. 'Turning highly complex workflows into simple experiences' 8 -> 9 (real numbers, not just claims). Gap #5 (no outcome metrics) resolved -- removed from fit.gaps. Overall fit 8.5 -> 8.6."
+    },
+    {
+      "date": "2026-09-11",
+      "event": "Titan Couriers driver-app mobile screens landed - the last screenshot gap across all five case studies. TC_mobile_nav.jpg (live turn-by-turn navigation) now fills the coded phone frame in section 03; a 3-up gallery below it adds TC_mobile_home.jpg / TC_mobile_perks.jpg / TC_mobile_earnings.jpg (route-start home, sign-on perks, earnings/payout). The Earnings screen's PayPal payout email was already blacked out by Leroy before sending - confirmed intact after image optimization. Verified in-browser: all 4 images load, no overflow. Polished UI craft 9 -> 10 (every case study is now fully real, zero coded product-UI slots except two genuinely-no-capture-available spots). Overall fit 8.6 -> 8.7 - at the original ~8.7 target."
     }
   ],
   "tags": [
