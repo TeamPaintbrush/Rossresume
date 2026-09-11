@@ -59,9 +59,14 @@ decision** / **the trap it avoids**.
 - "Where's the human in this?" → every row is categorized, quarter-assigned, and reviewed before it books; uncertain items go to a review queue, not the totals; manual corrections are protected from re-import.
 - "You designed this alone — how do you know it's right?" → I run the reconciliations myself; the software is shaped by using it on real client books every quarter. (Gap to acknowledge: no eng partner / formal research — the planned 5 user interviews close that.)
 
-> **Data note:** the ReconcileIQ screens show "Murray's Tire Service" — confirm this is demo/seed
-> data before showing it, or the business name + people (Jeffery Darden, Mike Murray, Dana
-> Whitfield) need blurring.
+> **Status of these screens:** the ReconcileIQ captures were pulled — they showed a real client
+> (Murray's Tire Service) and a client-data-isolation bug (a different client's user showing as the
+> owner). Being re-captured on the Acme Corp LLC demo business after the isolation fix. The design
+> points above still hold — they're about how the screens are built, not the data in them.
+>
+> **If asked about the isolation bug in an interview:** it's a real find — running the software on
+> live client books is exactly how you catch a cross-tenant leak that a spec review misses. Frame
+> it as evidence of the operator's-eye QA, not as a weakness.
 
 ## Talking points / phrases to keep
 
