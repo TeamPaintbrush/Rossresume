@@ -24,12 +24,16 @@ Ross Resume: a personal **digital-résumé** site for Leroy Ross (Paintbrush Mar
 - No versioned releases cut yet — everything sits under `[Unreleased]`. Repo history is a single initial commit (`6af1265`).
 
 ## Open decisions & investigations
-<!-- Source: docs/open_task.md — Last synced: 2026-09-09 -->
+<!-- Source: docs/open_task.md — Last synced: 2026-09-10 -->
 
-**Needs investigation (2026-09-09, from the Jobs tracker work):**
+**Needs investigation:**
 - #11 — re-pull the live Tampa Bay Sun FC "Graphic Designer (Entry Level)" JD; `Jobs/tampa-bay-sun-fc/graphic-designer-entry-level/posting.md` is reconstructed from Leroy's concept board, not verbatim.
 - #12 — `Jobs/_workflow-sources.json` hard-codes absolute machine paths to both repos; only resolves on Leroy's machine (handled gracefully elsewhere).
-- #13 — RESOLVED 2026-09-09: TaxesByRoss restored to the main résumé (2026-09-08 removal was a mistake). New experience entry — private tax practice since 2015, 150+ clients, contract Form 990 work for Trydent Advisors (Tallahassee FL), built software highlighted.
+- #15 — Mercury case-study screenshots: essentially done (TOBA, InsureBridge, ReconcileIQ, Well all real). One gap left — a Titan driver-app mobile screen held back pending a PayPal-email blur.
+- #21 — **reminder:** run a 5-person user-research pass (TOBA leaders or TaxesByRoss clients, same 4–5 questions on one workflow, write down what they said, name one change made because of it). This is the one thing that can still move the Mercury Accounting Integrations fit score — the top-weighted criterion (20%) is held at 8/10 by "no engineering partner or formal research," which screenshots can't fix.
+- #22 — Leroy asked Trydent Consulting (Christina Lynch, CEO) about streamlining their Form 990 process and has already built out some ideas; tracking as a potential stronger Trydent story for the résumé/case study once it develops.
+
+**Mercury Senior Product Designer, Accounting Integrations — fit 8.5/10** (`Jobs/mercury/senior-product-designer-accounting-integrations/`), the best-matched of Leroy's four tracked roles. Five case studies on the Paintbrush `/use-cases` page (TOBA, InsureBridge, ReconcileIQ+TaxesByRoss, Well customized, Titan Couriers), four now fully real-screenshotted. `interview-notes.md` has a "quiz me" table for the ReconcileIQ/Well screens. See `fit-analysis.md` for the full scorecard and `docs/open_task.md` #21/#22 for what's left.
 
 **Needs decision:**
 - Whether the Express/Mongo server gets a deployment target, or the deployed site is accepted as static-only. Portfolio and Designs render entirely from local data; the contact form is now `mailto:`-based, so nothing is actually broken without the API — the server is optional.
