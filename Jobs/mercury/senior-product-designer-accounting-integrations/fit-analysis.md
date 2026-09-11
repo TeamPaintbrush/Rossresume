@@ -58,8 +58,10 @@ bullet — and, for three of them, an answer that was already sitting in the por
 2. **"Design leadership"** — had zero evidence. Fixed: Leroy leads design direction for a **4-person
    creative team** at Paintbrush Marketing across 3,000+ delivered projects. Now on the résumé.
 3. **Operating inside someone else's design system** — every case study was "built from zero."
-   **OnlyDank** (real client: OnlyDank/Spindletap Beverages) is the counter-example — an existing
-   logotype, can treatment, and brand voice that the work extended rather than replaced.
+   **OnlyDank** (real client: OnlyDank/Spindletap Beverages) is the counter-example — a **real
+   product sold in stores across Texas and other states**, not a concept, with an existing logotype,
+   can treatment, and brand voice that the work extended rather than replaced. The case study's meta
+   bar, overview, and CTA now all say so explicitly (a `STATUS: Live — on shelves` field was added).
    (Tobacco_Cigars was considered and dropped — it's a self-initiated fictional concept, not a real
    client, so it doesn't count as this kind of evidence.)
 4. **Fintech/banking-specific domain exposure** — genuinely absent. Not fixable before applying;

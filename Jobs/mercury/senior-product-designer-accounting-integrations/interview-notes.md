@@ -31,10 +31,12 @@ you ever led other designers," which nothing in the case studies alone showed.
 
 ### 3. Operating inside someone else's design system, not just building your own
 
-**OnlyDank** (real client: OnlyDank / Spindletap Beverages) is the counter-example — unlike the
-self-initiated software case studies, OnlyDank already had a shipped product line, an established
-serif logotype, a restrained black/white/sand can treatment, and real on-can copy before the work
-started. The job was matching and extending that existing system, not inventing a new one. (Note:
+**OnlyDank** (real client: OnlyDank / Spindletap Beverages) is the counter-example — a **real,
+in-market product sold in stores across Texas and other states**, not a concept or a pitch deck.
+It already had a shipped product line, an established serif logotype, a restrained black/white/sand
+can treatment, and real on-can copy before the work started. The job was matching and extending
+that existing system, not inventing a new one. If asked "is this real or a concept," the answer is
+unambiguous: it's on shelves — `onlydankofficial.com` and `@onlydankclub` are live. (Note:
 Tobacco_Cigars was considered for this too but is a self-initiated/fictional concept brand, not a
 real client — don't use it here.)
 
