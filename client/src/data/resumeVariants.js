@@ -36,21 +36,21 @@ export const productDesignerResume = {
     {
       name: 'ReconcileIQ — Account Reconciliation App',
       description:
-        'A reconciliation product — dashboard, guided reconciliation, reusable templates, and reporting — in daily use by real bookkeeping clients, including a Form 990 nonprofit. Dense financial tables with proper empty, loading, and error states.',
+        'A reconciliation product — dashboard, guided reconciliation, reusable templates, and reporting — in daily use by real bookkeeping clients, including a Form 990 nonprofit. Cut reconciliation time from 2–6 hours to under 90 minutes by designing for accuracy tools first. Dense financial tables with proper empty, loading, and error states.',
       tech: ['React', 'TypeScript', 'Zustand', 'Recharts', 'Vite'],
       link: 'https://teampaintbrush.github.io/accountant-app/',
     },
     {
       name: 'TaxesByRoss — Tax-Practice Platform',
       description:
-        'The software behind an operating tax practice: quarterly expense tracking with quarter/year routing, a 1099 calculator, Form 1040-ES support, data-repair tooling, and Excel / PDF client exports. Designed and built for real client work, with real client data.',
+        'The software behind an operating tax practice: quarterly expense tracking with quarter/year routing, a 1099 calculator, Form 1040-ES support, data-repair tooling, and Excel / PDF client exports. Cut per-client quarterly processing from 1–2 hours to 15–20 minutes. Designed and built for real client work, with real client data.',
       tech: ['React', 'Vite', 'Express', 'AWS DynamoDB'],
       link: 'https://taxprep-three.vercel.app/',
     },
     {
       name: 'TOBA — Membership Platform (Tampa 501(c)(3))',
       description:
-        'A dues portal with payments, late fees, and receipts; role-based committee portals with a leader/member permissions model; and a member directory — across web, desktop, and mobile. Designed with the board as product stakeholders: a monthly review cadence, full-board product presentations, a written SOP + continuity-agreement handoff, and three board objections navigated to resolution — inside 501(c)(3) compliance constraints (audit trail, nonpartisan guardrails).',
+        'A 47-year-old organization with 500+ members and no system to collect dues before this. A dues portal with payments, late fees, and receipts; role-based committee portals with a leader/member permissions model; and a member directory — across web, desktop, and mobile. Designed with the board as product stakeholders: a monthly review cadence, full-board product presentations, a written SOP + continuity-agreement handoff, and three board objections navigated to resolution — inside 501(c)(3) compliance constraints (audit trail, nonpartisan guardrails).',
       tech: ['Next.js 15', 'React Native', 'Electron', 'Vercel'],
       link: 'https://toba-seven.vercel.app/',
     },
@@ -110,7 +110,7 @@ export const productDesignerResume = {
       location: 'Tampa, FL',
       achievements: [
         'Design and ship end-to-end products, client and in-house: ReconcileIQ (account reconciliation), TaxesByRoss (tax-practice platform), InsureBridge (a three-portal enrollment platform), and a medical-courier logistics app - problem definition through production-ready React / Next.js UI; plus customizing open-source tooling (Well) into the practice workflow',
-        'Lead the TOBA membership platform for a Tampa 501(c)(3) across web, desktop, and mobile: a dues portal, role-based committee portals with a permissions model, and a member directory - partnering with the board as product owners through a monthly review cadence and full-board product presentations, delivering a written SOP and continuity agreement, and navigating three board objections (data ownership, duplication, cost) to resolution',
+        'Lead the TOBA membership platform for a 47-year-old Tampa 501(c)(3) with 500+ members (no dues-collection system existed before this) across web, desktop, and mobile: a dues portal, role-based committee portals with a permissions model, and a member directory - partnering with the board as product owners through a monthly review cadence and full-board product presentations, delivering a written SOP and continuity agreement, and navigating three board objections (data ownership, duplication, cost) to resolution',
         'Lead design direction for a 4-person creative team - reviewing work and setting visual systems across 3,000+ delivered client and in-house projects',
         'Built a design system in code - component library, type and spacing scales, and a case-study "style registry" that governs 3,000+ deliverables',
         'Designed assistive agents with human-in-the-loop guardrails (review-before-send, audit logging, never auto-sends) - the tool proposes, a person decides',

@@ -78,8 +78,8 @@ export const resumeData = {
       dates: "2015 - Present",
       location: "Tampa, FL",
       achievements: [
-        "Design and ship end-to-end products, client and in-house: ReconcileIQ (account reconciliation, real bookkeeping clients), InsureBridge (a three-portal insurance-enrollment platform), a medical-courier logistics app, and internal operations tooling - problem definition through production-ready React/Next.js UI",
-        "Lead the TOBA membership platform for a Tampa 501(c)(3): a dues portal, role-based committee portals with a permissions model, and a member directory across web, desktop, and mobile - partnering with the board as product stakeholders within 501(c)(3) compliance constraints",
+        "Design and ship end-to-end products, client and in-house: ReconcileIQ (account reconciliation, real bookkeeping clients) - cut reconciliation time from 2-6 hours to under 90 minutes by designing for accuracy tools first; InsureBridge (a three-portal insurance-enrollment platform), a medical-courier logistics app, and internal operations tooling - problem definition through production-ready React/Next.js UI",
+        "Lead the TOBA membership platform for a 47-year-old Tampa 501(c)(3) with 500+ members: a dues portal (the organization had no system to collect dues before this), role-based committee portals with a permissions model, and a member directory across web, desktop, and mobile - partnering with the board as product stakeholders within 501(c)(3) compliance constraints",
         "Built an AI label generation system that turns a product brief into structured, compliance-aware label art using GPT, Midjourney/DALL-E, and OpenAI models fine-tuned on prior label sets",
         "Lead design direction for a 4-person creative team, reviewing work and setting visual systems across 3,000+ label and packaging designs for energy drink, beer, wine, vape, supplement, and cosmetic brands, including multi-SKU flavor systems and print-ready production files",
         "Built assistive automation used as tools, not replacements: a daily shop-monitoring agent that drafts replies for human approval (never auto-sends), a multi-platform publishing helper with dedup and calendar sync, and browser-automation scraping pipelines",
@@ -96,7 +96,7 @@ export const resumeData = {
       achievements: [
         "Run a private tax-preparation practice serving 150+ individual and small-business clients",
         "Prepare Form 990 nonprofit filings on contract for Trydent Consulting (Tallahassee, FL), engaged through Christina Lynch, CEO",
-        "Designed and built the practice's software end to end (React/Vite + Express, AWS): quarterly expense tracking with quarter/year routing, a 1099 calculator, Form 1040-ES support, data-repair tooling, and Excel/PDF client exports",
+        "Designed and built the practice's software end to end (React/Vite + Express, AWS): quarterly expense tracking with quarter/year routing, a 1099 calculator, Form 1040-ES support, data-repair tooling, and Excel/PDF client exports - cut per-client quarterly processing from 1-2 hours to 15-20 minutes",
         "Fully customized Well (an open-source supplier-invoice extraction tool) into the practice's books: an import bridge that maps line items to Schedule C categories and routes them by quarter, per-client financial dashboards, and a Form 990 auto-fill from the general ledger. Also built ReconcileIQ, an account-reconciliation app used on real client books",
         "Handle real client financial data with PII-safe storage, backups, and audit-minded record-keeping"
       ]
@@ -178,12 +178,12 @@ export const resumeData = {
   topProjects: [
     {
       name: "ReconcileIQ - Account Reconciliation App",
-      description: "A reconciliation product - dashboard, guided reconciliation, reusable templates, and reporting - in daily use by real bookkeeping clients, including a Form 990 nonprofit. Dense financial tables with full empty, loading, and error states.",
+      description: "A reconciliation product - dashboard, guided reconciliation, reusable templates, and reporting - in daily use by real bookkeeping clients, including a Form 990 nonprofit. Cut reconciliation time from 2-6 hours to under 90 minutes. Dense financial tables with full empty, loading, and error states.",
       tech: ["React", "TypeScript", "Zustand", "Recharts", "Vite"]
     },
     {
       name: "TOBA - Membership Platform",
-      description: "A membership platform for a Tampa 501(c)(3): a dues portal with payments, late fees, and receipts; role-based committee portals with a leader/member permissions model; and a member directory - across web, desktop, and mobile, built with the board as product stakeholders.",
+      description: "A membership platform for a 47-year-old Tampa 501(c)(3) with 500+ members: a dues portal with payments, late fees, and receipts (the organization had no way to collect dues before this); role-based committee portals with a leader/member permissions model; and a member directory - across web, desktop, and mobile, built with the board as product stakeholders.",
       tech: ["Next.js 15", "React Native", "Electron", "Vercel"]
     },
     {

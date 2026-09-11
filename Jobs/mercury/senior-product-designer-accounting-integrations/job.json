@@ -17,7 +17,7 @@
   "status": "identified",
   "priority": 5,
   "fit": {
-    "score": 8.5,
+    "score": 8.6,
     "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds the accounting software he uses: ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), TaxesByRoss (the platform behind his own tax practice), and an extraction-to-books pipeline built on Well (the open-source supplier-invoice extractor by WellApp.ai — he customized it, he didn't write it): a Schedule C category / quarter import bridge, per-client financial dashboards, and a Form 990 auto-fill from the general ledger. That IS Mercury's literal problem statement — getting transactions ready for the books — solved on real client data. Plus TOBA (a live 501(c)(3) platform build with a monthly board-member cadence, full-board product presentations, a written SOP + licensing + continuity-agreement handoff, and three documented board objections he resolved — data sovereignty, duplication, and cost), InsureBridge, and Titan Couriers. All five are built as structured case studies on the Paintbrush /use-cases page — each in its own visual language — plus a standalone 1-page decision record for the TOBA consolidation. TOBA and InsureBridge now carry real product screenshots; ReconcileIQ, Well, and Titan are still on coded mockups aligned to the live marketing previews. The remaining gap is narrow: real screens on the two accounting case studies (ReconcileIQ, Well), and collaboration has been design + stakeholders rather than design + PM + eng + research inside a product org.",
     "criteria": [
       {
@@ -41,8 +41,8 @@
       {
         "name": "Turning highly complex workflows into simple experiences",
         "weight": 0.15,
-        "score": 8,
-        "note": "Well's whole shipped pitch is 'days of clicking and chasing invoices -> one click'. Plus ReconcileIQ, courier dispatch, checkout, admin intake."
+        "score": 9,
+        "note": "Now backed by real numbers, not just claims. ReconcileIQ: designing for accuracy tools first (guided reconciliation, audit trail, pre-post validation) cut reconciliation time from 2–6 hours to under 90 minutes. TaxesByRoss: per-client quarterly processing went from 1–2 hours to 15–20 minutes. TOBA: a 47-year-old, 500+ member organization that had no system to collect dues at all before this platform. Plus the extraction-to-books pipeline, courier dispatch, checkout, admin intake."
       },
       {
         "name": "Balances automation with transparency, trust, user control",
@@ -79,12 +79,12 @@
       "Strongest AI-in-craft story of any applicant tier",
       "Title and tenure support the 'product designer' claim",
       "Leads design direction for a 4-person creative team at Paintbrush Marketing, reviewing work and setting visual systems across 3,000+ delivered client and in-house projects — real design-leadership evidence, distinct from the eng/research cross-functional gap",
-      "OnlyDank (real client: OnlyDank/Spindletap Beverages) is a real, in-market product sold in stores across Texas and other states, not a concept — shows working inside someone else's existing design system (an established logotype, can treatment, and brand voice) rather than always inventing one from zero"
+      "OnlyDank (real client: OnlyDank/Spindletap Beverages) is a real, in-market product sold in stores across Texas and other states, not a concept — shows working inside someone else's existing design system (an established logotype, can treatment, and brand voice) rather than always inventing one from zero",
+      "Real, quantified outcomes: ReconcileIQ reconciliation time 2–6 hours -> under 90 minutes; TaxesByRoss per-client quarterly processing 1–2 hours -> 15–20 minutes; TOBA is a 47-year-old, 500+ member organization that had no dues-collection system at all before this platform. Not anecdotal claims -- specific, defensible before/after numbers."
     ],
     "gaps": [
       "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients (incl. a real monthly board cadence and full-board product pitches at TOBA), not design + PM + eng + research inside a product org",
       "Screenshot work is essentially done: TOBA, InsureBridge, ReconcileIQ (9 screens, blurred), and Well (dashboard + cover diagram) are all real. One Titan driver-app mobile screen remains, pending a PayPal-email blur.",
-      "No outcome metrics anywhere — simplification claims ('drivers finish an hour earlier', 'one click instead of days of chasing invoices') are qualitative only, no before/after time-on-task, conversion, error-rate, or adoption numbers. Possibly a quick fix if real numbers exist (ReconcileIQ reconciliation time, TOBA dues-portal adoption, TaxesByRoss per-quarter processing time) — otherwise the same root cause as the research gap: no one instrumenting because no one is asking for it.",
       "Scale — every shipped product serves a small user base (TOBA: a few hundred members; TaxesByRoss: 150+ clients; ReconcileIQ, InsureBridge, Titan similarly modest). Nothing demonstrates designing for volume — edge-case diversity or performance at the scale Mercury's actual customer base implies. Structural, not fixable before applying.",
       "Every documented stakeholder disagreement (the three TOBA board objections) resolves with Leroy's original plan winning after explanation — no story shows a design that changed direction because a stakeholder's pushback was correct. Senior judgment usually evidences both holding a position AND updating when wrong; only the first half is shown. Fixable only if a real counter-example exists in his history — do not manufacture one.",
       "Security/compliance rigor specific to regulated money movement (fraud, AML-adjacent controls) — a sharper version of the fintech/banking gap. TOBA's nonprofit governance and InsureBridge's licensing compliance are lighter-weight than what Mercury's domain implies. Same honest-gap treatment: acknowledge if asked, don't chase."
@@ -319,6 +319,10 @@
     {
       "date": "2026-09-11",
       "event": "Second gap-audit pass (Leroy asked again for any gaps not yet found). Four more logged, distinct from the first four (which are now resolved/acknowledged): (A) no outcome metrics anywhere — all simplification claims are qualitative, no before/after numbers; flagged as possibly a quick fix if real metrics exist for ReconcileIQ/TOBA/TaxesByRoss, pending Leroy's answer. (B) scale — every shipped product serves a small user base vs. Mercury's implied scale; structural, not fixable pre-application. (C) every documented disagreement (TOBA's three board objections) resolves in Leroy's favor — no counter-example of changing course when a stakeholder was right; only worth adding if a real instance exists, not manufactured. (D) security/compliance rigor for regulated money movement — sharper version of the existing fintech/banking gap. Score unchanged at 8.5; these are logged for interview readiness and honesty, not scored down further (already reflected in existing criterion scores)."
+    },
+    {
+      "date": "2026-09-11",
+      "event": "Leroy supplied real before/after numbers for open_task #23: ReconcileIQ reconciliation 2-6 hours -> under 90 minutes (designing for accuracy tools first); TaxesByRoss per-client quarterly processing 1-2 hours -> 15-20 minutes; TOBA is a 47-year-old organization with 500+ members that had no system to collect dues at all before this platform. Added to the resume (resumeData.js, resumeVariants.js, standalone Leroy-Ross-Resume.md), the ReconcileIQ+TaxesByRoss case study (new pagestats card + section 04 line), and the TOBA case study (new pagestats cards, overview paragraph, problem-list bullet -- also fixed a stale '9 committees' reference in TOBA_Case_Study.md while there). Both case studies verified in-browser, no overflow; 53/53 tests pass. 'Turning highly complex workflows into simple experiences' 8 -> 9 (real numbers, not just claims). Gap #5 (no outcome metrics) resolved -- removed from fit.gaps. Overall fit 8.5 -> 8.6."
     }
   ],
   "tags": [

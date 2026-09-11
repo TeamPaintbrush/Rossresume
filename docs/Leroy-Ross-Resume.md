@@ -42,8 +42,8 @@ Product designer and creative technologist, Product Designer & Partner at Paintb
 ### Product Designer & Partner — Paintbrush Marketing
 *Tampa, FL · 2015 – Present*
 
-- Design and ship end-to-end products, client and in-house: ReconcileIQ (account reconciliation, real bookkeeping clients), InsureBridge (a three-portal insurance-enrollment platform), a medical-courier logistics app, and internal operations tooling — problem definition through production-ready React/Next.js UI.
-- Lead the TOBA membership platform for a Tampa 501(c)(3): a dues portal, role-based committee portals with a permissions model, and a member directory across web, desktop, and mobile — partnering with the board as product stakeholders.
+- Design and ship end-to-end products, client and in-house: ReconcileIQ (account reconciliation, real bookkeeping clients) — cut reconciliation time from 2–6 hours to under 90 minutes by designing for accuracy tools first; InsureBridge (a three-portal insurance-enrollment platform), a medical-courier logistics app, and internal operations tooling — problem definition through production-ready React/Next.js UI.
+- Lead the TOBA membership platform for a 47-year-old Tampa 501(c)(3) with 500+ members: a dues portal (no system to collect dues existed before this), role-based committee portals with a permissions model, and a member directory across web, desktop, and mobile — partnering with the board as product stakeholders.
 - Built an AI label generation system that turns a product brief into structured, compliance-aware label art using GPT, Midjourney/DALL-E, and OpenAI models fine-tuned on prior label sets.
 - Lead design direction for a 4-person creative team, delivering 3,000+ design projects across SaaS, mobile, and consumer brands, including multi-SKU packaging systems and print-ready production files.
 - Built assistive automation with human-in-the-loop guardrails (review-before-send, never auto-sends); shipped the full stack around the design work in React/Next.js and Node/Express.
@@ -53,7 +53,7 @@ Product designer and creative technologist, Product Designer & Partner at Paintb
 
 - Run a private tax-preparation practice serving 150+ individual and small-business clients.
 - Prepare Form 990 nonprofit filings on contract for **Trydent Consulting** (Tallahassee, FL), engaged through Christina Lynch, CEO.
-- **Designed and built the practice's software end to end** (React/Vite + Express, AWS): quarterly expense tracking with quarter/year routing, a 1099 calculator, Form 1040-ES support, data-repair tooling, and Excel/PDF client exports.
+- **Designed and built the practice's software end to end** (React/Vite + Express, AWS): quarterly expense tracking with quarter/year routing, a 1099 calculator, Form 1040-ES support, data-repair tooling, and Excel/PDF client exports — cut per-client quarterly processing from 1–2 hours to 15–20 minutes.
 - Built **ReconcileIQ** (account reconciliation) and **fully customized Well** — an open-source supplier-invoice extraction tool — into the practice: an import bridge that maps line items to Schedule C categories and routes them by quarter, per-client financial dashboards, and a Form 990 auto-fill from the general ledger.
 - Handle real client financial data with PII-safe storage, backups, and audit-minded record-keeping.
 

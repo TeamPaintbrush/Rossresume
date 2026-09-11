@@ -1,6 +1,6 @@
 # Fit analysis — Mercury Senior Product Designer, Accounting Integrations
 
-**Last scored:** 2026-09-10 (re-scored 10 times as evidence surfaced) · **Weighted score: ~8.5 / 10** · **Verdict: the best-matched of the four roles — a domain operator, not a domain learner. Four of five case studies are now fully real; the Well pipeline diagram + Titan's driver-app shot are the last stretch to ~8.7.**
+**Last scored:** 2026-09-11 (re-scored 11 times as evidence surfaced) · **Weighted score: ~8.6 / 10** · **Verdict: the best-matched of the four roles — a domain operator, not a domain learner, now with real quantified outcomes behind the simplification claims. Titan's driver-app shot is the last screenshot gap; the 5-person research pass (open_task #21) is the only real lever left on the score.**
 
 `job.json` is the source of truth for the live scorecard, verdict, strengths, gaps, and the improvement plan. This file is the narrative behind it.
 
@@ -17,13 +17,13 @@ Leroy is a **practicing tax preparer since 2015 (150+ clients) who builds the ac
 | 6+ yrs leading complex, end-to-end product design | 20% | 8/10 | 10+ yrs, "Product Designer & Partner", a deep bench of shipped products, and design leadership of a 4-person team across 3,000+ projects. No engineering partner / formal research is what keeps it at 8. |
 | Thinks in systems & workflows, not screens | 15% | 8/10 | Data-driven architecture, Style Registry governance, the TOBA permissions matrix, and the extraction-to-books pipeline (line item → Schedule C category → quarter → reviewed book entry → filed 990). |
 | Learns new domains until they can challenge experts | 10% | 9/10 | Doesn't learn accounting — runs a tax practice, does contract Form 990 work for Trydent Consulting (Tallahassee, via Christina Lynch, CEO), built his practice software, and customized the open-source Well extractor into it (Schedule C mapping, quarter routing, 990 auto-fill). |
-| Turning complex workflows into simple experiences | 15% | 8/10 | The extraction-to-books pipeline turns a pile of receipts into categorized, quarter-routed book entries. Plus ReconcileIQ, courier dispatch, checkout, admin intake. |
+| Turning complex workflows into simple experiences | 15% | 9/10 | Now backed by real numbers, not just claims: **ReconcileIQ reconciliation time 2–6 hours → under 90 minutes**; **TaxesByRoss per-client quarterly processing 1–2 hours → 15–20 minutes**; **TOBA is a 47-year-old, 500+ member org that had no dues-collection system at all before this platform**. Plus the extraction-to-books pipeline, courier dispatch, checkout, admin intake. |
 | Balances automation with transparency, trust, user control | 10% | 8/10 | Human-approved agents; TOBA audit trail; every pipeline row categorized + quarter-assigned + human-reviewed before it lands in the books. At governance level: answered a board data-sovereignty concern by writing portability into the Continuity Agreement — full source-repo access, TOBA-owned domain/DNS, a documented hosting/billing takeover, no proprietary lock-in. |
 | Product judgment, clear communication, high ownership | 15% | 9/10 | TOBA redirect from "random information" to systematic building; monthly board cadence + full-board product pitches; a written SOP / Licensing & Continuity Plan / Deploy SOP / Continuity Agreement handoff to the org's marketing lead; **three documented board objections resolved** (data sovereignty → portability written into the Continuity Agreement, duplication → adoption by comparison, cost → pro bono). Packaged in the TOBA case study + a standalone 1-page decision record. Volunteer board not a product-company pod is what holds it at 9. |
 | Uses AI to accelerate exploration without compromising craft | 5% | 10/10 | Provider routing, fine-tuning, explicit "where AI does not belong" rules, human-confirm on anything a model touches — the pipeline is the applied case (AI extracts, a person owns every row). |
 | Polished UI craft | 10% | 9/10 | Structured, on-brand case studies on `/use-cases`. **TOBA (6), InsureBridge (4 + 2 photos), Titan Couriers (4 screens), and ReconcileIQ (9 screens, blurred) are all real.** Well now has a real screenshot (its generated per-client dashboard, identity blurred) and a real cover — a data-flow diagram (Receipt → Well extracts → risk score → import bridge → the books → Form 990) in place of the coded capture-panel mock, since Well has no other product UI. One gap left: a Titan driver-app mobile screen, held back for its own blur (a real PayPal email). Bumps to 10 once that lands. |
 
-Weighted: Σ(weight × score) = **8.45**, stored as 8.5.
+Weighted: Σ(weight × score) = **8.6**, stored as 8.6.
 
 ## What's resolved
 
@@ -74,11 +74,11 @@ them further; #4 stays an acknowledged gap.
 
 Leroy asked again for anything still missing. Distinct from the four above:
 
-5. **No outcome metrics anywhere.** Every simplification claim is qualitative — "drivers finish an
-   hour earlier," "one click instead of days of chasing invoices" — with no before/after
-   time-on-task, conversion, error-rate, or adoption number behind it. Possibly a quick fix if real
-   numbers exist for ReconcileIQ, TOBA, or TaxesByRoss (Leroy to check); otherwise it's the same
-   root cause as the research gap — no one instrumenting because no one's asking for it.
+5. ~~No outcome metrics anywhere.~~ **RESOLVED 2026-09-11.** Leroy supplied real numbers:
+   ReconcileIQ reconciliation time 2–6 hours → under 90 minutes; TaxesByRoss per-client quarterly
+   processing 1–2 hours → 15–20 minutes; TOBA is a 47-year-old, 500+ member org with no
+   dues-collection system before this platform. Added to the résumé and both case studies.
+   "Turning complex workflows into simple experiences" 8 → 9.
 6. **Scale.** Every shipped product serves a small user base (TOBA: a few hundred members;
    TaxesByRoss: 150+ clients; similar elsewhere). Nothing demonstrates designing for the volume
    Mercury's actual customer base implies. Structural, not fixable before applying.
@@ -90,8 +90,7 @@ Leroy asked again for anything still missing. Distinct from the four above:
    TOBA/InsureBridge's compliance surfaces are lighter than what Mercury's domain implies. Same
    honest-gap treatment: acknowledge if asked, don't chase.
 
-Score unchanged at 8.5. #5 is the one with a real chance of being a quick, honest improvement —
-pending whether the numbers actually exist.
+Score: 8.5 → **8.6** — #5 turned out to be real and is now in. #6–#8 stay acknowledged, not chased.
 
 ## The "practitioner" framing (for the cover note and the screen)
 

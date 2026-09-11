@@ -54,14 +54,18 @@ compliance constraints, same as any senior hire moving domains, but the pattern-
 same work I've spent ten years doing." Don't over-apologize for this one — the accounting-domain
 overlap is unusually strong for this role, which is what makes the banking gap minor.
 
-### 5. "Do you have metrics on the impact of this?" — the honest gap
+### 5. "Do you have metrics on the impact of this?" — RESOLVED, use these numbers
 
-**Say it straight:** the simplification claims (one-click instead of days chasing invoices, drivers
-finishing an hour earlier) are real but not instrumented — no before/after time-on-task, adoption,
-or error-rate numbers. **Check first if any of these are actually true and just unwritten:**
-ReconcileIQ reconciliation time before/after, TOBA dues-portal adoption rate, TaxesByRoss per-quarter
-processing time per client. If a real number exists, say it. If not, the honest answer is "I
-haven't formally measured it — that's part of what a research partner would change."
+Real, specific, defensible:
+- **ReconcileIQ:** reconciliation time went from **2–6 hours to under 90 minutes** — designing for
+  accuracy tools first (guided reconciliation, an immutable audit trail, validation before anything
+  posts).
+- **TaxesByRoss:** per-client quarterly processing went from **1–2 hours to 15–20 minutes**.
+- **TOBA:** a **47-year-old organization with 500+ members** that had **no system to collect dues
+  at all** before this platform — dues were chased by hand across 500+ people.
+
+Lead with these unprompted if the conversation turns to impact — they're the strongest, most
+concrete numbers in the whole application. Now on the résumé and in both case studies.
 
 ### 6. "How do you design for scale?" — structural gap, don't oversell
 
