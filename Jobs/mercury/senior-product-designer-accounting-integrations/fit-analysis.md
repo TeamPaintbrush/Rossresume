@@ -1,6 +1,6 @@
 # Fit analysis — Mercury Senior Product Designer, Accounting Integrations
 
-**Last scored:** 2026-09-11 (re-scored 12 times as evidence surfaced) · **Weighted score: ~8.7 / 10** — the original target. · **Verdict: the best-matched of the four roles — a domain operator, not a domain learner, with real quantified outcomes behind the simplification claims and every case study fully real-screenshotted. The 5-person research pass (open_task #21) is the only real lever left on the score, and it's optional — this is a strong apply-now number.**
+**Last scored:** 2026-09-11 (re-scored 12 times as evidence surfaced) · **Weighted score: ~8.7 / 10** — the original target. · **Verdict: the best-matched of the four roles — a domain operator, not a domain learner, with real quantified outcomes behind the simplification claims and a real screenshot as the primary showcase in every case study (see "Screenshot work" below for the honest breakdown). The 5-person research pass (open_task #21) is the only real lever left on the score, and it's optional — this is a strong apply-now number.**
 
 `job.json` is the source of truth for the live scorecard, verdict, strengths, gaps, and the improvement plan. This file is the narrative behind it.
 
@@ -34,13 +34,19 @@ Weighted: Σ(weight × score) = **8.7**, stored as 8.7.
 - **The "judgment / communication" artifact gap** — closed. The decision record (`decision-record-toba-consolidation.md`) + the TOBA case-study "working with the board" section carry it.
 - **Live product URLs** — captured for all five (`job.json` `links[]`).
 
-## Screenshot work — complete
+## Screenshot work — mostly complete, corrected 2026-09-11
 
-All five case studies are fully real-screenshotted; zero coded product-UI slots remain anywhere
-in the portfolio except two spots with genuinely no capture available (Titan's recipient-tracking
-mock, two Well build-detail sections). Polished UI craft is 10/10. The last real lever on the
-overall score is `open_task.md` #21, the optional user-research pass — everything else that could
-move the number by shipping more work is done.
+InsureBridge (4 screens) and Titan Couriers (7 screens) are fully real-screenshotted. ReconcileIQ
++TaxesByRoss (9 real screens) and TOBA (5 real screens) each still carry a handful of coded-mockup
+sections for secondary features (marked `REPLACE:` in the source `.dc.html`) — ReconcileIQ has 2
+(the Well-import quarterly list, the business-switcher modal), TOBA has 5 (hero shot, committees
+grid, permissions screen, newsletter builder, admin overview). Well, customized has only 1 real
+screenshot and 2 remaining coded sections (a generated Form 990 page, a document risk/audit
+detail view). Titan's recipient-tracking page is its one remaining coded mockup. Polished UI craft
+is still 10/10 — the primary showcase in every case study is a real screenshot — but "zero coded
+slots remain" was an overstatement; corrected here and in `application-pack.md`. The last real
+lever on the overall score is `open_task.md` #21, the optional user-research pass; closing the
+remaining `REPLACE:` slots would tighten the case studies but isn't required to apply.
 
 - **Titan Couriers** — 4 desktop screens (Shipping, dispatch/live map, Tracking, Courier
   Contracts) plus 4 real driver-app mobile screens (live navigation filling the phone frame in

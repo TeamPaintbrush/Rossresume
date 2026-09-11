@@ -66,7 +66,7 @@
         "name": "Polished UI craft",
         "weight": 0.1,
         "score": 10,
-        "note": "All five case studies are now fully real-screenshotted, zero coded product-UI slots left: TOBA (6), InsureBridge (4 + 2 photos), ReconcileIQ (9 screens, blurred), Well (dashboard + cover diagram), and Titan Couriers (4 desktop + 4 mobile driver-app screens, including a live-navigation phone-frame capture; the Earnings screen's PayPal payout email was redacted before sending). The only remaining coded UI in the entire portfolio is Titan's section 05 recipient-tracking mock and Well's two build-detail sections, for which no real capture exists yet."
+        "note": "Corrected 2026-09-11: InsureBridge (4 screens) and Titan Couriers (7 screens) are fully real-screenshotted. ReconcileIQ+TaxesByRoss (9 real screens, blurred) still has 2 coded-mockup sections (Well-import quarterly list, business-switcher modal); TOBA (5 real screens) still has 5 (hero, committees grid, permissions, newsletter builder, admin overview); Well (1 real screen) still has 2 (Form 990 output, document risk/audit detail). Titan's recipient-tracking page is its one remaining coded mock. Primary showcase in every case study is real; secondary sections in three of the five still lean on coded recreations."
       }
     ],
     "strengths": [
