@@ -21,7 +21,7 @@ Leroy is a **practicing tax preparer since 2015 (150+ clients) who builds the ac
 | Balances automation with transparency, trust, user control | 10% | 8/10 | Human-approved agents; TOBA audit trail; every pipeline row categorized + quarter-assigned + human-reviewed before it lands in the books. At governance level: answered a board data-sovereignty concern by writing portability into the Continuity Agreement — full source-repo access, TOBA-owned domain/DNS, a documented hosting/billing takeover, no proprietary lock-in. |
 | Product judgment, clear communication, high ownership | 15% | 9/10 | TOBA redirect from "random information" to systematic building; monthly board cadence + full-board product pitches; a written SOP / Licensing & Continuity Plan / Deploy SOP / Continuity Agreement handoff to the org's marketing lead; **three documented board objections resolved** (data sovereignty → portability written into the Continuity Agreement, duplication → adoption by comparison, cost → pro bono). Packaged in the TOBA case study + a standalone 1-page decision record. Volunteer board not a product-company pod is what holds it at 9. |
 | Uses AI to accelerate exploration without compromising craft | 5% | 10/10 | Provider routing, fine-tuning, explicit "where AI does not belong" rules, human-confirm on anything a model touches — the pipeline is the applied case (AI extracts, a person owns every row). |
-| Polished UI craft | 10% | 9/10 | Structured, on-brand case studies on `/use-cases`. **TOBA (6), InsureBridge (4 + 2 photos), Titan Couriers (4 screens), and ReconcileIQ (9 screens, blurred) are all real.** ReconcileIQ's isolation bug is fixed and every screen is now wired in with the business name, address, and owner/staff names blurred (dollar figures kept, per the TaxesByRoss precedent). Two small gaps left: Well's pipeline visual (a diagram, since it has no product UI) and one Titan driver-app mobile screen (held back for its own blur — a real PayPal email). Bumps to 10 once those land. |
+| Polished UI craft | 10% | 9/10 | Structured, on-brand case studies on `/use-cases`. **TOBA (6), InsureBridge (4 + 2 photos), Titan Couriers (4 screens), and ReconcileIQ (9 screens, blurred) are all real.** Well now has its first real capture too — a generated per-client financial dashboard, identity blurred, replacing the coded section 03 mockup. Two small gaps left: Well's cover diagram (it has no other product UI to screenshot) and one Titan driver-app mobile screen (held back for its own blur — a real PayPal email). Bumps to 10 once those land. |
 
 Weighted: Σ(weight × score) = **8.45**, stored as 8.5.
 
@@ -36,9 +36,9 @@ Weighted: Σ(weight × score) = **8.45**, stored as 8.5.
 
 ## The one remaining input
 
-**The Well pipeline visual and one Titan driver-app screen — that's it.**
+**A cover diagram for Well and one Titan driver-app screen — that's it.**
 
-- **Well** — no product UI of its own; the plan is a data-flow diagram plus captures of what it produces (generated dashboard HTML, a filled Form 990 page, one audit JSON) and a terminal run of the import bridge.
+- **Well** — has its first real capture (the generated per-client dashboard, identity blurred). What's left is just a data-flow diagram for the cover, since Well has no other product UI to screenshot. Leroy decided not to chase the terminal-run / audit-JSON / Form-990 captures for now — the dashboard alone is enough real evidence.
 - **Titan Couriers** — 4 real screens are in (Shipping, dispatch/live map, Tracking, Courier Contracts). One driver-app mobile screen is still pending — it shows a real PayPal payout email that needs blurring first.
 - **ReconcileIQ is done.** The isolation bug that surfaced during the first capture attempt (a different client's user showing as the account owner) is fixed and confirmed; the practice re-shot all 9 screens on the real client, and rather than switch to demo data, Leroy chose to blur the identifying details — business name, address, owner/staff names — before publishing, leaving the numbers and structure visible.
 

@@ -66,7 +66,7 @@
         "name": "Polished UI craft",
         "weight": 0.1,
         "score": 9,
-        "note": "Structured, on-brand case studies on /use-cases. TOBA (6), InsureBridge (4 + 2 photos), and Titan Couriers (4 screens) are real. ReconcileIQ is now fully real too, after a detour: the isolation bug (see history) is fixed, and the practice re-shot 9 screens on the real client with identifying details — business name, address, owner/staff names — blurred (dollar figures kept, matching the precedent set by the TaxesByRoss Quarterly Expenses screen). Dashboard, Reconciliation history, Trial Balance, General Ledger, Journal Entries, and Audit Trail all wired in. Only two small gaps remain: Well's pipeline visual (a diagram, since it has no product UI) and one Titan driver-app mobile screen (held back for its own blur — a real PayPal email). Bumps to 10 once those land."
+        "note": "Structured, on-brand case studies on /use-cases. TOBA (6), InsureBridge (4 + 2 photos), Titan Couriers (4 screens), and ReconcileIQ (9 screens, blurred) are all real. Well now has its first real capture too: a generated per-client financial dashboard (real Well/TaxesByRoss output, business name/owner/EIN/address blurred, revenue figures and the top-customers chart left visible) replacing the coded section 03 mockup. Remaining: a data-flow diagram for Well's cover (it has no other product UI to screenshot) and one Titan driver-app mobile screen (held back for its own blur — a real PayPal email). Bumps to 10 once those land."
       }
     ],
     "strengths": [
@@ -297,6 +297,10 @@
     {
       "date": "2026-09-10",
       "note": "ReconcileIQ fully re-shot after the isolation fix: Leroy confirmed 'Mike Murray' now correctly shows as the account owner. 9 screens sent (Documents, Dashboard, Journal Entries, General Ledger, Reconciliation, Reports, Trial Balance, Audit Trail) on the real client (Murray's Tire Service). Per Leroy's decision, blurred identifying details before publishing rather than switching to demo data or publishing as-is: business name, address, and owner/staff names redacted on all 8 wired screens (Gaussian-blur boxes over the header/sidebar identity fields plus the Description and Performed-By columns on Journal Entries / General Ledger / Audit Trail); dollar figures and account structure left visible, matching the precedent set by the TaxesByRoss Quarterly Expenses screen. Wired into sections 01 (dashboard, hero), 02 (reconciliation history), 03 (trial balance + general ledger + journal entries, new chips for Documents+AI and Reports), and 08 (audit trail). Polished UI craft 8 -> 9; overall fit 8.4 -> 8.5. Two REPLACE slots remain: section 05 Well-import list, section 07 business switcher."
+    },
+    {
+      "date": "2026-09-10",
+      "note": "Well case study got its first real screenshot: the generated per-client financial dashboard (a real Well/TaxesByRoss output file, not a mockup) with the business's legal name, owner, EIN, and address blurred (Gaussian-blur boxes verified clean before publishing) — total income/expenses/net-profit/mileage figures and the Top Customers by Revenue chart (amounts, names blurred) left visible. Replaces the coded section 03 frame; added the .shot click-to-expand CSS pattern to the Well case study for the first time. Leroy decided not to pursue the terminal-run / audit-JSON / Form-990 captures for now. Score unchanged (9/10 craft already reflects the broader real-screenshot progress); remaining Well work is just the data-flow diagram for the cover."
     }
   ],
   "tags": [
