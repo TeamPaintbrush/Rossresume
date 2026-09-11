@@ -81,7 +81,7 @@
     ],
     "gaps": [
       "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients (incl. a real monthly board cadence and full-board product pitches at TOBA), not design + PM + eng + research inside a product org",
-      "Screenshot work: ReconcileIQ's non-dashboard screens were captured but pulled — they carried real client data and exposed a client-data-isolation bug (a different client's user showing as the owner). Leroy is fixing the bug and re-capturing on the Acme demo business. The Well pipeline still needs a data-flow diagram + captures of its generated artifacts (dashboard HTML, a filled Form 990, an audit JSON), and Titan Couriers is still a coded mockup. TOBA and InsureBridge are done."
+      "Screenshot work is essentially done: TOBA, InsureBridge, ReconcileIQ (9 screens, blurred), and Well (dashboard + cover diagram) are all real. One Titan driver-app mobile screen remains, pending a PayPal-email blur."
     ],
     "analyzedAt": "2026-09-09"
   },
