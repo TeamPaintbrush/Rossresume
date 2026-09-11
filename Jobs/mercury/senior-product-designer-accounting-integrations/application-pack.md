@@ -4,6 +4,14 @@ Everything to submit, in one place. Fit ~8.7 / 10 (best of the four tracked role
 target score — all five case studies are fully real-screenshotted, résumé carries quantified
 outcomes).
 
+## Package page
+
+**https://claude.ai/code/artifact/074ef3c0-c366-4892-a1ca-e22a76cedc23** — a single page with the
+pitch, the real metrics, all 5 case studies (each tagged with the JD line it answers), and all 3
+PDFs viewable inline. Good candidate for the "Portfolio & Password" field on the application, or
+to send directly. Case-study links point at `paintbrushmarketing.net/portfolio/brand/...` and will
+404 until that site is deployed — source is `mercury.html` in this folder if it needs a rebuild.
+
 ## What to attach / link
 
 | Item | Where it is | Notes |

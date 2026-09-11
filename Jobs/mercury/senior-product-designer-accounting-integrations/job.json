@@ -174,6 +174,10 @@
     {
       "label": "Cover letter (PDF, ready to attach)",
       "path": "Jobs/mercury/senior-product-designer-accounting-integrations/cover-letter.pdf"
+    },
+    {
+      "label": "Mercury Application Package (published page)",
+      "path": "https://claude.ai/code/artifact/074ef3c0-c366-4892-a1ca-e22a76cedc23"
     }
   ],
   "resumeVariant": "Senior Product Designer (3rd PDF on the résumé site: product work first, packaging supporting; data in client/src/data/resumeVariants.js)",
@@ -334,6 +338,10 @@
     {
       "date": "2026-09-11",
       "event": "Staged the full application package for submission: rewrote the cover letter as a standalone file (cover-letter.md/.pdf) incorporating the real metrics and the customized-Well framing; exported the decision-record PDF; verified the Senior Product Designer PDF and the digital resume site both render clean (no console errors) and confirmed via pdftotext that the team-leadership line and all three real metrics are actually present in the generated PDF text. Inventoried the live Mercury Greenhouse application form (job-boards.greenhouse.io/mercury/jobs/6137654004) field by field: First/Last Name, Email, Country, Phone, Resume/CV, Cover Letter, LinkedIn, 'Portfolio & Password' (single URL field), 'Upload anything' (mapped to the decision record), visa sponsorship (No), work location (Tampa, FL, per Leroy), and a reCAPTCHA that requires a real human final click. Not submitted - staged only, per Leroy's explicit instruction to prep everything and apply last."
+    },
+    {
+      "date": "2026-09-11",
+      "event": "Built and published mercury.html - a standalone package-deliverable page for this application: masthead (name, target role, one-line differentiator), the cover-letter pitch condensed to 3 paragraphs, the 3 real metrics as stat tiles, all 5 case studies as cards each explicitly naming the JD line it answers (e.g. ReconcileIQ+TaxesByRoss -> 'turning highly complex workflows into simple experiences'; Well -> 'balances automation with transparency, trust, and user control'; TOBA -> 'brings clarity to ambiguous problems'; InsureBridge -> 'thinks in systems, not screens'; Titan -> 'shared interaction patterns across the ecosystem'), and all 3 PDFs (resume, cover letter, decision record) embedded inline as click-to-view data-URI iframes so the page works standalone without needing the assets capability (which would have made it organization-internal-only, defeating the point of sending it to Mercury). Case-study links point to their intended future paintbrushmarketing.net/portfolio/brand/... URLs (currently 404 - the site isn't deployed there yet; Leroy will fix once it is). Fraunces/Public Sans/IBM Plex Mono type system, warm-white ledger palette, both light and dark themes. Published as a Claude Artifact, verified in-browser (no overflow, toggle interaction confirmed working)."
     }
   ],
   "tags": [
