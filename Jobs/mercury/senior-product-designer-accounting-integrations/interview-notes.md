@@ -4,6 +4,53 @@ Working file. Add notes freely.
 
 ---
 
+## Four talking points for JD lines the tracker flagged as gaps
+
+### 1. "Define shared interaction patterns and visual language across [the] ecosystem"
+
+**The honest framing:** I design a distinct visual language per project on purpose — TOBA,
+InsureBridge, ReconcileIQ, Titan, and Well each get their own system. That's deliberate for
+self-directed portfolio work: it demonstrates range across very different domains (nonprofit
+governance, insurance, accounting, logistics) to an audience evaluating many projects at once. It
+is not evidence I can't do the opposite — and I'm not going to rebuild five case studies into one
+skin just to make a point a sentence can make.
+
+**The proof I already have, when the ecosystem actually is one product family:** the ReconcileIQ +
+TaxesByRoss case study's "One pipeline, receipt to close" section — I migrated TaxesByRoss's old
+red-themed UI onto ReconcileIQ's shared design tokens, unifying three apps (Well-customized /
+TaxesByRoss / ReconcileIQ) onto one system, "0% logic touched." That's the literal ask: one visual
+language across a multi-surface ecosystem. Lead with that example directly if this comes up.
+
+### 2. "Design leadership"
+
+At Paintbrush Marketing I lead design direction for a 4-person creative team — reviewing work,
+setting visual systems, and delivering 3,000+ client and in-house projects across ten years. Now on
+the résumé (`resumeData.js` / `resumeVariants.js`, Paintbrush Marketing bullet). This doesn't close
+the "no engineering/research partner" gap — that's a different axis — but it directly answers "have
+you ever led other designers," which nothing in the case studies alone showed.
+
+### 3. Operating inside someone else's design system, not just building your own
+
+**OnlyDank** (real client: OnlyDank / Spindletap Beverages) is the counter-example — unlike the
+self-initiated software case studies, OnlyDank already had a shipped product line, an established
+serif logotype, a restrained black/white/sand can treatment, and real on-can copy before the work
+started. The job was matching and extending that existing system, not inventing a new one. (Note:
+Tobacco_Cigars was considered for this too but is a self-initiated/fictional concept brand, not a
+real client — don't use it here.)
+
+### 4. Fintech/banking-specific domain exposure — the honest gap
+
+**Say it straight, then bridge it:** "I haven't designed inside a regulated banking product
+specifically — my domain depth is accounting and tax, not bank transaction rails or KYC/AML. What
+transfers directly is the shape of the problem: the Well/ReconcileIQ extraction-to-books pipeline
+is exactly Mercury's stated problem — a firehose of transactions turned into something legible and
+categorized, with a human owning every row. I'd expect a ramp-up on Mercury's specific banking
+compliance constraints, same as any senior hire moving domains, but the pattern-recognition is the
+same work I've spent ten years doing." Don't over-apologize for this one — the accounting-domain
+overlap is unusually strong for this role, which is what makes the banking gap minor.
+
+---
+
 ## My thoughts — and the question: "does customizing Well help me at Mercury?"
 
 **Yes. It's arguably stronger than "I built a Chrome extension" would have been**, for three reasons Mercury actually cares about:
@@ -59,10 +106,10 @@ decision** / **the trap it avoids**.
 - "Where's the human in this?" → every row is categorized, quarter-assigned, and reviewed before it books; uncertain items go to a review queue, not the totals; manual corrections are protected from re-import.
 - "You designed this alone — how do you know it's right?" → I run the reconciliations myself; the software is shaped by using it on real client books every quarter. (Gap to acknowledge: no eng partner / formal research — the planned 5 user interviews close that.)
 
-> **Status of these screens:** the ReconcileIQ captures were pulled — they showed a real client
-> (Murray's Tire Service) and a client-data-isolation bug (a different client's user showing as the
-> owner). Being re-captured on the Acme Corp LLC demo business after the isolation fix. The design
-> points above still hold — they're about how the screens are built, not the data in them.
+> **Status of these screens:** fixed and live in the case study. The first capture attempt showed
+> a client-data-isolation bug (a different client's user appearing as the account owner) — that's
+> fixed and confirmed. The re-shot screens are wired in with identifying details (business name,
+> address, owner/staff names) blurred; dollar figures and layout stay visible.
 >
 > **If asked about the isolation bug in an interview:** it's a real find — running the software on
 > live client books is exactly how you catch a cross-tenant leak that a spec review misses. Frame

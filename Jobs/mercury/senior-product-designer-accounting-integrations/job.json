@@ -24,7 +24,7 @@
         "name": "6+ yrs leading complex, end-to-end product design initiatives",
         "weight": 0.2,
         "score": 8,
-        "note": "10+ yrs, 'Product Designer & Partner', and a deep bench of shipped products — ReconcileIQ, TaxesByRoss, TOBA (multi-surface, board stakeholders), InsureBridge, Titan, plus the extraction-to-books pipeline customized on Well. No engineering partner or formal research is what keeps it at 8, not 9."
+        "note": "10+ yrs, 'Product Designer & Partner', and a deep bench of shipped products — ReconcileIQ, TaxesByRoss, TOBA (multi-surface, board stakeholders), InsureBridge, Titan, plus the extraction-to-books pipeline customized on Well. No engineering partner or formal research is what keeps it at 8, not 9. (Design leadership itself is now well-evidenced: leads design direction for a 4-person creative team at Paintbrush Marketing across 3,000+ delivered projects.)"
       },
       {
         "name": "Thinks in systems & workflows, not screens",
@@ -77,7 +77,9 @@
       "Navigated real stakeholder disagreement: three board members raised objections (data sovereignty, duplication with an internal effort, infrastructure cost) and all three were resolved — the data-sovereignty concern was answered by writing portability into the Continuity Agreement (repo access, TOBA-owned DNS, a documented hosting/billing takeover, an ownership path, no lock-in)",
       "Automation-with-trust baked in — validation, fraud detection, audit trails, human-in-the-loop agents",
       "Strongest AI-in-craft story of any applicant tier",
-      "Title and tenure support the 'product designer' claim"
+      "Title and tenure support the 'product designer' claim",
+      "Leads design direction for a 4-person creative team at Paintbrush Marketing, reviewing work and setting visual systems across 3,000+ delivered client and in-house projects — real design-leadership evidence, distinct from the eng/research cross-functional gap",
+      "OnlyDank (real client: OnlyDank/Spindletap Beverages) shows working inside someone else's existing design system — an established logotype, can treatment, and brand voice — rather than always inventing one from zero"
     ],
     "gaps": [
       "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients (incl. a real monthly board cadence and full-board product pitches at TOBA), not design + PM + eng + research inside a product org",
@@ -305,6 +307,10 @@
     {
       "date": "2026-09-10",
       "event": "Built the Well case study cover data-flow diagram (inline SVG, no external assets): Receipt/invoice -> Well extracts (open source) -> Risk score (built) -> Import bridge (built) -> The books (human-reviewed) -> Form 990 (nonprofits, conditional), with a flagged-review branch down to a 'Human review' node. Replaces the coded 'capture panel' hero mockup -- Well has no product UI of its own, so a diagram is the honest choice over a faked screen. Verified in-browser: renders clean, no overflow. The 3 remaining coded slots (import bridge list, Form 990 page, risk & audit detail) reviewed and left as-is -- already consistent with the design system, no screenshots available to replace them yet."
+    },
+    {
+      "date": "2026-09-11",
+      "event": "Audited the scorecard for gaps beyond the two already logged. Found four more tied to specific JD lines: (1) 'define shared interaction patterns across the ecosystem' vs. Leroy's deliberate per-project visual-language variety — resolved by pointing to the ReconcileIQ+TaxesByRoss token-unification work as the real counter-example; (2) 'design leadership' had zero evidence — Leroy leads a 4-person team at Paintbrush Marketing across 3,000+ projects, now on the resume and in strengths; (3) 'operating inside someone else's design system' — OnlyDank (real client, OnlyDank/Spindletap) is the counter-example; Tobacco_Cigars was proposed but is a self-initiated fictional concept, not a real client, so it was dropped and NOT used as evidence; (4) fintech/banking domain exposure — genuinely absent, logged as an honest interview talking point rather than something to fix. OnlyDank.md corrected (Client field was wrongly 'Paintbrush Marketing (concept)', now 'OnlyDank / Spindletap Beverages'; a new section documents working inside their existing system). interview-notes.md gained a 'four talking points' section. Score unchanged at 8.5 — these strengthen the case for existing scores rather than raising them further."
     }
   ],
   "tags": [

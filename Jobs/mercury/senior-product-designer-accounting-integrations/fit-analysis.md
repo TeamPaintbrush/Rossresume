@@ -14,7 +14,7 @@ Leroy is a **practicing tax preparer since 2015 (150+ clients) who builds the ac
 
 | Requirement | Weight | Score | Why |
 |---|---|---|---|
-| 6+ yrs leading complex, end-to-end product design | 20% | 8/10 | 10+ yrs, "Product Designer & Partner", a deep bench of shipped products. No engineering partner / formal research is what keeps it at 8. |
+| 6+ yrs leading complex, end-to-end product design | 20% | 8/10 | 10+ yrs, "Product Designer & Partner", a deep bench of shipped products, and design leadership of a 4-person team across 3,000+ projects. No engineering partner / formal research is what keeps it at 8. |
 | Thinks in systems & workflows, not screens | 15% | 8/10 | Data-driven architecture, Style Registry governance, the TOBA permissions matrix, and the extraction-to-books pipeline (line item → Schedule C category → quarter → reviewed book entry → filed 990). |
 | Learns new domains until they can challenge experts | 10% | 9/10 | Doesn't learn accounting — runs a tax practice, does contract Form 990 work for Trydent Consulting (Tallahassee, via Christina Lynch, CEO), built his practice software, and customized the open-source Well extractor into it (Schedule C mapping, quarter routing, 990 auto-fill). |
 | Turning complex workflows into simple experiences | 15% | 8/10 | The extraction-to-books pipeline turns a pile of receipts into categorized, quarter-routed book entries. Plus ReconcileIQ, courier dispatch, checkout, admin intake. |
@@ -42,7 +42,31 @@ Weighted: Σ(weight × score) = **8.45**, stored as 8.5.
 - **Titan Couriers** — 4 real screens are in (Shipping, dispatch/live map, Tracking, Courier Contracts). One driver-app mobile screen is still pending — it shows a real PayPal payout email that needs blurring first.
 - **ReconcileIQ is done.** The isolation bug that surfaced during the first capture attempt (a different client's user showing as the account owner) is fixed and confirmed; the practice re-shot all 9 screens on the real client, and rather than switch to demo data, Leroy chose to blur the identifying details — business name, address, owner/staff names — before publishing, leaving the numbers and structure visible.
 
-TOBA and InsureBridge are done. This is the last stretch before "Polished UI craft" goes 7 → 8–9 and the role hits ~8.7.
+TOBA and InsureBridge are done. Polished UI craft is already 9/10 — the last real lever on the
+overall score is `open_task.md` #21, the user-research pass.
+
+## A closer read of the JD, beyond the tracked gaps (2026-09-11)
+
+Auditing every JD line against the scorecard turned up four more gaps, each tied to a specific
+bullet — and, for three of them, an answer that was already sitting in the portfolio unused:
+
+1. **"Define shared interaction patterns and visual language across [the] ecosystem"** — Leroy's
+   five case studies each use a deliberately different visual language (portfolio-range by design).
+   That's not evidence he can't unify a system — the ReconcileIQ + TaxesByRoss case study already
+   shows exactly this: three apps (Well-customized / TaxesByRoss / ReconcileIQ) migrated onto one
+   shared token set, "0% logic touched." Talking point, not a rebuild.
+2. **"Design leadership"** — had zero evidence. Fixed: Leroy leads design direction for a **4-person
+   creative team** at Paintbrush Marketing across 3,000+ delivered projects. Now on the résumé.
+3. **Operating inside someone else's design system** — every case study was "built from zero."
+   **OnlyDank** (real client: OnlyDank/Spindletap Beverages) is the counter-example — an existing
+   logotype, can treatment, and brand voice that the work extended rather than replaced.
+   (Tobacco_Cigars was considered and dropped — it's a self-initiated fictional concept, not a real
+   client, so it doesn't count as this kind of evidence.)
+4. **Fintech/banking-specific domain exposure** — genuinely absent. Not fixable before applying;
+   logged as an honest interview answer (see `interview-notes.md`) rather than something to chase.
+
+Score unchanged at 8.5 — #1–#3 strengthen the existing scores' defensibility rather than raising
+them further; #4 stays an acknowledged gap.
 
 ## The "practitioner" framing (for the cover note and the screen)
 

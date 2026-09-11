@@ -111,7 +111,8 @@ export const productDesignerResume = {
       achievements: [
         'Design and ship end-to-end products, client and in-house: ReconcileIQ (account reconciliation), TaxesByRoss (tax-practice platform), InsureBridge (a three-portal enrollment platform), and a medical-courier logistics app - problem definition through production-ready React / Next.js UI; plus customizing open-source tooling (Well) into the practice workflow',
         'Lead the TOBA membership platform for a Tampa 501(c)(3) across web, desktop, and mobile: a dues portal, role-based committee portals with a permissions model, and a member directory - partnering with the board as product owners through a monthly review cadence and full-board product presentations, delivering a written SOP and continuity agreement, and navigating three board objections (data ownership, duplication, cost) to resolution',
-        'Built a design system in code - component library, type and spacing scales, and a case-study "style registry" that keeps 3,000+ deliverables consistent',
+        'Lead design direction for a 4-person creative team - reviewing work and setting visual systems across 3,000+ delivered client and in-house projects',
+        'Built a design system in code - component library, type and spacing scales, and a case-study "style registry" that governs 3,000+ deliverables',
         'Designed assistive agents with human-in-the-loop guardrails (review-before-send, audit logging, never auto-sends) - the tool proposes, a person decides',
         'Use AI across the design process as a tool - structured generation, provider routing, fine-tuning on past work - to speed up exploration while a person holds the craft bar',
         'Own outcomes end to end: scope, design, build, ship, and iterate with real users',
