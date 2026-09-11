@@ -1,6 +1,6 @@
 # Fit analysis — Mercury Senior Product Designer, Accounting Integrations
 
-**Last scored:** 2026-09-10 (re-scored 8 times as evidence surfaced) · **Weighted score: ~8.2 / 10** · **Verdict: the best-matched of the four roles — a domain operator, not a domain learner. Clean ReconcileIQ demo-data screens + the Well pipeline diagram + Titan screens take it to the ~8.7 target.**
+**Last scored:** 2026-09-10 (re-scored 9 times as evidence surfaced) · **Weighted score: ~8.4 / 10** · **Verdict: the best-matched of the four roles — a domain operator, not a domain learner. Clean ReconcileIQ demo-data screens + the Well pipeline diagram + Titan's driver-app shot take it to the ~8.7 target.**
 
 `job.json` is the source of truth for the live scorecard, verdict, strengths, gaps, and the improvement plan. This file is the narrative behind it.
 
@@ -21,9 +21,9 @@ Leroy is a **practicing tax preparer since 2015 (150+ clients) who builds the ac
 | Balances automation with transparency, trust, user control | 10% | 8/10 | Human-approved agents; TOBA audit trail; every pipeline row categorized + quarter-assigned + human-reviewed before it lands in the books. At governance level: answered a board data-sovereignty concern by writing portability into the Continuity Agreement — full source-repo access, TOBA-owned domain/DNS, a documented hosting/billing takeover, no proprietary lock-in. |
 | Product judgment, clear communication, high ownership | 15% | 9/10 | TOBA redirect from "random information" to systematic building; monthly board cadence + full-board product pitches; a written SOP / Licensing & Continuity Plan / Deploy SOP / Continuity Agreement handoff to the org's marketing lead; **three documented board objections resolved** (data sovereignty → portability written into the Continuity Agreement, duplication → adoption by comparison, cost → pro bono). Packaged in the TOBA case study + a standalone 1-page decision record. Volunteer board not a product-company pod is what holds it at 9. |
 | Uses AI to accelerate exploration without compromising craft | 5% | 10/10 | Provider routing, fine-tuning, explicit "where AI does not belong" rules, human-confirm on anything a model touches — the pipeline is the applied case (AI extracts, a person owns every row). |
-| Polished UI craft | 10% | 7/10 | Structured, on-brand case studies on `/use-cases`. **Real product screenshots carry TOBA (6) and InsureBridge (4 + 2 photos, zero coded slots).** ReconcileIQ has only the Acme demo-data dashboard + the 3 TaxesByRoss screens — six further ReconcileIQ captures were taken but **pulled**: they showed a real client and exposed a client-data-isolation bug in the app. Leroy is fixing it and re-capturing on the Acme demo business. Bumps to 8–9 once ReconcileIQ has clean demo screens, the Well pipeline has its diagram + generated-artifact captures, and Titan has real screens. |
+| Polished UI craft | 10% | 8/10 | Structured, on-brand case studies on `/use-cases`. **TOBA (6) and InsureBridge (4 + 2 photos) are fully real.** Titan Couriers now has 4 real screens (Shipping overview, the dispatch/live-map workspace, live Tracking synced from the mobile app, and a 16-template Courier Contracts generator) — up from fully coded; a driver-app mobile shot is pending (blurring a PayPal payout email first). ReconcileIQ has only the Acme demo-data dashboard + the 3 TaxesByRoss screens — six further captures were **pulled**: real client data + a client-data-isolation bug in the app. Leroy is fixing it and re-capturing on the Acme demo business. Bumps to 9 once ReconcileIQ is re-shot clean, Well has its pipeline diagram + generated-artifact captures, and Titan's driver-app screen lands. |
 
-Weighted: Σ(weight × score) = **8.25**, stored as 8.2.
+Weighted: Σ(weight × score) = **8.35**, stored as 8.4.
 
 ## What's resolved
 
@@ -40,7 +40,7 @@ Weighted: Σ(weight × score) = **8.25**, stored as 8.2.
 
 - **ReconcileIQ** — the six captures Leroy sent showed a real client (Murray's Tire Service) and exposed a client-data-isolation bug in the app (a different client's user, Jeffery Darden, showing as the owner; the real owner is Mike Murray). They were pulled. Leroy is fixing the isolation bug, then re-capturing on the **Acme Corp LLC demo business** (ReconcileIQ's built-in sample dataset — the dashboard already in the case study uses it).
 - **Well** — no product UI of its own; the plan is a data-flow diagram plus captures of what it produces (generated dashboard HTML, a filled Form 990 page, one audit JSON) and a terminal run of the import bridge.
-- **Titan Couriers** — still a coded mockup.
+- **Titan Couriers** — 4 real screens are in now (Shipping, dispatch/live map, Tracking, Courier Contracts). One driver-app mobile screen is still pending — it shows a real PayPal payout email that needs blurring first.
 
 TOBA and InsureBridge are done. This is the last stretch before "Polished UI craft" goes 7 → 8–9 and the role hits ~8.7.
 

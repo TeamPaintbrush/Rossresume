@@ -17,7 +17,7 @@
   "status": "identified",
   "priority": 5,
   "fit": {
-    "score": 8.2,
+    "score": 8.4,
     "verdict": "The best-matched of the four roles, and it keeps getting stronger as the real body of work surfaces. Leroy is a practicing tax preparer who builds the accounting software he uses: ReconcileIQ (an account-reconciliation app with real clients incl. a Form 990 nonprofit), TaxesByRoss (the platform behind his own tax practice), and an extraction-to-books pipeline built on Well (the open-source supplier-invoice extractor by WellApp.ai — he customized it, he didn't write it): a Schedule C category / quarter import bridge, per-client financial dashboards, and a Form 990 auto-fill from the general ledger. That IS Mercury's literal problem statement — getting transactions ready for the books — solved on real client data. Plus TOBA (a live 501(c)(3) platform build with a monthly board-member cadence, full-board product presentations, a written SOP + licensing + continuity-agreement handoff, and three documented board objections he resolved — data sovereignty, duplication, and cost), InsureBridge, and Titan Couriers. All five are built as structured case studies on the Paintbrush /use-cases page — each in its own visual language — plus a standalone 1-page decision record for the TOBA consolidation. TOBA and InsureBridge now carry real product screenshots; ReconcileIQ, Well, and Titan are still on coded mockups aligned to the live marketing previews. The remaining gap is narrow: real screens on the two accounting case studies (ReconcileIQ, Well), and collaboration has been design + stakeholders rather than design + PM + eng + research inside a product org.",
     "criteria": [
       {
@@ -65,8 +65,8 @@
       {
         "name": "Polished UI craft",
         "weight": 0.1,
-        "score": 7,
-        "note": "Structured, on-brand case studies on /use-cases. Real product screenshots carry TOBA (6 screens) and InsureBridge (4 screens + 2 photos, zero coded slots). ReconcileIQ: only the demo-data dashboard (Acme Corp LLC) and the three TaxesByRoss screens are in — six further ReconcileIQ captures (reconciliation, trial balance, general ledger, journal entries, audit trail) were taken but PULLED: they showed a real client (Murray's Tire Service) and surfaced a client-data-isolation bug in the app (a different client's user, Jeffery Darden, appearing as the owner). Leroy is fixing the isolation bug and will re-capture on the Acme demo business. Titan Couriers is still a coded mockup. Bumps to 8–9 once ReconcileIQ has clean demo-data screens, the Well pipeline has its diagram + generated-artifact captures, and Titan has real screens."
+        "score": 8,
+        "note": "Structured, on-brand case studies on /use-cases. TOBA (6) and InsureBridge (4 + 2 photos) are fully real. Titan Couriers now carries 4 real screens (Shipping overview, the dispatch/live-map workspace, live Tracking synced from the mobile app, and a 16-template Courier Contracts generator with a live preview) — up from fully coded; a driver-app mobile capture is still pending (blurring a PayPal payout email first). ReconcileIQ has only the Acme demo-data dashboard + 3 TaxesByRoss screens (the rest were pulled — real client data + an isolation bug, see history). Well has no product UI of its own — a data-flow diagram + generated-artifact captures are planned. Bumps to 9 once ReconcileIQ is re-shot clean, Well has its visual, and Titan's driver-app screen lands."
       }
     ],
     "strengths": [
@@ -168,7 +168,7 @@
     }
   ],
   "resumeVariant": "Senior Product Designer (3rd PDF on the résumé site: product work first, packaging supporting; data in client/src/data/resumeVariants.js)",
-  "nextAction": "Fit is ~8.2. TOBA and InsureBridge are fully screenshotted; the standalone decision record is written. ReconcileIQ screenshots were pulled — they showed real client data and a client-data-isolation bug (Leroy fixing it, will re-capture on the Acme demo business). Left before applying: clean ReconcileIQ demo screens, the Well pipeline visual (diagram + generated-artifact captures), real Titan screens. Then apply with the Senior Product Designer résumé variant + the decision-record PDF.",
+  "nextAction": "Fit is ~8.4. TOBA and InsureBridge are fully screenshotted; Titan now has 4 real screens (Shipping, dispatch/live map, Tracking, Courier Contracts) with a driver-app mobile shot pending (PayPal email needs blurring first). ReconcileIQ screenshots were pulled (real client data + an isolation bug) — to re-capture on the Acme demo business after the app fix. Well still needs its pipeline visual (diagram + generated-artifact captures). Then apply with the Senior Product Designer résumé variant + the decision-record PDF.",
   "history": [
     {
       "date": "2026-09-09",
@@ -289,6 +289,10 @@
     {
       "date": "2026-09-10",
       "note": "REVERTED the ReconcileIQ screenshots. Leroy confirmed the six new captures show a REAL client (Murray's Tire Service) — not demo data — and they surfaced a client-data-isolation bug in ReconcileIQ: a different client's user (Jeffery Darden) is showing as the owner of Murray's Tire Service; the real owner is Mike Murray. Pulled RIQ_reconciliation / RIQ_trial_balance / RIQ_general_ledger / RIQ_journal_entries / RIQ_audit_trail / RIQ_dashboard_full from assets + public; reverted case-study sections 01/02/03/08 to coded mockups; hero back to the Acme-demo RIQ_dashboard.jpg. Polished UI craft 8 -> 7, overall fit 8.4 -> 8.2. Leroy is fixing the isolation bug in the app and will re-capture on the Acme Corp LLC demo business. Logged the app bug in open_task."
+    },
+    {
+      "date": "2026-09-10",
+      "note": "Titan Couriers case study got its first real product screenshots (portfolio/brand/Titan_Couriers/assets/, TC_*): Shipping overview (stat cards + shipments table, added to the Overview section), the dispatch/Live Map workspace (stop sequence, completed/remaining/at-risk, dispatch workspace, open exceptions, notification feed, settlement + account rules, route history — replaced the coded browser mock in section 03), Tracking (live route synced from the mobile app + multi-carrier Quick Track — new section 04), and Courier Contracts (16 vertical-specific agreement templates, auto-fill from the Business Profile, live contract preview — new section 07, a genuinely strong design-decision artifact). Case study renumbered 01-08. Four mobile driver-app screens were also sent but held back: one shows a real PayPal payout email (leroyrossjr7@aol.com) that Leroy will blur before sending. Polished UI craft 7 -> 8; overall fit 8.2 -> 8.3."
     }
   ],
   "tags": [
