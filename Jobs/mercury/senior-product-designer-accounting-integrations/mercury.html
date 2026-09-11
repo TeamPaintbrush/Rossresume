@@ -53,10 +53,19 @@
          background:var(--card); text-decoration:none; }
   .chip:hover{ border-color:var(--accent); color:var(--accent-ink); }
 
+  /* ---- lede ---- */
+  .lede-big{ font-family:'Public Sans',sans-serif; font-weight:600; letter-spacing:-0.005em;
+             font-size:clamp(26px,3.4vw,40px); line-height:1.3; color:var(--ink); margin:0;
+             max-width:none; }
+  .lede-big a{ color:var(--accent-ink); text-decoration-color:var(--brass); text-decoration-thickness:2px; }
+  .lede-big b{ font-weight:700; }
+
   /* ---- pitch ---- */
   .pitch p{ margin:0 0 20px; max-width:64ch; }
   .pitch p:last-child{ margin-bottom:0; }
   .pitch b{ color:var(--ink); }
+  .pitch a{ color:var(--accent-ink); text-decoration-color:var(--line); }
+  .pitch a:hover{ text-decoration-color:var(--brass); }
 
   /* ---- stats ---- */
   .stats-title{ font-size:12px; color:var(--muted); margin:0 0 22px; }
@@ -67,6 +76,7 @@
   .stat .arrow{ color:var(--brass); margin:0 6px; }
   .stat .to{ font-family:'IBM Plex Mono',monospace; font-size:20px; font-weight:500; color:var(--accent-ink); }
   .stat .label{ margin-top:10px; color:var(--muted); font-size:14px; }
+  .stat .label a{ color:var(--accent-ink); font-weight:600; }
   @media (max-width:640px){ .stats{ grid-template-columns:1fr; } }
 
   /* ---- case studies ---- */
@@ -125,11 +135,17 @@
 
 <hr class="rule">
 
+<div class="wrap">
+  <section style="padding-bottom:28px;">
+    <p class="lede-big">I'm not a designer learning accounting for this role — I run a private tax practice, <a href="https://taxprep-three.vercel.app/" target="_blank" rel="noopener"><b>TaxesByRoss</b></a>, and I built its software, including <a href="https://teampaintbrush.github.io/accountant-app/" target="_blank" rel="noopener"><b>ReconcileIQ</b></a> for reconciliation.</p>
+  </section>
+</div>
+
 <div class="wrap wrap--text pitch">
-  <section style="padding-bottom:0;">
-    <p>I'm not a designer learning accounting for this role — I run a private tax practice, I built its software, and I built the pipeline that carries a client's documents all the way to the books. That pipeline is close to Mercury's own problem statement: people bouncing between banks, spreadsheets, and receipts just to prepare transactions for their books. I live in that friction every quarter, for 150+ clients.</p>
-    <p>I customized an open-source invoice extractor (<b>Well</b>, by WellApp.ai) into that pipeline — the part I built is the layer between extraction and a filed return: a bridge that maps every line item to a Schedule C category, assigns the quarter from the transaction date, and writes it into the books, additive only, never overwriting a hand-entered row. For nonprofit clients, the same pipeline auto-fills a Form 990 from the general ledger.</p>
-    <p>Most recently I designed and built the platform behind <b>TOBA</b>, a 47-year-old Tampa nonprofit with 500+ members that had no way to collect dues at all before this — working with its board as product stakeholders, delivering a written handoff, and resolving three real objections to a shipped result.</p>
+  <section style="padding-top:0;">
+    <p>I also built the pipeline that carries a client's documents all the way to the books. That pipeline is close to Mercury's own problem statement: people bouncing between banks, spreadsheets, and receipts just to prepare transactions for their books. I live in that friction every quarter, for 150+ clients.</p>
+    <p>I customized an open-source invoice extractor (<a href="https://github.com/WellApp-ai/Well" target="_blank" rel="noopener"><b>Well</b></a>, by WellApp.ai) into that pipeline — the part I built is the layer between extraction and a filed return: a bridge that maps every line item to a Schedule C category, assigns the quarter from the transaction date, and writes it into the books, additive only, never overwriting a hand-entered row. For nonprofit clients, the same pipeline auto-fills a Form 990 from the general ledger.</p>
+    <p>Most recently I designed and built the platform behind <a href="https://toba-seven.vercel.app/" target="_blank" rel="noopener"><b>TOBA</b></a>, a 47-year-old Tampa nonprofit with 500+ members that had no way to collect dues at all before this — working with its board as product stakeholders, delivering a written handoff, and resolving three real objections to a shipped result.</p>
   </section>
 </div>
 
@@ -141,15 +157,15 @@
     <div class="stats">
       <div class="stat">
         <div><span class="from">2–6 hrs</span><span class="arrow">&rarr;</span><span class="to">&lt;90 min</span></div>
-        <div class="label">ReconcileIQ reconciliation time</div>
+        <div class="label"><a href="https://teampaintbrush.github.io/accountant-app/" target="_blank" rel="noopener">ReconcileIQ</a> reconciliation time</div>
       </div>
       <div class="stat">
         <div><span class="from">1–2 hrs</span><span class="arrow">&rarr;</span><span class="to">15–20 min</span></div>
-        <div class="label">TaxesByRoss per-client quarterly processing</div>
+        <div class="label"><a href="https://taxprep-three.vercel.app/" target="_blank" rel="noopener">TaxesByRoss</a> per-client quarterly processing</div>
       </div>
       <div class="stat">
         <div><span class="to">0 &rarr; 1</span></div>
-        <div class="label">Dues-collection systems TOBA had, before this platform</div>
+        <div class="label">Dues-collection systems <a href="https://toba-seven.vercel.app/" target="_blank" rel="noopener">TOBA</a> had, before this platform</div>
       </div>
     </div>
   </section>
