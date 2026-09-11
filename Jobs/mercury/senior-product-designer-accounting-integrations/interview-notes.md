@@ -36,9 +36,12 @@ in-market product sold in stores across Texas and other states**, not a concept 
 It already had a shipped product line, an established serif logotype, a restrained black/white/sand
 can treatment, and real on-can copy before the work started. The job was matching and extending
 that existing system, not inventing a new one. If asked "is this real or a concept," the answer is
-unambiguous: it's on shelves — `onlydankofficial.com` and `@onlydankclub` are live. (Note:
-Tobacco_Cigars was considered for this too but is a self-initiated/fictional concept brand, not a
-real client — don't use it here.)
+unambiguous — checked live 2026-09-11: `onlydankofficial.com` is a working storefront with real
+SKUs and prices ($35–$60), live "Add to Cart" checkout, wholesale available, billed under the legal
+entity **ODK Brands LLC (DBA OnlyDank)**, and **Texas Hemp Manufacture & Retail Licenses #1817 &
+#17083** printed in the footer. That's not the footprint of a concept — it's a company actually
+selling and fulfilling orders. (Note: Tobacco_Cigars was considered for this too but is a
+self-initiated/fictional concept brand, not a real client — don't use it here.)
 
 ### 4. Fintech/banking-specific domain exposure — the honest gap
 
