@@ -36,8 +36,10 @@
   .disp{ font-family:'Fraunces',Georgia,serif; font-weight:600; letter-spacing:-0.01em; line-height:1.05; text-wrap:balance; }
   .mono{ font-family:'IBM Plex Mono',monospace; letter-spacing:.08em; text-transform:uppercase; font-variant-numeric:tabular-nums; }
 
-  .wrap{ max-width:760px; margin:0 auto; padding:0 28px; }
+  .wrap{ max-width:1320px; margin:0 auto; padding:0 48px; }
+  .wrap--text{ max-width:900px; }
   section{ padding:64px 0; }
+  @media (max-width:760px){ .wrap{ padding:0 22px; } }
   hr.rule{ border:0; border-top:1px solid var(--line); margin:0; }
 
   /* ---- header ---- */
@@ -70,7 +72,8 @@
   /* ---- case studies ---- */
   h2.h{ font-family:'Fraunces',Georgia,serif; font-weight:600; font-size:26px; margin:0 0 6px; }
   .section-note{ color:var(--muted); font-size:15px; margin:0 0 30px; max-width:60ch; }
-  .cases{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .cases{ display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  @media (min-width:980px){ .cases{ grid-template-columns:repeat(3,1fr); } }
   .case{ display:block; background:var(--card); border:1px solid var(--line); border-radius:14px;
          padding:22px 22px 20px; text-decoration:none; color:var(--ink); box-shadow:var(--shadow);
          transition:transform .2s cubic-bezier(.22,1,.36,1); }
@@ -107,7 +110,7 @@
   footer .links{ margin-top:14px; display:flex; flex-wrap:wrap; gap:16px; font-size:14px; }
 </style>
 
-<div class="wrap head">
+<div class="wrap wrap--text head">
   <p class="eyebrow mono">Application package · Mercury · Accounting Integrations</p>
   <h1 class="disp">Leroy Ross</h1>
   <p class="role">for Senior Product Designer, Accounting Integrations</p>
@@ -122,7 +125,7 @@
 
 <hr class="rule">
 
-<div class="wrap pitch">
+<div class="wrap wrap--text pitch">
   <section style="padding-bottom:0;">
     <p>I'm not a designer learning accounting for this role — I run a private tax practice, I built its software, and I built the pipeline that carries a client's documents all the way to the books. That pipeline is close to Mercury's own problem statement: people bouncing between banks, spreadsheets, and receipts just to prepare transactions for their books. I live in that friction every quarter, for 150+ clients.</p>
     <p>I customized an open-source invoice extractor (<b>Well</b>, by WellApp.ai) into that pipeline — the part I built is the layer between extraction and a filed return: a bridge that maps every line item to a Schedule C category, assigns the quarter from the transaction date, and writes it into the books, additive only, never overwriting a hand-entered row. For nonprofit clients, the same pipeline auto-fills a Form 990 from the general ledger.</p>
