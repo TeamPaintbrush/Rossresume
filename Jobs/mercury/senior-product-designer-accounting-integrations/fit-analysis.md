@@ -1,6 +1,6 @@
 # Fit analysis — Mercury Senior Product Designer, Accounting Integrations
 
-**Last scored:** 2026-09-09 (re-scored 7 times as evidence surfaced) · **Weighted score: ~8.2 / 10** · **Verdict: the best-matched of the four roles — a domain operator, not a domain learner. Real product screenshots take it to the ~8.7 target.**
+**Last scored:** 2026-09-10 (re-scored 8 times as evidence surfaced) · **Weighted score: ~8.4 / 10** · **Verdict: the best-matched of the four roles — a domain operator, not a domain learner. ReconcileIQ is now fully screenshotted; the Well pipeline diagram + Titan screens take it to the ~8.7 target.**
 
 `job.json` is the source of truth for the live scorecard, verdict, strengths, gaps, and the improvement plan. This file is the narrative behind it.
 
@@ -21,9 +21,9 @@ Leroy is a **practicing tax preparer since 2015 (150+ clients) who builds the ac
 | Balances automation with transparency, trust, user control | 10% | 8/10 | Human-approved agents; TOBA audit trail; every pipeline row categorized + quarter-assigned + human-reviewed before it lands in the books. At governance level: answered a board data-sovereignty concern by writing portability into the Continuity Agreement — full source-repo access, TOBA-owned domain/DNS, a documented hosting/billing takeover, no proprietary lock-in. |
 | Product judgment, clear communication, high ownership | 15% | 9/10 | TOBA redirect from "random information" to systematic building; monthly board cadence + full-board product pitches; a written SOP / Licensing & Continuity Plan / Deploy SOP / Continuity Agreement handoff to the org's marketing lead; **three documented board objections resolved** (data sovereignty → portability written into the Continuity Agreement, duplication → adoption by comparison, cost → pro bono). Packaged in the TOBA case study + a standalone 1-page decision record. Volunteer board not a product-company pod is what holds it at 9. |
 | Uses AI to accelerate exploration without compromising craft | 5% | 10/10 | Provider routing, fine-tuning, explicit "where AI does not belong" rules, human-confirm on anything a model touches — the pipeline is the applied case (AI extracts, a person owns every row). |
-| Polished UI craft | 10% | 7/10 | Structured, on-brand case studies on `/use-cases`. **Real product screenshots now in for TOBA, InsureBridge, and the ReconcileIQ + TaxesByRoss core screens.** Bumps to 8–9 when Titan and the remaining ReconcileIQ screens (reconciliation, trial balance, switcher, audit log) are captured. |
+| Polished UI craft | 10% | 8/10 | Structured, on-brand case studies on `/use-cases`. **Real product screenshots carry four of five: TOBA (6), InsureBridge (4 + 2 photos), and ReconcileIQ + TaxesByRoss in full — dashboard, reconciliation history (flagged discrepancy), trial balance, general ledger with running balance, journal entries (draft/posted/voided), audit trail, plus the 3 TaxesByRoss screens.** Bumps to 9 when the Well pipeline has its diagram + generated-artifact captures and Titan has real screens. |
 
-Weighted: Σ(weight × score) = **8.25**, stored as 8.2.
+Weighted: Σ(weight × score) = **8.35**, stored as 8.4.
 
 ## What's resolved
 
@@ -36,7 +36,9 @@ Weighted: Σ(weight × score) = **8.25**, stored as 8.2.
 
 ## The one remaining input
 
-**Real screenshots for Titan and the last few ReconcileIQ screens** (reconciliation, trial balance / financials, business switcher, audit log). TOBA, InsureBridge, and the ReconcileIQ + TaxesByRoss core screens are done. Plus the two open decisions — the Well case study (open_task #18) and whether to name Christina Lynch on the résumé itself (#19). This is the last stretch before "Polished UI craft" goes 7 → 8–9 and the role hits ~8.7.
+**The Well pipeline visual and Titan real screens.** Well has no product UI of its own — the plan is a data-flow diagram plus captures of what it produces (the generated dashboard HTML, a filled Form 990 page, one audit JSON record) and a terminal run of the import bridge. Titan Couriers is still a coded mockup. Two ReconcileIQ slots also stay coded (the Well-import quarterly list, the business-switcher modal). TOBA, InsureBridge, and ReconcileIQ + TaxesByRoss are done. This is the last stretch before "Polished UI craft" goes 8 → 9 and the role hits ~8.7.
+
+**Also confirm:** the ReconcileIQ screens show "Murray's Tire Service" — verify it's demo/seed data (not a real client) before the case study is public.
 
 ## The "practitioner" framing (for the cover note and the screen)
 
