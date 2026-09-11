@@ -1,6 +1,8 @@
 # Application pack — Mercury Senior Product Designer, Accounting Integrations
 
-Everything to submit, in one place. Fit ~8.2 / 10 (best of the four tracked roles).
+Everything to submit, in one place. Fit ~8.7 / 10 (best of the four tracked roles, at the original
+target score — all five case studies are fully real-screenshotted, résumé carries quantified
+outcomes).
 
 ## What to attach / link
 
@@ -17,9 +19,11 @@ Everything to submit, in one place. Fit ~8.2 / 10 (best of the four tracked role
 >
 > Most recently I've been the product designer and builder for TOBA, a Tampa 501(c)(3)'s membership and committee-operations platform — working with the board as product owners through a monthly cadence and full-board reviews, delivering the written SOP and continuity documents, and navigating real stakeholder disagreement (data ownership, duplication, cost) to a shipped result.
 
-## The one honest caveat to get ahead of
+## Real numbers, if asked about impact
 
-The case studies on `/use-cases` currently show **recreations** of the product screens, not final screenshots — the real apps are behind client-data logins. If asked, offer a live walkthrough of any of the five, or send annotated screenshots.
+- ReconcileIQ: reconciliation time **2–6 hours → under 90 minutes** (designing for accuracy tools first).
+- TaxesByRoss: per-client quarterly processing **1–2 hours → 15–20 minutes**.
+- TOBA: a **47-year-old organization with 500+ members** that had **no system to collect dues at all** before this platform.
 
 ## Interview prep
 
@@ -27,10 +31,33 @@ The case studies on `/use-cases` currently show **recreations** of the product s
 - `fit-analysis.md` — the scorecard and the reasoning, criterion by criterion.
 - Expect: "tell me about a time you disagreed with a stakeholder" → the three TOBA board objections. "Walk me through a product decision" → the TOBA consolidation (decision record). "How do you use AI without lowering craft" → the extraction-to-books pipeline: an AI extractor proposes, every row is categorized, quarter-assigned, and reviewed by a person before it touches the books; plus provider-routing and the where-AI-doesn't-belong rules. **Be precise that Well is open-source (WellApp.ai) and the integration is yours — don't say "I built Well."**
 
+## The live application form — field by field
+
+Confirmed live 2026-09-11 at `https://job-boards.greenhouse.io/mercury/jobs/6137654004`.
+
+| Field | Required | What to put |
+|---|---|---|
+| First / Last Name | ✅ | Leroy / Ross |
+| Email | ✅ | — |
+| Country | ✅ | United States |
+| Phone | ✅ | — |
+| Resume/CV | ✅ | Senior Product Designer PDF (verified current) |
+| **Portfolio & Password** | ✅ | One URL field, despite the name — `paintbrushmarketing.net/use-cases` |
+| Visa sponsorship? | ✅ | No (confirm) |
+| From where do you intend to work? | ✅ | **Tampa, FL** |
+| Cover Letter | optional | `cover-letter.pdf` — ready |
+| LinkedIn Profile | optional | `linkedin.com/in/ross711` |
+| "Upload anything" | optional | `decision-record-toba-consolidation.pdf` — ready |
+
+**Note:** the form has a reCAPTCHA — the final submit click has to be a real human action.
+
 ## Before you hit submit
 
-- [ ] Swap real product screenshots into the five case studies (or add the "recreation" caveat to the intro).
-- [ ] Export `decision-record-toba-consolidation.md` to PDF.
-- [ ] Regenerate `Leroy-Ross-Resume.docx` if a Word file is needed (`pandoc Leroy-Ross-Resume.md -o Leroy-Ross-Resume.docx`). PDF is already current.
-- [ ] Grab the real Titan production app icon if you want it in that case study (currently a CSS stand-in).
-- [ ] Confirm the posting URL and capture it into `job.json` (`url` / `source` are still blank).
+- [x] Real product screenshots in all five case studies — done 2026-09-11.
+- [x] Export `decision-record-toba-consolidation.md` to PDF — done.
+- [x] Rewrite and export the cover letter — done (`cover-letter.md` / `cover-letter.pdf`).
+- [x] Verify the Senior Product Designer PDF and the digital résumé site — both render clean, real metrics confirmed present in the PDF text.
+- [x] Confirm the posting is live and find the apply URL — confirmed live, URL captured above.
+- [ ] Regenerate `Leroy-Ross-Resume.docx` if a Word file is ever needed (pandoc isn't installed on this machine) — not required for this application, the ATS takes PDF.
+- [ ] Grab the real Titan production app icon (currently a CSS stand-in) — cosmetic, not blocking.
+- [ ] **You click Submit** — I can't clear the reCAPTCHA.

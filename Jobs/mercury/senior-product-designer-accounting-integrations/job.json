@@ -170,6 +170,10 @@
     {
       "label": "Application pack (what to submit)",
       "path": "Jobs/mercury/senior-product-designer-accounting-integrations/application-pack.md"
+    },
+    {
+      "label": "Cover letter (PDF, ready to attach)",
+      "path": "Jobs/mercury/senior-product-designer-accounting-integrations/cover-letter.pdf"
     }
   ],
   "resumeVariant": "Senior Product Designer (3rd PDF on the résumé site: product work first, packaging supporting; data in client/src/data/resumeVariants.js)",
@@ -326,6 +330,10 @@
     {
       "date": "2026-09-11",
       "event": "Titan Couriers driver-app mobile screens landed - the last screenshot gap across all five case studies. TC_mobile_nav.jpg (live turn-by-turn navigation) now fills the coded phone frame in section 03; a 3-up gallery below it adds TC_mobile_home.jpg / TC_mobile_perks.jpg / TC_mobile_earnings.jpg (route-start home, sign-on perks, earnings/payout). The Earnings screen's PayPal payout email was already blacked out by Leroy before sending - confirmed intact after image optimization. Verified in-browser: all 4 images load, no overflow. Polished UI craft 9 -> 10 (every case study is now fully real, zero coded product-UI slots except two genuinely-no-capture-available spots). Overall fit 8.6 -> 8.7 - at the original ~8.7 target."
+    },
+    {
+      "date": "2026-09-11",
+      "event": "Staged the full application package for submission: rewrote the cover letter as a standalone file (cover-letter.md/.pdf) incorporating the real metrics and the customized-Well framing; exported the decision-record PDF; verified the Senior Product Designer PDF and the digital resume site both render clean (no console errors) and confirmed via pdftotext that the team-leadership line and all three real metrics are actually present in the generated PDF text. Inventoried the live Mercury Greenhouse application form (job-boards.greenhouse.io/mercury/jobs/6137654004) field by field: First/Last Name, Email, Country, Phone, Resume/CV, Cover Letter, LinkedIn, 'Portfolio & Password' (single URL field), 'Upload anything' (mapped to the decision record), visa sponsorship (No), work location (Tampa, FL, per Leroy), and a reCAPTCHA that requires a real human final click. Not submitted - staged only, per Leroy's explicit instruction to prep everything and apply last."
     }
   ],
   "tags": [
@@ -335,5 +343,15 @@
     "senior",
     "fintech",
     "top-target"
-  ]
+  ],
+  "applicationDraft": {
+    "workLocation": "Tampa, FL",
+    "visaSponsorship": "No (to confirm with Leroy)",
+    "resume": "Senior Product Designer PDF - verified current (team leadership + real metrics present)",
+    "portfolioUrl": "paintbrushmarketing.net/use-cases",
+    "coverLetter": "Jobs/mercury/senior-product-designer-accounting-integrations/cover-letter.pdf - ready",
+    "uploadAnything": "Jobs/mercury/senior-product-designer-accounting-integrations/decision-record-toba-consolidation.pdf - ready",
+    "applyUrl": "https://job-boards.greenhouse.io/mercury/jobs/6137654004",
+    "note": "Form has a reCAPTCHA - final submit must be a real human click, not automatable."
+  }
 }
