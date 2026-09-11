@@ -54,6 +54,38 @@ compliance constraints, same as any senior hire moving domains, but the pattern-
 same work I've spent ten years doing." Don't over-apologize for this one — the accounting-domain
 overlap is unusually strong for this role, which is what makes the banking gap minor.
 
+### 5. "Do you have metrics on the impact of this?" — the honest gap
+
+**Say it straight:** the simplification claims (one-click instead of days chasing invoices, drivers
+finishing an hour earlier) are real but not instrumented — no before/after time-on-task, adoption,
+or error-rate numbers. **Check first if any of these are actually true and just unwritten:**
+ReconcileIQ reconciliation time before/after, TOBA dues-portal adoption rate, TaxesByRoss per-quarter
+processing time per client. If a real number exists, say it. If not, the honest answer is "I
+haven't formally measured it — that's part of what a research partner would change."
+
+### 6. "How do you design for scale?" — structural gap, don't oversell
+
+Every shipped product serves a small, known user base (TOBA: a few hundred members; TaxesByRoss:
+150+ clients). Nothing demonstrates designing for the volume and edge-case diversity a company like
+Mercury operates at. Don't claim scale experience you don't have — acknowledge it plainly if asked,
+and pivot to the systems-thinking evidence that *would* transfer (the token-unification work, the
+permissions model at TOBA).
+
+### 7. "Tell me about a time you were wrong" — need a real answer, not a case study
+
+Every documented disagreement (the three TOBA board objections) resolved with the original plan
+winning after explanation. There's no case-study evidence of changing direction because a
+stakeholder was right. **This needs a real, off-the-record example if one exists** — think of an
+actual instance where a client or board member pushed back and you changed the design because they
+had a point. Don't force one from the case studies; find a true one from memory.
+
+### 8. Security/compliance rigor for regulated money movement
+
+A sharper version of #4. TOBA and InsureBridge's compliance surfaces (nonprofit governance,
+licensing) are lighter than fraud/AML-adjacent controls. Same treatment: acknowledge, bridge to the
+audit-trail and human-in-the-loop work you've already built (ReconcileIQ's audit log, Well's risk
+scoring) as the closest transferable evidence.
+
 ---
 
 ## My thoughts — and the question: "does customizing Well help me at Mercury?"

@@ -70,6 +70,29 @@ bullet — and, for three of them, an answer that was already sitting in the por
 Score unchanged at 8.5 — #1–#3 strengthen the existing scores' defensibility rather than raising
 them further; #4 stays an acknowledged gap.
 
+## A second pass — four more (2026-09-11)
+
+Leroy asked again for anything still missing. Distinct from the four above:
+
+5. **No outcome metrics anywhere.** Every simplification claim is qualitative — "drivers finish an
+   hour earlier," "one click instead of days of chasing invoices" — with no before/after
+   time-on-task, conversion, error-rate, or adoption number behind it. Possibly a quick fix if real
+   numbers exist for ReconcileIQ, TOBA, or TaxesByRoss (Leroy to check); otherwise it's the same
+   root cause as the research gap — no one instrumenting because no one's asking for it.
+6. **Scale.** Every shipped product serves a small user base (TOBA: a few hundred members;
+   TaxesByRoss: 150+ clients; similar elsewhere). Nothing demonstrates designing for the volume
+   Mercury's actual customer base implies. Structural, not fixable before applying.
+7. **Every documented disagreement ends in Leroy being right.** The three TOBA board objections all
+   resolve with his original plan winning after explanation — no story of a design that changed
+   direction because a stakeholder's pushback was correct. Only worth adding if a real instance
+   exists; do not manufacture one.
+8. **Security/compliance rigor for regulated money movement** — a sharper version of gap #4.
+   TOBA/InsureBridge's compliance surfaces are lighter than what Mercury's domain implies. Same
+   honest-gap treatment: acknowledge if asked, don't chase.
+
+Score unchanged at 8.5. #5 is the one with a real chance of being a quick, honest improvement —
+pending whether the numbers actually exist.
+
 ## The "practitioner" framing (for the cover note and the screen)
 
 > "I'm not a designer learning accounting for this role — I run a tax practice, I built its software, and I built the pipeline that carries a client's receipts all the way to a filed return: extraction (customized on the open-source Well tool), categorization, quarter routing, and, for nonprofits, an auto-filled Form 990 from the ledger. I know where the friction is because I live in it."

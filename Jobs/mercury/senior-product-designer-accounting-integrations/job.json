@@ -83,7 +83,11 @@
     ],
     "gaps": [
       "No engineering partner or formal user research on any project — collaboration is design + stakeholders/clients (incl. a real monthly board cadence and full-board product pitches at TOBA), not design + PM + eng + research inside a product org",
-      "Screenshot work is essentially done: TOBA, InsureBridge, ReconcileIQ (9 screens, blurred), and Well (dashboard + cover diagram) are all real. One Titan driver-app mobile screen remains, pending a PayPal-email blur."
+      "Screenshot work is essentially done: TOBA, InsureBridge, ReconcileIQ (9 screens, blurred), and Well (dashboard + cover diagram) are all real. One Titan driver-app mobile screen remains, pending a PayPal-email blur.",
+      "No outcome metrics anywhere — simplification claims ('drivers finish an hour earlier', 'one click instead of days of chasing invoices') are qualitative only, no before/after time-on-task, conversion, error-rate, or adoption numbers. Possibly a quick fix if real numbers exist (ReconcileIQ reconciliation time, TOBA dues-portal adoption, TaxesByRoss per-quarter processing time) — otherwise the same root cause as the research gap: no one instrumenting because no one is asking for it.",
+      "Scale — every shipped product serves a small user base (TOBA: a few hundred members; TaxesByRoss: 150+ clients; ReconcileIQ, InsureBridge, Titan similarly modest). Nothing demonstrates designing for volume — edge-case diversity or performance at the scale Mercury's actual customer base implies. Structural, not fixable before applying.",
+      "Every documented stakeholder disagreement (the three TOBA board objections) resolves with Leroy's original plan winning after explanation — no story shows a design that changed direction because a stakeholder's pushback was correct. Senior judgment usually evidences both holding a position AND updating when wrong; only the first half is shown. Fixable only if a real counter-example exists in his history — do not manufacture one.",
+      "Security/compliance rigor specific to regulated money movement (fraud, AML-adjacent controls) — a sharper version of the fintech/banking gap. TOBA's nonprofit governance and InsureBridge's licensing compliance are lighter-weight than what Mercury's domain implies. Same honest-gap treatment: acknowledge if asked, don't chase."
     ],
     "analyzedAt": "2026-09-09"
   },
@@ -311,6 +315,10 @@
     {
       "date": "2026-09-11",
       "event": "Audited the scorecard for gaps beyond the two already logged. Found four more tied to specific JD lines: (1) 'define shared interaction patterns across the ecosystem' vs. Leroy's deliberate per-project visual-language variety — resolved by pointing to the ReconcileIQ+TaxesByRoss token-unification work as the real counter-example; (2) 'design leadership' had zero evidence — Leroy leads a 4-person team at Paintbrush Marketing across 3,000+ projects, now on the resume and in strengths; (3) 'operating inside someone else's design system' — OnlyDank (real client, OnlyDank/Spindletap) is the counter-example; Tobacco_Cigars was proposed but is a self-initiated fictional concept, not a real client, so it was dropped and NOT used as evidence; (4) fintech/banking domain exposure — genuinely absent, logged as an honest interview talking point rather than something to fix. OnlyDank.md corrected (Client field was wrongly 'Paintbrush Marketing (concept)', now 'OnlyDank / Spindletap Beverages'; a new section documents working inside their existing system). interview-notes.md gained a 'four talking points' section. Score unchanged at 8.5 — these strengthen the case for existing scores rather than raising them further."
+    },
+    {
+      "date": "2026-09-11",
+      "event": "Second gap-audit pass (Leroy asked again for any gaps not yet found). Four more logged, distinct from the first four (which are now resolved/acknowledged): (A) no outcome metrics anywhere — all simplification claims are qualitative, no before/after numbers; flagged as possibly a quick fix if real metrics exist for ReconcileIQ/TOBA/TaxesByRoss, pending Leroy's answer. (B) scale — every shipped product serves a small user base vs. Mercury's implied scale; structural, not fixable pre-application. (C) every documented disagreement (TOBA's three board objections) resolves in Leroy's favor — no counter-example of changing course when a stakeholder was right; only worth adding if a real instance exists, not manufactured. (D) security/compliance rigor for regulated money movement — sharper version of the existing fintech/banking gap. Score unchanged at 8.5; these are logged for interview readiness and honesty, not scored down further (already reflected in existing criterion scores)."
     }
   ],
   "tags": [
