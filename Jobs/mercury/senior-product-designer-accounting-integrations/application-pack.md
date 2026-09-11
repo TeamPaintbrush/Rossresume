@@ -1,10 +1,12 @@
 # Application pack — Mercury Senior Product Designer, Accounting Integrations
 
 Everything to submit, in one place. Fit ~8.7 / 10 (best of the four tracked roles, at the original
-target score — résumé carries quantified outcomes). Screenshot status by case study: InsureBridge
-and Titan Couriers are fully real-screenshotted; ReconcileIQ+TaxesByRoss, Well, and TOBA each still
-lean on a handful of coded UI recreations for secondary sections (marked `REPLACE:` in the source
-HTML) — the primary showcases in all five are real screenshots.
+target score — résumé carries quantified outcomes). Screenshot status by case study, updated
+2026-09-11: InsureBridge, Titan Couriers, and TOBA (4 of 5 slots closed with real screens — leader
+workspace, permissions console, newsletter builder, leader-title admin; only the committees grid
+stays coded, since no real screenshot of it exists) are fully or effectively real-screenshotted.
+ReconcileIQ+TaxesByRoss and Well still lean on coded UI recreations for a couple of secondary
+sections each (marked `REPLACE:` in the source HTML) — the primary showcase in all five is real.
 
 ## Package page
 
@@ -63,9 +65,10 @@ Confirmed live 2026-09-11 at `https://job-boards.greenhouse.io/mercury/jobs/6137
 
 ## Before you hit submit
 
-- [x] Real product screenshots as the primary showcase in all five case studies — done 2026-09-11
-      (InsureBridge and Titan Couriers fully screenshotted; ReconcileIQ, Well, and TOBA still carry
-      a few coded-mockup sections for secondary features, marked `REPLACE:` in each `.dc.html`).
+- [x] Real product screenshots as the primary showcase in all five case studies — done 2026-09-11,
+      updated 2026-09-11 (InsureBridge, Titan Couriers, and TOBA fully or effectively screenshotted;
+      ReconcileIQ and Well still carry a couple of coded-mockup sections for secondary features,
+      marked `REPLACE:` in each `.dc.html`).
 - [x] Export `decision-record-toba-consolidation.md` to PDF — done.
 - [x] Rewrite and export the cover letter — done (`cover-letter.md` / `cover-letter.pdf`).
 - [x] Verify the Senior Product Designer PDF and the digital résumé site — both render clean, real metrics confirmed present in the PDF text.

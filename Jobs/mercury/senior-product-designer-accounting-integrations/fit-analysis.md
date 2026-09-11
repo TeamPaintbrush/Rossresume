@@ -36,17 +36,22 @@ Weighted: Σ(weight × score) = **8.7**, stored as 8.7.
 
 ## Screenshot work — mostly complete, corrected 2026-09-11
 
-InsureBridge (4 screens) and Titan Couriers (7 screens) are fully real-screenshotted. ReconcileIQ
-+TaxesByRoss (9 real screens) and TOBA (5 real screens) each still carry a handful of coded-mockup
-sections for secondary features (marked `REPLACE:` in the source `.dc.html`) — ReconcileIQ has 2
-(the Well-import quarterly list, the business-switcher modal), TOBA has 5 (hero shot, committees
-grid, permissions screen, newsletter builder, admin overview). Well, customized has only 1 real
-screenshot and 2 remaining coded sections (a generated Form 990 page, a document risk/audit
-detail view). Titan's recipient-tracking page is its one remaining coded mockup. Polished UI craft
-is still 10/10 — the primary showcase in every case study is a real screenshot — but "zero coded
-slots remain" was an overstatement; corrected here and in `application-pack.md`. The last real
-lever on the overall score is `open_task.md` #21, the optional user-research pass; closing the
-remaining `REPLACE:` slots would tighten the case studies but isn't required to apply.
+InsureBridge (4 screens) and Titan Couriers (7 screens) are fully real-screenshotted. TOBA closed
+4 of its 5 gaps this pass — real screenshots now fill the hero (committee-leader workspace, with
+the TLI oversight panel and newsletter/email-campaign entry cards), the permissions console
+(Committee Leader Email Permissions), the newsletter builder (10-template library, live issue),
+and the admin slot (Leader Title Assignments in the developer console) — leaving only the
+committees-grid slot coded, since no real screenshot of that view exists yet. ReconcileIQ
++TaxesByRoss (9 real screens) still carries 2 coded-mockup sections for secondary features (the
+Well-import quarterly list, the business-switcher modal) — Leroy reviews both manually before
+using them, so no screenshot is planned. Well, customized has only 1 real screenshot and 2
+remaining coded sections (a generated Form 990 page, a document risk/audit detail view) — skipped
+for now. Titan's recipient-tracking page is its one remaining coded mockup — skipped for now.
+Polished UI craft is still 10/10 — the primary showcase in every case study is a real screenshot —
+but "zero coded slots remain" was an overstatement; corrected here and in `application-pack.md`.
+The last real lever on the overall score is `open_task.md` #21, the optional user-research pass;
+the remaining `REPLACE:` slots (ReconcileIQ x2, Well x2, Titan x1, TOBA's committees grid) are a
+deliberate choice to leave coded, not an oversight.
 
 - **Titan Couriers** — 4 desktop screens (Shipping, dispatch/live map, Tracking, Courier
   Contracts) plus 4 real driver-app mobile screens (live navigation filling the phone frame in
