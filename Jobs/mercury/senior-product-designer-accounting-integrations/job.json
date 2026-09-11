@@ -66,7 +66,7 @@
         "name": "Polished UI craft",
         "weight": 0.1,
         "score": 9,
-        "note": "Structured, on-brand case studies on /use-cases. TOBA (6), InsureBridge (4 + 2 photos), Titan Couriers (4 screens), and ReconcileIQ (9 screens, blurred) are all real. Well now has its first real capture too: a generated per-client financial dashboard (real Well/TaxesByRoss output, business name/owner/EIN/address blurred, revenue figures and the top-customers chart left visible) replacing the coded section 03 mockup. Remaining: a data-flow diagram for Well's cover (it has no other product UI to screenshot) and one Titan driver-app mobile screen (held back for its own blur — a real PayPal email). Bumps to 10 once those land."
+        "note": "Structured, on-brand case studies on /use-cases. TOBA (6), InsureBridge (4 + 2 photos), Titan Couriers (4 screens), and ReconcileIQ (9 screens, blurred) are all real. Well now has its first real capture too: a generated per-client financial dashboard (real Well/TaxesByRoss output, business name/owner/EIN/address blurred, revenue figures and the top-customers chart left visible) replacing the coded section 03 mockup. The cover now has a real data-flow diagram (Receipt -> Well extracts -> Risk score -> Import bridge -> The books -> Form 990) in place of the coded capture-panel mock, since Well has no other product UI. Remaining: one Titan driver-app mobile screen (held back for its own blur - a real PayPal email). Bumps to 10 once that lands."
       }
     ],
     "strengths": [
@@ -301,6 +301,10 @@
     {
       "date": "2026-09-10",
       "note": "Well case study got its first real screenshot: the generated per-client financial dashboard (a real Well/TaxesByRoss output file, not a mockup) with the business's legal name, owner, EIN, and address blurred (Gaussian-blur boxes verified clean before publishing) — total income/expenses/net-profit/mileage figures and the Top Customers by Revenue chart (amounts, names blurred) left visible. Replaces the coded section 03 frame; added the .shot click-to-expand CSS pattern to the Well case study for the first time. Leroy decided not to pursue the terminal-run / audit-JSON / Form-990 captures for now. Score unchanged (9/10 craft already reflects the broader real-screenshot progress); remaining Well work is just the data-flow diagram for the cover."
+    },
+    {
+      "date": "2026-09-10",
+      "note": "Built the Well case study cover data-flow diagram (inline SVG, no external assets): Receipt/invoice -> Well extracts (open source) -> Risk score (built) -> Import bridge (built) -> The books (human-reviewed) -> Form 990 (nonprofits, conditional), with a flagged-review branch down to a 'Human review' node. Replaces the coded 'capture panel' hero mockup -- Well has no product UI of its own, so a diagram is the honest choice over a faked screen. Verified in-browser: renders clean, no overflow. The 3 remaining coded slots (import bridge list, Form 990 page, risk & audit detail) reviewed and left as-is -- already consistent with the design system, no screenshots available to replace them yet."
     }
   ],
   "tags": [
