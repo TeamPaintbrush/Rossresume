@@ -10,11 +10,17 @@ sections each (marked `REPLACE:` in the source HTML) — the primary showcase in
 
 ## Package page
 
-**https://claude.ai/code/artifact/074ef3c0-c366-4892-a1ca-e22a76cedc23** — a single page with the
+**https://paintbrushmarketing.net/apply/mercury-6b7637bad13f3500.html** — the package page on
+Leroy's own domain. Unlisted, not linked from anywhere on the site, `noindex` + robots-disallowed,
+and `no-referrer` so the URL never leaks when a recruiter clicks through to a case study. Prefer
+this for the application form — a real domain reads better than a claude.ai link.
+
+Mirror (same page, private artifact): **https://claude.ai/code/artifact/a65fb38d-d0ed-4231-9101-19df428d2f76** — a single page with the
 pitch, the real metrics, all 5 case studies (each tagged with the JD line it answers), and all 3
 PDFs viewable inline. Good candidate for the "Portfolio & Password" field on the application, or
-to send directly. Case-study links point at `paintbrushmarketing.net/portfolio/brand/...` and will
-404 until that site is deployed — source is `mercury.html` in this folder if it needs a rebuild.
+to send directly. Case-study links point at `paintbrushmarketing.net/portfolio/brand/...` and are
+live as of 2026-09-11 (all five verified 200, images included) — source is `mercury.html` in this
+folder if it needs a rebuild.
 
 ## What to attach / link
 
@@ -75,4 +81,4 @@ Confirmed live 2026-09-11 at `https://job-boards.greenhouse.io/mercury/jobs/6137
 - [x] Confirm the posting is live and find the apply URL — confirmed live, URL captured above.
 - [ ] Regenerate `Leroy-Ross-Resume.docx` if a Word file is ever needed (pandoc isn't installed on this machine) — not required for this application, the ATS takes PDF.
 - [ ] Grab the real Titan production app icon (currently a CSS stand-in) — cosmetic, not blocking.
-- [ ] **You click Submit** — I can't clear the reCAPTCHA.
+- [x] **You click Submit** — done 2026-09-11. Application submitted.

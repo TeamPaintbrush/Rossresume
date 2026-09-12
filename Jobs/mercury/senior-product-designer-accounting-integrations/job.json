@@ -14,7 +14,7 @@
     "currency": "USD",
     "notes": "Base + equity + benefits; range not captured from posting."
   },
-  "status": "identified",
+  "status": "applied",
   "priority": 5,
   "fit": {
     "score": 8.7,
@@ -342,6 +342,14 @@
     {
       "date": "2026-09-11",
       "event": "Built and published mercury.html - a standalone package-deliverable page for this application: masthead (name, target role, one-line differentiator), the cover-letter pitch condensed to 3 paragraphs, the 3 real metrics as stat tiles, all 5 case studies as cards each explicitly naming the JD line it answers (e.g. ReconcileIQ+TaxesByRoss -> 'turning highly complex workflows into simple experiences'; Well -> 'balances automation with transparency, trust, and user control'; TOBA -> 'brings clarity to ambiguous problems'; InsureBridge -> 'thinks in systems, not screens'; Titan -> 'shared interaction patterns across the ecosystem'), and all 3 PDFs (resume, cover letter, decision record) embedded inline as click-to-view data-URI iframes so the page works standalone without needing the assets capability (which would have made it organization-internal-only, defeating the point of sending it to Mercury). Case-study links point to their intended future paintbrushmarketing.net/portfolio/brand/... URLs (currently 404 - the site isn't deployed there yet; Leroy will fix once it is). Fraunces/Public Sans/IBM Plex Mono type system, warm-white ledger palette, both light and dark themes. Published as a Claude Artifact, verified in-browser (no overflow, toggle interaction confirmed working)."
+    },
+    {
+      "date": "2026-09-11",
+      "event": "paintbrush-marketing deployed to production (Leroy, in the correct project) and paintbrushmarketing.net DNS fixed - /use-cases and all portfolio/brand/*.dc.html case studies now resolve live (verified 200). mercury.html moved off Claude-artifact-only hosting onto Leroy's own domain at paintbrushmarketing.net/apply/mercury-6b7637bad13f3500.html - unlisted, noindex, robots-disallowed, no-referrer, not linked from anywhere on the site. Claude-artifact version (https://claude.ai/code/artifact/a65fb38d-d0ed-4231-9101-19df428d2f76) kept as a backup mirror per Leroy's request. ross-resume.vercel.app also redeployed and verified working."
+    },
+    {
+      "date": "2026-09-11",
+      "event": "Application submitted by Leroy via https://job-boards.greenhouse.io/mercury/jobs/6137654004. Status moved from identified to applied."
     }
   ],
   "tags": [
